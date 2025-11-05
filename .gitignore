@@ -28,6 +28,10 @@
 *.3gp
 *.3g2
 
+#img
+*.jpg
+*.jpeg
+
 # Common large archives / datasets
 *.zip
 *.tar
