@@ -93,6 +93,10 @@ htmlcov/
 *.h5
 *.pb
 *.onnx
+*.torchscript
+
+# Generated training / validation outputs
+project/image-classifier/YOLOv8/runs/
 
 # IDEs and editors
 .vscode/
@@ -108,3 +112,4 @@ desktop.ini
 
 # Logs
 *.log
+*.json
