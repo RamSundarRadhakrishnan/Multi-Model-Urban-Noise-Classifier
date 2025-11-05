@@ -1,0 +1,20 @@
+{
+  "original_file": "test_clip_1.mp4",
+  "original_path": "..\\pre_inference\\input_data_buffer\\test_clip_1.mp4",
+  "audio_file": "test_clip_1.wav",
+  "audio_path": "..\\pre_inference\\processed_media\\audio\\test_clip_1.wav",
+  "video_file": "test_clip_1_video_only.mp4",
+  "video_path": "..\\pre_inference\\processed_media\\video\\test_clip_1_video_only.mp4",
+  "processed_timestamp": "2025-11-02T01:37:59.560840",
+  "temporal_alignment": {
+    "start_time": 0.0,
+    "duration": 1922.233333,
+    "frame_rate": "30/1",
+    "sample_rate": "48000"
+  },
+  "video_codec": "h264",
+  "video_width": 852,
+  "video_height": 480,
+  "audio_codec": "aac",
+  "audio_channels": 2
+}

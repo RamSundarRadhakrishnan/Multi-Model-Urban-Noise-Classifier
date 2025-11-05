@@ -1,0 +1,91 @@
+{
+  "video_path": "D:\\Projects\\UrbanNoiseClassifier\\project\\pre_inference\\processed_media\\video_chunks\\test_traffic_vid_1_chunk_0056.mp4",
+  "total_frames": 9,
+  "is_construction_site": false,
+  "construction_confidence": 0.1111111111111111,
+  "construction_equipment": [
+    "Truck"
+  ],
+  "standard_detections": [
+    {
+      "class_name": "person",
+      "confidence": 0.8530321021874746,
+      "detection_count": 18,
+      "total_frames": 9,
+      "detection_percentage": 200.0,
+      "model_source": "standard",
+      "avg_bbox": [
+        618.802734375,
+        283.11022101508246,
+        678.5303921169705,
+        466.0465206570095
+      ]
+    },
+    {
+      "class_name": "car",
+      "confidence": 0.6303906758626302,
+      "detection_count": 30,
+      "total_frames": 9,
+      "detection_percentage": 333.33333333333337,
+      "model_source": "standard",
+      "avg_bbox": [
+        563.072533466667,
+        216.2820780436198,
+        630.6780756632487,
+        245.3992660522461
+      ]
+    }
+  ],
+  "mocs_detections": [
+    {
+      "class_name": "Worker",
+      "confidence": 0.8489703039328257,
+      "detection_count": 18,
+      "total_frames": 9,
+      "detection_percentage": 200.0,
+      "model_source": "mocs",
+      "avg_bbox": [
+        620.2493116590712,
+        282.6609887017144,
+        677.9854159884983,
+        461.96922980414496
+      ]
+    },
+    {
+      "class_name": "Truck",
+      "confidence": 0.5764411687850952,
+      "detection_count": 1,
+      "total_frames": 9,
+      "detection_percentage": 11.11111111111111,
+      "model_source": "mocs",
+      "avg_bbox": [
+        622.2700805664062,
+        177.91452026367188,
+        714.0707397460938,
+        239.88922119140625
+      ]
+    },
+    {
+      "class_name": "Other vehicle",
+      "confidence": 0.5663857758045197,
+      "detection_count": 2,
+      "total_frames": 9,
+      "detection_percentage": 22.22222222222222,
+      "model_source": "mocs",
+      "avg_bbox": [
+        85.50752067565918,
+        207.2175521850586,
+        154.73259353637695,
+        228.67552185058594
+      ]
+    }
+  ],
+  "metadata": {
+    "fps": 30.0,
+    "frame_count": 261,
+    "width": 852,
+    "height": 480,
+    "duration": 8.7,
+    "codec": 875967080
+  }
+}

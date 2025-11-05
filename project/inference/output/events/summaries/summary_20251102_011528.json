@@ -1,0 +1,46 @@
+{
+  "generated_at": "2025-11-02T01:15:28.629180",
+  "overview": {
+    "total_events": 380,
+    "compliant_events": 18,
+    "violation_events": 362,
+    "compliance_rate": 4.74
+  },
+  "violation_types": {
+    "ambient_exceeded": 362
+  },
+  "zone_breakdown": {
+    "residential": {
+      "total": 380,
+      "compliant": 18,
+      "violations": 362
+    }
+  },
+  "time_breakdown": {
+    "day": {
+      "total": 380,
+      "compliant": 18,
+      "violations": 362
+    },
+    "night": {
+      "total": 0,
+      "compliant": 0,
+      "violations": 0
+    }
+  },
+  "severity_breakdown": {
+    "compliant": 18,
+    "minor": 176,
+    "moderate": 146,
+    "severe": 40
+  },
+  "noise_statistics": {
+    "average_noise_db": 64.22,
+    "maximum_noise_db": 83.79,
+    "maximum_excess_db": 28.79
+  },
+  "construction_statistics": {
+    "total_construction_events": 182,
+    "construction_percentage": 47.89
+  }
+}

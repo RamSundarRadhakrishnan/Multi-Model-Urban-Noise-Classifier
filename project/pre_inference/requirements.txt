@@ -1,0 +1,6 @@
+# Pre-inference processing requirements
+numpy>=1.19.0
+matplotlib>=3.3.0
+
+# Note: ffmpeg must be installed separately and added to PATH
+# Download from: https://ffmpeg.org/download.html

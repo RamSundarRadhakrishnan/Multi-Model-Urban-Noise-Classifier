@@ -1,0 +1,44 @@
+================================================================================
+URBAN NOISE COMPLIANCE REPORT
+================================================================================
+
+Generated: 2025-11-02 01:35:33
+Zone: RESIDENTIAL
+Total Events Analyzed: 190
+
+-------------------------------EXECUTIVE SUMMARY--------------------------------
+
+Compliance Rate: 0.0%
+Total Violations: 190
+Severe Violations: 151
+
+--------------------------------NOISE STATISTICS--------------------------------
+
+Average Noise Level: 64.2 dB(A)
+Maximum Noise Level: 83.8 dB(A)
+Ambient Limit: 45.0 dB(A)
+Average Excess (violations): 19.4 dB
+Maximum Excess: 38.8 dB
+
+---------------------------------TOP VIOLATIONS---------------------------------
+  • ambient_exceeded: 189 occurrences
+  • multiple_violations: 114 occurrences
+  • construction_prohibited: 96 occurrences
+  • horn_prohibited: 20 occurrences
+  • loudspeaker_prohibited: 1 occurrences
+
+-----------------------------CONSTRUCTION ACTIVITY------------------------------
+
+Construction Sites Detected: 91
+Percentage: 47.9%
+
+--------------------------------RECOMMENDATIONS---------------------------------
+
+⚠️  URGENT: 151 severe violations require immediate attention
+
+• Reduce ambient noise levels in 190 event(s)
+• Restrict construction activities during prohibited hours
+• Enforce horn usage restrictions
+
+---------------------------------END OF REPORT----------------------------------
+================================================================================

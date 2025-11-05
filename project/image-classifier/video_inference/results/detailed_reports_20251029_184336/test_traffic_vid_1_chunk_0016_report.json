@@ -1,0 +1,89 @@
+{
+  "video_path": "D:\\Projects\\UrbanNoiseClassifier\\project\\pre_inference\\processed_media\\video_chunks\\test_traffic_vid_1_chunk_0016.mp4",
+  "total_frames": 7,
+  "is_construction_site": false,
+  "construction_confidence": 0.0,
+  "construction_equipment": [],
+  "standard_detections": [
+    {
+      "class_name": "person",
+      "confidence": 0.8341591523753272,
+      "detection_count": 18,
+      "total_frames": 7,
+      "detection_percentage": 257.14285714285717,
+      "model_source": "standard",
+      "avg_bbox": [
+        511.44793150160046,
+        273.2465057373047,
+        584.0553851657444,
+        439.84859551323785
+      ]
+    },
+    {
+      "class_name": "bus",
+      "confidence": 0.732326865196228,
+      "detection_count": 1,
+      "total_frames": 7,
+      "detection_percentage": 14.285714285714285,
+      "model_source": "standard",
+      "avg_bbox": [
+        0.14542263746261597,
+        166.66629028320312,
+        121.859130859375,
+        234.28118896484375
+      ]
+    },
+    {
+      "class_name": "car",
+      "confidence": 0.7077721663423486,
+      "detection_count": 37,
+      "total_frames": 7,
+      "detection_percentage": 528.5714285714286,
+      "model_source": "standard",
+      "avg_bbox": [
+        463.954694440236,
+        225.36730503391576,
+        590.7030804608319,
+        280.7150792302312
+      ]
+    }
+  ],
+  "mocs_detections": [
+    {
+      "class_name": "Worker",
+      "confidence": 0.8114594676915337,
+      "detection_count": 17,
+      "total_frames": 7,
+      "detection_percentage": 242.85714285714283,
+      "model_source": "mocs",
+      "avg_bbox": [
+        497.18386571547563,
+        271.8275092629825,
+        567.2160976634306,
+        433.84425623276655
+      ]
+    },
+    {
+      "class_name": "Other vehicle",
+      "confidence": 0.8073914221354893,
+      "detection_count": 7,
+      "total_frames": 7,
+      "detection_percentage": 100.0,
+      "model_source": "mocs",
+      "avg_bbox": [
+        125.57928543218544,
+        234.76762172154017,
+        317.50563267299106,
+        339.7528097970145
+      ]
+    }
+  ],
+  "metadata": {
+    "fps": 30.0,
+    "frame_count": 190,
+    "width": 852,
+    "height": 480,
+    "duration": 6.333333333333333,
+    "codec": 875967080
+  }
+}

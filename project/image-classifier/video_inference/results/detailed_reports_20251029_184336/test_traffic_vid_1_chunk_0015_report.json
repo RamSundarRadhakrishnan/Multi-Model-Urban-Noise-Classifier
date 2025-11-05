@@ -1,0 +1,120 @@
+{
+  "video_path": "D:\\Projects\\UrbanNoiseClassifier\\project\\pre_inference\\processed_media\\video_chunks\\test_traffic_vid_1_chunk_0015.mp4",
+  "total_frames": 7,
+  "is_construction_site": false,
+  "construction_confidence": 0.2857142857142857,
+  "construction_equipment": [
+    "Truck",
+    "Crane"
+  ],
+  "standard_detections": [
+    {
+      "class_name": "car",
+      "confidence": 0.7037212733299502,
+      "detection_count": 31,
+      "total_frames": 7,
+      "detection_percentage": 442.8571428571429,
+      "model_source": "standard",
+      "avg_bbox": [
+        426.25830248334717,
+        222.39707946777344,
+        559.1086339642925,
+        276.3362072360131
+      ]
+    },
+    {
+      "class_name": "person",
+      "confidence": 0.5994029508696662,
+      "detection_count": 9,
+      "total_frames": 7,
+      "detection_percentage": 128.57142857142858,
+      "model_source": "standard",
+      "avg_bbox": [
+        602.6835530598959,
+        221.6035410563151,
+        625.2502916124132,
+        279.0580105251736
+      ]
+    },
+    {
+      "class_name": "truck",
+      "confidence": 0.5190087556838989,
+      "detection_count": 1,
+      "total_frames": 7,
+      "detection_percentage": 14.285714285714285,
+      "model_source": "standard",
+      "avg_bbox": [
+        182.7722930908203,
+        199.82470703125,
+        295.93817138671875,
+        250.38803100585938
+      ]
+    }
+  ],
+  "mocs_detections": [
+    {
+      "class_name": "Worker",
+      "confidence": 0.6406069227627346,
+      "detection_count": 14,
+      "total_frames": 7,
+      "detection_percentage": 200.0,
+      "model_source": "mocs",
+      "avg_bbox": [
+        611.4584394182477,
+        224.13726479666573,
+        632.014408656529,
+        279.05511692592074
+      ]
+    },
+    {
+      "class_name": "Other vehicle",
+      "confidence": 0.6337018807729086,
+      "detection_count": 6,
+      "total_frames": 7,
+      "detection_percentage": 85.71428571428571,
+      "model_source": "mocs",
+      "avg_bbox": [
+        400.10997517903644,
+        222.0245615641276,
+        547.4121856689453,
+        275.7242151896159
+      ]
+    },
+    {
+      "class_name": "Crane",
+      "confidence": 0.5407411456108093,
+      "detection_count": 1,
+      "total_frames": 7,
+      "detection_percentage": 14.285714285714285,
+      "model_source": "mocs",
+      "avg_bbox": [
+        573.081787109375,
+        0.5690354108810425,
+        851.921142578125,
+        268.7539978027344
+      ]
+    },
+    {
+      "class_name": "Truck",
+      "confidence": 0.5130642652511597,
+      "detection_count": 1,
+      "total_frames": 7,
+      "detection_percentage": 14.285714285714285,
+      "model_source": "mocs",
+      "avg_bbox": [
+        621.7952270507812,
+        177.1847686767578,
+        717.98046875,
+        258.28448486328125
+      ]
+    }
+  ],
+  "metadata": {
+    "fps": 30.0,
+    "frame_count": 196,
+    "width": 852,
+    "height": 480,
+    "duration": 6.533333333333333,
+    "codec": 875967080
+  }
+}

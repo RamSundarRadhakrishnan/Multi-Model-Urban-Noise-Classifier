@@ -1,0 +1,106 @@
+# .gitignore for UrbanNoiseClassifier
+# Ignore all audio and video files
+# Audio
+*.wav
+*.mp3
+*.flac
+*.aac
+*.m4a
+*.ogg
+*.opus
+*.wma
+*.aiff
+*.aif
+*.pcm
+*.snd
+
+# Video
+*.mp4
+*.mov
+*.avi
+*.mkv
+*.webm
+*.flv
+*.mpeg
+*.mpg
+*.m4v
+*.wmv
+*.3gp
+*.3g2
+
+# Common large archives / datasets
+*.zip
+*.tar
+*.tar.gz
+*.tgz
+*.rar
+*.7z
+*.gz
+*.bz2
+
+# Common data/model folders (often large)
+data/
+datasets/
+recordings/
+audio/
+videos/
+media/
+uploads/
+models/
+checkpoints/
+
+# Dependencies
+node_modules/
+vendor/
+venv/
+.venv/
+env/
+env.*/
+*.venv
+
+# Package manager logs
+npm-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# Python artifacts
+__pycache__/
+*.py[cod]
+*$py.class
+*.egg-info/
+.eggs/
+dist/
+build/
+
+# Python tooling caches
+.pytest_cache/
+.mypy_cache/
+.coverage
+coverage/
+htmlcov/
+
+# Jupyter
+.ipynb_checkpoints
+
+# Machine learning weights / checkpoints
+*.pt
+*.pth
+*.ckpt
+*.h5
+*.pb
+*.onnx
+
+# IDEs and editors
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+*.swp
+
+# OS files
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Logs
+*.log

@@ -1,0 +1,91 @@
+{
+  "video_path": "D:\\Projects\\UrbanNoiseClassifier\\project\\pre_inference\\processed_media\\video_chunks\\test_traffic_vid_1_chunk_0033.mp4",
+  "total_frames": 9,
+  "is_construction_site": false,
+  "construction_confidence": 0.1111111111111111,
+  "construction_equipment": [
+    "Crane"
+  ],
+  "standard_detections": [
+    {
+      "class_name": "car",
+      "confidence": 0.702047701065357,
+      "detection_count": 39,
+      "total_frames": 9,
+      "detection_percentage": 433.3333333333333,
+      "model_source": "standard",
+      "avg_bbox": [
+        338.0241558979719,
+        218.07504155085638,
+        472.3315005180163,
+        274.7946303930038
+      ]
+    },
+    {
+      "class_name": "person",
+      "confidence": 0.5194177627563477,
+      "detection_count": 2,
+      "total_frames": 9,
+      "detection_percentage": 22.22222222222222,
+      "model_source": "standard",
+      "avg_bbox": [
+        570.5962219238281,
+        217.7104949951172,
+        586.6972351074219,
+        256.2257766723633
+      ]
+    }
+  ],
+  "mocs_detections": [
+    {
+      "class_name": "Other vehicle",
+      "confidence": 0.7571752309799195,
+      "detection_count": 15,
+      "total_frames": 9,
+      "detection_percentage": 166.66666666666669,
+      "model_source": "mocs",
+      "avg_bbox": [
+        408.68521791299185,
+        223.20694580078126,
+        609.0389729817708,
+        302.0981770833333
+      ]
+    },
+    {
+      "class_name": "Crane",
+      "confidence": 0.6396364569664001,
+      "detection_count": 1,
+      "total_frames": 9,
+      "detection_percentage": 11.11111111111111,
+      "model_source": "mocs",
+      "avg_bbox": [
+        298.7183532714844,
+        199.33956909179688,
+        397.6234436035156,
+        249.20602416992188
+      ]
+    },
+    {
+      "class_name": "Worker",
+      "confidence": 0.5676532089710236,
+      "detection_count": 4,
+      "total_frames": 9,
+      "detection_percentage": 44.44444444444444,
+      "model_source": "mocs",
+      "avg_bbox": [
+        532.9804992675781,
+        201.29547882080078,
+        544.5478820800781,
+        227.71267700195312
+      ]
+    }
+  ],
+  "metadata": {
+    "fps": 30.0,
+    "frame_count": 242,
+    "width": 852,
+    "height": 480,
+    "duration": 8.066666666666666,
+    "codec": 875967080
+  }
+}

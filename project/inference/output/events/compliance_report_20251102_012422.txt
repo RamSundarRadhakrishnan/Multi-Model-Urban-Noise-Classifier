@@ -1,0 +1,34 @@
+================================================================================
+URBAN NOISE COMPLIANCE REPORT
+================================================================================
+
+Generated: 2025-11-02 01:24:22
+Zone: RESIDENTIAL
+Total Events Analyzed: 386
+
+-------------------------------EXECUTIVE SUMMARY--------------------------------
+
+Compliance Rate: 100.0%
+Total Violations: 0
+Severe Violations: 0
+
+--------------------------------NOISE STATISTICS--------------------------------
+
+Average Noise Level: 0.0 dB(A)
+Maximum Noise Level: 0.0 dB(A)
+Ambient Limit: 55.0 dB(A)
+
+---------------------------------TOP VIOLATIONS---------------------------------
+  ✓ No violations detected
+
+-----------------------------CONSTRUCTION ACTIVITY------------------------------
+
+Construction Sites Detected: 182
+Percentage: 47.2%
+
+--------------------------------RECOMMENDATIONS---------------------------------
+
+✓ All events are compliant with regulations
+
+---------------------------------END OF REPORT----------------------------------
+================================================================================

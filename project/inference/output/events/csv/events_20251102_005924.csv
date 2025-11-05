@@ -1,0 +1,381 @@
+event_id,timestamp,zone,time_of_day,noise_level_db,ambient_limit_db,excess_db,noise_exceeded,top_audio_class,top_audio_confidence,top_video_class,top_video_confidence,is_construction_site,construction_confidence,violations,is_compliant,severity,num_violations
+test_clip_1_chunk_0000,2025-11-02T00:55:30.720222,residential,night,54.7,45.0,9.7,True,motorvehicle-horn,0.4362,car,0.782,False,0.0,ambient_exceeded,False,minor,1
+test_clip_1_chunk_0000,2025-11-02T00:55:30.720222,residential,night,54.7,45.0,9.7,True,motorvehicle-horn,0.4362,car,0.782,False,0.0,ambient_exceeded,False,minor,1
+test_clip_1_chunk_0001,2025-11-02T00:55:40.720222,residential,night,58.84,45.0,13.84,True,motorvehicle-horn,0.7052,car,0.7964,False,0.1,ambient_exceeded; horn_prohibited; multiple_violations,False,severe,3
+test_clip_1_chunk_0001,2025-11-02T00:55:40.720222,residential,night,58.84,45.0,13.84,True,motorvehicle-horn,0.7052,car,0.7964,False,0.1,ambient_exceeded; horn_prohibited; multiple_violations,False,severe,3
+test_clip_1_chunk_0002,2025-11-02T00:55:50.720222,residential,night,59.94,45.0,14.94,True,motorvehicle-horn,0.4958,car,0.8028,False,0.0,ambient_exceeded,False,moderate,1
+test_clip_1_chunk_0002,2025-11-02T00:55:50.720222,residential,night,59.94,45.0,14.94,True,motorvehicle-horn,0.4958,car,0.8028,False,0.0,ambient_exceeded,False,moderate,1
+test_clip_1_chunk_0003,2025-11-02T00:55:00.720222,residential,night,61.33,45.0,16.33,True,motorvehicle-siren,0.3314,car,0.8248,False,0.0,ambient_exceeded,False,severe,1
+test_clip_1_chunk_0003,2025-11-02T00:55:00.720222,residential,night,61.33,45.0,16.33,True,motorvehicle-siren,0.3314,car,0.8248,False,0.0,ambient_exceeded,False,severe,1
+test_clip_1_chunk_0004,2025-11-02T00:55:10.720222,residential,night,64.94,45.0,19.94,True,generator,0.8378,car,0.8351,False,0.0,ambient_exceeded; construction_prohibited; multiple_violations,False,severe,3
+test_clip_1_chunk_0004,2025-11-02T00:55:10.720222,residential,night,64.94,45.0,19.94,True,generator,0.8378,car,0.8351,False,0.0,ambient_exceeded; construction_prohibited; multiple_violations,False,severe,3
+test_clip_1_chunk_0005,2025-11-02T00:55:20.720222,residential,night,58.11,45.0,13.11,True,motorvehicle-horn,0.421,car,0.8416,False,0.0,ambient_exceeded,False,moderate,1
+test_clip_1_chunk_0005,2025-11-02T00:55:20.720222,residential,night,58.11,45.0,13.11,True,motorvehicle-horn,0.421,car,0.8416,False,0.0,ambient_exceeded,False,moderate,1
+test_clip_1_chunk_0006,2025-11-02T00:56:30.720222,residential,night,67.75,45.0,22.75,True,motorvehicle-siren,0.474,car,0.8499,False,0.0,ambient_exceeded,False,severe,1
+test_clip_1_chunk_0006,2025-11-02T00:56:30.720222,residential,night,67.75,45.0,22.75,True,motorvehicle-siren,0.474,car,0.8499,False,0.0,ambient_exceeded,False,severe,1
+test_clip_1_chunk_0007,2025-11-02T00:56:40.720222,residential,night,55.98,45.0,10.98,True,motorvehicle-horn,0.6261,car,0.8428,False,0.0,ambient_exceeded; horn_prohibited; multiple_violations,False,severe,3
+test_clip_1_chunk_0007,2025-11-02T00:56:40.720222,residential,night,55.98,45.0,10.98,True,motorvehicle-horn,0.6261,car,0.8428,False,0.0,ambient_exceeded; horn_prohibited; multiple_violations,False,severe,3
+test_clip_1_chunk_0008,2025-11-02T00:56:50.720222,residential,night,59.56,45.0,14.56,True,motorvehicle-horn,0.612,car,0.8171,False,0.0,ambient_exceeded; horn_prohibited; multiple_violations,False,severe,3
+test_clip_1_chunk_0008,2025-11-02T00:56:50.720222,residential,night,59.56,45.0,14.56,True,motorvehicle-horn,0.612,car,0.8171,False,0.0,ambient_exceeded; horn_prohibited; multiple_violations,False,severe,3
+test_clip_1_chunk_0009,2025-11-02T00:56:00.720222,residential,night,54.92,45.0,9.92,True,motorvehicle-horn,0.7385,car,0.8107,False,0.125,ambient_exceeded; horn_prohibited; multiple_violations,False,severe,3
+test_clip_1_chunk_0009,2025-11-02T00:56:00.720222,residential,night,54.92,45.0,9.92,True,motorvehicle-horn,0.7385,car,0.8107,False,0.125,ambient_exceeded; horn_prohibited; multiple_violations,False,severe,3
+test_clip_1_chunk_0010,2025-11-02T00:56:10.720222,residential,night,53.5,45.0,8.5,True,motorvehicle-horn,0.7439,car,0.8189,False,0.0,ambient_exceeded; horn_prohibited; multiple_violations,False,severe,3
+test_clip_1_chunk_0010,2025-11-02T00:56:10.720222,residential,night,53.5,45.0,8.5,True,motorvehicle-horn,0.7439,car,0.8189,False,0.0,ambient_exceeded; horn_prohibited; multiple_violations,False,severe,3
+test_clip_1_chunk_0011,2025-11-02T00:56:20.720222,residential,night,56.06,45.0,11.06,True,motorvehicle-horn,0.6349,car,0.8136,False,0.0,ambient_exceeded; horn_prohibited; multiple_violations,False,severe,3
+test_clip_1_chunk_0011,2025-11-02T00:56:20.720222,residential,night,56.06,45.0,11.06,True,motorvehicle-horn,0.6349,car,0.8136,False,0.0,ambient_exceeded; horn_prohibited; multiple_violations,False,severe,3
+test_clip_1_chunk_0012,2025-11-02T00:57:30.720222,residential,night,78.51,45.0,33.51,True,motorvehicle-horn,0.8853,person,0.8222,False,0.0,ambient_exceeded; horn_prohibited; multiple_violations,False,severe,3
+test_clip_1_chunk_0012,2025-11-02T00:57:30.720222,residential,night,78.51,45.0,33.51,True,motorvehicle-horn,0.8853,person,0.8222,False,0.0,ambient_exceeded; horn_prohibited; multiple_violations,False,severe,3
+test_clip_1_chunk_0013,2025-11-02T00:57:40.720222,residential,night,83.79,45.0,38.79,True,generator,0.8675,car,0.8303,False,0.1429,ambient_exceeded; construction_prohibited; multiple_violations,False,severe,3
+test_clip_1_chunk_0013,2025-11-02T00:57:40.720222,residential,night,83.79,45.0,38.79,True,generator,0.8675,car,0.8303,False,0.1429,ambient_exceeded; construction_prohibited; multiple_violations,False,severe,3
+test_clip_1_chunk_0014,2025-11-02T00:57:50.720222,residential,night,63.17,45.0,18.17,True,generator,0.6034,car,0.7973,False,0.4286,ambient_exceeded; construction_prohibited; multiple_violations,False,severe,3
+test_clip_1_chunk_0014,2025-11-02T00:57:50.720222,residential,night,63.17,45.0,18.17,True,generator,0.6034,car,0.7973,False,0.4286,ambient_exceeded; construction_prohibited; multiple_violations,False,severe,3
+test_clip_1_chunk_0015,2025-11-02T00:57:00.720222,residential,night,62.67,45.0,17.67,True,generator,0.4135,car,0.8114,False,0.0,ambient_exceeded,False,severe,1
+test_clip_1_chunk_0015,2025-11-02T00:57:00.720222,residential,night,62.67,45.0,17.67,True,generator,0.4135,car,0.8114,False,0.0,ambient_exceeded,False,severe,1
+test_clip_1_chunk_0016,2025-11-02T00:57:10.720222,residential,night,58.28,45.0,13.28,True,motorvehicle-horn,0.8285,person,0.8843,False,0.0,ambient_exceeded; horn_prohibited; multiple_violations,False,severe,3
+test_clip_1_chunk_0016,2025-11-02T00:57:10.720222,residential,night,58.28,45.0,13.28,True,motorvehicle-horn,0.8285,person,0.8843,False,0.0,ambient_exceeded; horn_prohibited; multiple_violations,False,severe,3
+test_clip_1_chunk_0017,2025-11-02T00:57:20.720222,residential,night,60.02,45.0,15.02,True,motorvehicle-horn,0.5017,car,0.7961,False,0.5,ambient_exceeded,False,severe,1
+test_clip_1_chunk_0017,2025-11-02T00:57:20.720222,residential,night,60.02,45.0,15.02,True,motorvehicle-horn,0.5017,car,0.7961,False,0.5,ambient_exceeded,False,severe,1
+test_clip_1_chunk_0018,2025-11-02T00:58:30.720222,residential,night,62.89,45.0,17.89,True,generator,0.435,car,0.7992,False,0.0,ambient_exceeded,False,severe,1
+test_clip_1_chunk_0018,2025-11-02T00:58:30.720222,residential,night,62.89,45.0,17.89,True,generator,0.435,car,0.7992,False,0.0,ambient_exceeded,False,severe,1
+test_clip_1_chunk_0019,2025-11-02T00:58:40.720222,residential,night,63.38,45.0,18.38,True,generator,0.3978,car,0.8044,False,0.0,ambient_exceeded,False,severe,1
+test_clip_1_chunk_0019,2025-11-02T00:58:40.720222,residential,night,63.38,45.0,18.38,True,generator,0.3978,car,0.8044,False,0.0,ambient_exceeded,False,severe,1
+test_clip_1_chunk_0020,2025-11-02T00:58:50.720222,residential,night,59.47,45.0,14.47,True,motorvehicle-horn,0.3601,car,0.8032,False,0.0,ambient_exceeded,False,moderate,1
+test_clip_1_chunk_0020,2025-11-02T00:58:50.720222,residential,night,59.47,45.0,14.47,True,motorvehicle-horn,0.3601,car,0.8032,False,0.0,ambient_exceeded,False,moderate,1
+test_clip_1_chunk_0021,2025-11-02T00:58:00.720222,residential,night,59.0,45.0,14.0,True,motorvehicle-horn,0.4654,car,0.7934,False,0.1,ambient_exceeded,False,moderate,1
+test_clip_1_chunk_0021,2025-11-02T00:58:00.720222,residential,night,59.0,45.0,14.0,True,motorvehicle-horn,0.4654,car,0.7934,False,0.1,ambient_exceeded,False,moderate,1
+test_clip_1_chunk_0022,2025-11-02T00:58:10.720222,residential,night,60.28,45.0,15.28,True,motorvehicle-siren,0.7177,car,0.8273,False,0.0,ambient_exceeded,False,severe,1
+test_clip_1_chunk_0022,2025-11-02T00:58:10.720222,residential,night,60.28,45.0,15.28,True,motorvehicle-siren,0.7177,car,0.8273,False,0.0,ambient_exceeded,False,severe,1
+test_clip_1_chunk_0023,2025-11-02T00:58:20.720222,residential,night,61.59,45.0,16.59,True,generator,0.7388,person,0.8101,False,0.0,ambient_exceeded; construction_prohibited; multiple_violations,False,severe,3
+test_clip_1_chunk_0023,2025-11-02T00:58:20.720222,residential,night,61.59,45.0,16.59,True,generator,0.7388,person,0.8101,False,0.0,ambient_exceeded; construction_prohibited; multiple_violations,False,severe,3
+test_clip_1_chunk_0024,2025-11-02T00:59:30.720222,residential,night,56.84,45.0,11.84,True,motorvehicle-horn,0.567,car,0.8364,False,0.0,ambient_exceeded,False,moderate,1
+test_clip_1_chunk_0024,2025-11-02T00:59:30.720222,residential,night,56.84,45.0,11.84,True,motorvehicle-horn,0.567,car,0.8364,False,0.0,ambient_exceeded,False,moderate,1
+test_clip_1_chunk_0025,2025-11-02T00:59:40.720222,residential,night,58.59,45.0,13.59,True,generator,0.3789,car,0.836,False,0.0,ambient_exceeded,False,moderate,1
+test_clip_1_chunk_0025,2025-11-02T00:59:40.720222,residential,night,58.59,45.0,13.59,True,generator,0.3789,car,0.836,False,0.0,ambient_exceeded,False,moderate,1
+test_clip_1_chunk_0026,2025-11-02T00:59:50.720222,residential,night,57.53,45.0,12.53,True,motorvehicle-horn,0.5587,car,0.8261,False,0.1111,ambient_exceeded,False,moderate,1
+test_clip_1_chunk_0026,2025-11-02T00:59:50.720222,residential,night,57.53,45.0,12.53,True,motorvehicle-horn,0.5587,car,0.8261,False,0.1111,ambient_exceeded,False,moderate,1
+test_clip_1_chunk_0027,2025-11-02T00:59:00.720222,residential,night,60.26,45.0,15.26,True,motorvehicle-siren,0.5253,car,0.7807,False,0.3333,ambient_exceeded,False,severe,1
+test_clip_1_chunk_0027,2025-11-02T00:59:00.720222,residential,night,60.26,45.0,15.26,True,motorvehicle-siren,0.5253,car,0.7807,False,0.3333,ambient_exceeded,False,severe,1
+test_clip_1_chunk_0028,2025-11-02T00:59:10.720222,residential,night,56.6,45.0,11.6,True,motorvehicle-horn,0.5803,car,0.7741,False,0.2222,ambient_exceeded,False,moderate,1
+test_clip_1_chunk_0028,2025-11-02T00:59:10.720222,residential,night,56.6,45.0,11.6,True,motorvehicle-horn,0.5803,car,0.7741,False,0.2222,ambient_exceeded,False,moderate,1
+test_clip_1_chunk_0029,2025-11-02T00:59:20.720222,residential,night,58.71,45.0,13.71,True,motorvehicle-horn,0.3559,car,0.8197,False,0.1111,ambient_exceeded,False,moderate,1
+test_clip_1_chunk_0029,2025-11-02T00:59:20.720222,residential,night,58.71,45.0,13.71,True,motorvehicle-horn,0.3559,car,0.8197,False,0.1111,ambient_exceeded,False,moderate,1
+test_clip_1_chunk_0030,2025-11-02T00:00:30.720222,residential,night,59.2,45.0,14.2,True,generator,0.3779,person,0.8232,False,0.0,ambient_exceeded,False,moderate,1
+test_clip_1_chunk_0030,2025-11-02T00:00:30.720222,residential,night,59.2,45.0,14.2,True,generator,0.3779,person,0.8232,False,0.0,ambient_exceeded,False,moderate,1
+test_clip_1_chunk_0031,2025-11-02T00:00:40.720222,residential,night,59.4,45.0,14.4,True,motorvehicle-horn,0.471,person,0.8615,False,0.1111,ambient_exceeded,False,moderate,1
+test_clip_1_chunk_0031,2025-11-02T00:00:40.720222,residential,night,59.4,45.0,14.4,True,motorvehicle-horn,0.471,person,0.8615,False,0.1111,ambient_exceeded,False,moderate,1
+test_clip_1_chunk_0032,2025-11-02T00:00:50.720222,residential,night,59.75,45.0,14.75,True,motorvehicle-horn,0.6396,car,0.8186,False,0.125,ambient_exceeded; horn_prohibited; multiple_violations,False,severe,3
+test_clip_1_chunk_0032,2025-11-02T00:00:50.720222,residential,night,59.75,45.0,14.75,True,motorvehicle-horn,0.6396,car,0.8186,False,0.125,ambient_exceeded; horn_prohibited; multiple_violations,False,severe,3
+test_clip_1_chunk_0033,2025-11-02T00:00:00.720222,residential,night,58.94,45.0,13.94,True,motorvehicle-horn,0.5514,car,0.8071,False,0.0,ambient_exceeded,False,moderate,1
+test_clip_1_chunk_0033,2025-11-02T00:00:00.720222,residential,night,58.94,45.0,13.94,True,motorvehicle-horn,0.5514,car,0.8071,False,0.0,ambient_exceeded,False,moderate,1
+test_clip_1_chunk_0034,2025-11-02T00:00:10.720222,residential,night,58.14,45.0,13.14,True,motorvehicle-horn,0.4746,car,0.8096,False,0.0,ambient_exceeded,False,moderate,1
+test_clip_1_chunk_0034,2025-11-02T00:00:10.720222,residential,night,58.14,45.0,13.14,True,motorvehicle-horn,0.4746,car,0.8096,False,0.0,ambient_exceeded,False,moderate,1
+test_clip_1_chunk_0035,2025-11-02T00:00:20.720222,residential,night,60.02,45.0,15.02,True,generator,0.4466,car,0.7906,False,0.1429,ambient_exceeded,False,severe,1
+test_clip_1_chunk_0035,2025-11-02T00:00:20.720222,residential,night,60.02,45.0,15.02,True,generator,0.4466,car,0.7906,False,0.1429,ambient_exceeded,False,severe,1
+test_clip_1_chunk_0036,2025-11-02T00:01:30.720222,residential,night,54.75,45.0,9.75,True,motorvehicle-horn,0.6525,car,0.7804,False,0.4286,ambient_exceeded; horn_prohibited; multiple_violations,False,severe,3
+test_clip_1_chunk_0036,2025-11-02T00:01:30.720222,residential,night,54.75,45.0,9.75,True,motorvehicle-horn,0.6525,car,0.7804,False,0.4286,ambient_exceeded; horn_prohibited; multiple_violations,False,severe,3
+test_clip_1_chunk_0037,2025-11-02T00:01:40.720222,residential,night,57.88,45.0,12.88,True,motorvehicle-horn,0.6131,car,0.8106,False,0.0,ambient_exceeded; horn_prohibited; multiple_violations,False,severe,3
+test_clip_1_chunk_0037,2025-11-02T00:01:40.720222,residential,night,57.88,45.0,12.88,True,motorvehicle-horn,0.6131,car,0.8106,False,0.0,ambient_exceeded; horn_prohibited; multiple_violations,False,severe,3
+test_clip_1_chunk_0038,2025-11-02T00:01:50.720222,residential,night,57.41,45.0,12.41,True,motorvehicle-horn,0.5951,car,0.8008,False,0.1429,ambient_exceeded,False,moderate,1
+test_clip_1_chunk_0038,2025-11-02T00:01:50.720222,residential,night,57.41,45.0,12.41,True,motorvehicle-horn,0.5951,car,0.8008,False,0.1429,ambient_exceeded,False,moderate,1
+test_clip_1_chunk_0039,2025-11-02T00:01:00.720222,residential,night,59.6,45.0,14.6,True,motorvehicle-horn,0.4157,car,0.7822,False,0.0,ambient_exceeded,False,moderate,1
+test_clip_1_chunk_0039,2025-11-02T00:01:00.720222,residential,night,59.6,45.0,14.6,True,motorvehicle-horn,0.4157,car,0.7822,False,0.0,ambient_exceeded,False,moderate,1
+test_clip_1_chunk_0040,2025-11-02T00:01:10.720222,residential,night,62.49,45.0,17.49,True,generator,0.401,car,0.785,False,0.1667,ambient_exceeded,False,severe,1
+test_clip_1_chunk_0040,2025-11-02T00:01:10.720222,residential,night,62.49,45.0,17.49,True,generator,0.401,car,0.785,False,0.1667,ambient_exceeded,False,severe,1
+test_clip_1_chunk_0041,2025-11-02T00:01:20.720222,residential,night,58.21,45.0,13.21,True,motorvehicle-horn,0.3667,car,0.8294,False,0.1667,ambient_exceeded,False,moderate,1
+test_clip_1_chunk_0041,2025-11-02T00:01:20.720222,residential,night,58.21,45.0,13.21,True,motorvehicle-horn,0.3667,car,0.8294,False,0.1667,ambient_exceeded,False,moderate,1
+test_clip_1_chunk_0042,2025-11-02T00:02:30.720222,residential,night,63.94,45.0,18.94,True,motorvehicle-siren,0.3376,car,0.8327,False,0.3,ambient_exceeded,False,severe,1
+test_clip_1_chunk_0042,2025-11-02T00:02:30.720222,residential,night,63.94,45.0,18.94,True,motorvehicle-siren,0.3376,car,0.8327,False,0.3,ambient_exceeded,False,severe,1
+test_clip_1_chunk_0043,2025-11-02T00:02:40.720222,residential,night,58.57,45.0,13.57,True,motorvehicle-horn,0.4712,car,0.817,False,0.1,ambient_exceeded,False,moderate,1
+test_clip_1_chunk_0043,2025-11-02T00:02:40.720222,residential,night,58.57,45.0,13.57,True,motorvehicle-horn,0.4712,car,0.817,False,0.1,ambient_exceeded,False,moderate,1
+test_clip_1_chunk_0044,2025-11-02T00:02:50.720222,residential,night,57.32,45.0,12.32,True,motorvehicle-horn,0.5051,car,0.7732,False,0.0,ambient_exceeded,False,moderate,1
+test_clip_1_chunk_0044,2025-11-02T00:02:50.720222,residential,night,57.32,45.0,12.32,True,motorvehicle-horn,0.5051,car,0.7732,False,0.0,ambient_exceeded,False,moderate,1
+test_clip_1_chunk_0045,2025-11-02T00:02:00.720222,residential,night,56.85,45.0,11.85,True,motorvehicle-horn,0.4804,car,0.7565,False,0.1,ambient_exceeded,False,moderate,1
+test_clip_1_chunk_0045,2025-11-02T00:02:00.720222,residential,night,56.85,45.0,11.85,True,motorvehicle-horn,0.4804,car,0.7565,False,0.1,ambient_exceeded,False,moderate,1
+test_clip_1_chunk_0046,2025-11-02T00:02:10.720222,residential,night,56.14,45.0,11.14,True,motorvehicle-horn,0.6524,car,0.7773,False,0.0,ambient_exceeded; horn_prohibited; multiple_violations,False,severe,3
+test_clip_1_chunk_0046,2025-11-02T00:02:10.720222,residential,night,56.14,45.0,11.14,True,motorvehicle-horn,0.6524,car,0.7773,False,0.0,ambient_exceeded; horn_prohibited; multiple_violations,False,severe,3
+test_clip_1_chunk_0047,2025-11-02T00:02:20.720222,residential,night,60.28,45.0,15.28,True,generator,0.701,car,0.7785,False,0.0,ambient_exceeded; construction_prohibited; multiple_violations,False,severe,3
+test_clip_1_chunk_0047,2025-11-02T00:02:20.720222,residential,night,60.28,45.0,15.28,True,generator,0.701,car,0.7785,False,0.0,ambient_exceeded; construction_prohibited; multiple_violations,False,severe,3
+test_clip_1_chunk_0048,2025-11-02T00:03:30.720222,residential,night,58.7,45.0,13.7,True,motorvehicle-siren,0.522,car,0.8186,False,0.0,ambient_exceeded,False,moderate,1
+test_clip_1_chunk_0048,2025-11-02T00:03:30.720222,residential,night,58.7,45.0,13.7,True,motorvehicle-siren,0.522,car,0.8186,False,0.0,ambient_exceeded,False,moderate,1
+test_clip_1_chunk_0049,2025-11-02T00:03:40.720222,residential,night,59.11,45.0,14.11,True,motorvehicle-horn,0.5611,car,0.8172,False,0.0,ambient_exceeded,False,moderate,1
+test_clip_1_chunk_0049,2025-11-02T00:03:40.720222,residential,night,59.11,45.0,14.11,True,motorvehicle-horn,0.5611,car,0.8172,False,0.0,ambient_exceeded,False,moderate,1
+test_clip_1_chunk_0050,2025-11-02T00:03:50.720222,residential,night,60.34,45.0,15.34,True,motorvehicle-horn,0.5728,car,0.7529,False,0.125,ambient_exceeded,False,severe,1
+test_clip_1_chunk_0050,2025-11-02T00:03:50.720222,residential,night,60.34,45.0,15.34,True,motorvehicle-horn,0.5728,car,0.7529,False,0.125,ambient_exceeded,False,severe,1
+test_clip_1_chunk_0051,2025-11-02T00:03:00.720222,residential,night,59.91,45.0,14.91,True,motorvehicle-siren,0.3413,car,0.7772,False,0.125,ambient_exceeded,False,moderate,1
+test_clip_1_chunk_0051,2025-11-02T00:03:00.720222,residential,night,59.91,45.0,14.91,True,motorvehicle-siren,0.3413,car,0.7772,False,0.125,ambient_exceeded,False,moderate,1
+test_clip_1_chunk_0052,2025-11-02T00:03:10.720222,residential,night,53.75,45.0,8.75,True,motorvehicle-horn,0.3941,car,0.7622,False,0.125,ambient_exceeded,False,minor,1
+test_clip_1_chunk_0052,2025-11-02T00:03:10.720222,residential,night,53.75,45.0,8.75,True,motorvehicle-horn,0.3941,car,0.7622,False,0.125,ambient_exceeded,False,minor,1
+test_clip_1_chunk_0053,2025-11-02T00:03:20.720222,residential,night,55.68,45.0,10.68,True,motorvehicle-horn,0.3561,car,0.7578,False,0.0,ambient_exceeded,False,moderate,1
+test_clip_1_chunk_0053,2025-11-02T00:03:20.720222,residential,night,55.68,45.0,10.68,True,motorvehicle-horn,0.3561,car,0.7578,False,0.0,ambient_exceeded,False,moderate,1
+test_clip_1_chunk_0054,2025-11-02T00:04:30.720222,residential,night,56.29,45.0,11.29,True,motorvehicle-horn,0.4139,car,0.8118,False,0.0,ambient_exceeded,False,moderate,1
+test_clip_1_chunk_0054,2025-11-02T00:04:30.720222,residential,night,56.29,45.0,11.29,True,motorvehicle-horn,0.4139,car,0.8118,False,0.0,ambient_exceeded,False,moderate,1
+test_clip_1_chunk_0055,2025-11-02T00:04:40.720222,residential,night,58.08,45.0,13.08,True,motorvehicle-horn,0.5591,person,0.8757,False,0.1429,ambient_exceeded,False,moderate,1
+test_clip_1_chunk_0055,2025-11-02T00:04:40.720222,residential,night,58.08,45.0,13.08,True,motorvehicle-horn,0.5591,person,0.8757,False,0.1429,ambient_exceeded,False,moderate,1
+test_clip_1_chunk_0056,2025-11-02T00:04:50.720222,residential,night,58.51,45.0,13.51,True,motorvehicle-siren,0.4359,person,0.9038,False,0.3333,ambient_exceeded,False,moderate,1
+test_clip_1_chunk_0056,2025-11-02T00:04:50.720222,residential,night,58.51,45.0,13.51,True,motorvehicle-siren,0.4359,person,0.9038,False,0.3333,ambient_exceeded,False,moderate,1
+test_clip_1_chunk_0057,2025-11-02T00:04:00.720222,residential,night,63.07,45.0,18.07,True,generator,0.4246,person,0.8816,False,0.0,ambient_exceeded,False,severe,1
+test_clip_1_chunk_0057,2025-11-02T00:04:00.720222,residential,night,63.07,45.0,18.07,True,generator,0.4246,person,0.8816,False,0.0,ambient_exceeded,False,severe,1
+test_clip_1_chunk_0058,2025-11-02T00:04:10.720222,residential,night,63.52,45.0,18.52,True,generator,0.4877,person,0.8691,False,0.0,ambient_exceeded,False,severe,1
+test_clip_1_chunk_0058,2025-11-02T00:04:10.720222,residential,night,63.52,45.0,18.52,True,generator,0.4877,person,0.8691,False,0.0,ambient_exceeded,False,severe,1
+test_clip_1_chunk_0059,2025-11-02T00:04:20.720222,residential,night,64.46,45.0,19.46,True,generator,0.5714,person,0.8599,False,0.0,ambient_exceeded,False,severe,1
+test_clip_1_chunk_0059,2025-11-02T00:04:20.720222,residential,night,64.46,45.0,19.46,True,generator,0.5714,person,0.8599,False,0.0,ambient_exceeded,False,severe,1
+test_clip_1_chunk_0060,2025-11-02T00:05:30.720222,residential,night,65.83,45.0,20.83,True,motorvehicle-horn,0.7448,car,0.7883,False,0.6,ambient_exceeded; horn_prohibited; multiple_violations,False,severe,3
+test_clip_1_chunk_0060,2025-11-02T00:05:30.720222,residential,night,65.83,45.0,20.83,True,motorvehicle-horn,0.7448,car,0.7883,False,0.6,ambient_exceeded; horn_prohibited; multiple_violations,False,severe,3
+test_clip_1_chunk_0061,2025-11-02T00:05:40.720222,residential,night,60.61,45.0,15.61,True,crowd-noise,0.4822,car,0.7357,True,0.8,ambient_exceeded; construction_prohibited; multiple_violations,False,severe,3
+test_clip_1_chunk_0061,2025-11-02T00:05:40.720222,residential,night,60.61,45.0,15.61,True,crowd-noise,0.4822,car,0.7357,True,0.8,ambient_exceeded; construction_prohibited; multiple_violations,False,severe,3
+test_clip_1_chunk_0062,2025-11-02T00:05:50.720222,residential,night,59.14,45.0,14.14,True,crowd-noise,0.4033,truck,0.8045,True,0.7,ambient_exceeded; construction_prohibited; multiple_violations,False,severe,3
+test_clip_1_chunk_0062,2025-11-02T00:05:50.720222,residential,night,59.14,45.0,14.14,True,crowd-noise,0.4033,truck,0.8045,True,0.7,ambient_exceeded; construction_prohibited; multiple_violations,False,severe,3
+test_clip_1_chunk_0063,2025-11-02T00:05:00.720222,residential,night,60.99,45.0,15.99,True,crowd-noise,0.395,car,0.7596,True,0.8889,ambient_exceeded; construction_prohibited; multiple_violations,False,severe,3
+test_clip_1_chunk_0063,2025-11-02T00:05:00.720222,residential,night,60.99,45.0,15.99,True,crowd-noise,0.395,car,0.7596,True,0.8889,ambient_exceeded; construction_prohibited; multiple_violations,False,severe,3
+test_clip_1_chunk_0064,2025-11-02T00:05:10.720222,residential,night,57.59,45.0,12.59,True,crowd-noise,0.3974,bus,0.8582,True,1.0,ambient_exceeded; construction_prohibited; multiple_violations,False,severe,3
+test_clip_1_chunk_0064,2025-11-02T00:05:10.720222,residential,night,57.59,45.0,12.59,True,crowd-noise,0.3974,bus,0.8582,True,1.0,ambient_exceeded; construction_prohibited; multiple_violations,False,severe,3
+test_clip_1_chunk_0065,2025-11-02T00:05:20.720222,residential,night,59.2,45.0,14.2,True,crowd-noise,0.6504,person,0.7751,True,0.7778,ambient_exceeded; construction_prohibited; multiple_violations,False,severe,3
+test_clip_1_chunk_0065,2025-11-02T00:05:20.720222,residential,night,59.2,45.0,14.2,True,crowd-noise,0.6504,person,0.7751,True,0.7778,ambient_exceeded; construction_prohibited; multiple_violations,False,severe,3
+test_clip_1_chunk_0066,2025-11-02T00:06:30.720222,residential,night,60.71,45.0,15.71,True,motorvehicle-horn,0.491,truck,0.7417,True,0.8889,ambient_exceeded; construction_prohibited; multiple_violations,False,severe,3
+test_clip_1_chunk_0066,2025-11-02T00:06:30.720222,residential,night,60.71,45.0,15.71,True,motorvehicle-horn,0.491,truck,0.7417,True,0.8889,ambient_exceeded; construction_prohibited; multiple_violations,False,severe,3
+test_clip_1_chunk_0067,2025-11-02T00:06:40.720222,residential,night,62.82,45.0,17.82,True,crowd-noise,0.5999,car,0.857,False,0.625,ambient_exceeded,False,severe,1
+test_clip_1_chunk_0067,2025-11-02T00:06:40.720222,residential,night,62.82,45.0,17.82,True,crowd-noise,0.5999,car,0.857,False,0.625,ambient_exceeded,False,severe,1
+test_clip_1_chunk_0068,2025-11-02T00:06:50.720222,residential,night,67.08,45.0,22.08,True,motorvehicle-horn,0.4043,car,0.8588,False,0.625,ambient_exceeded,False,severe,1
+test_clip_1_chunk_0068,2025-11-02T00:06:50.720222,residential,night,67.08,45.0,22.08,True,motorvehicle-horn,0.4043,car,0.8588,False,0.625,ambient_exceeded,False,severe,1
+test_clip_1_chunk_0069,2025-11-02T00:06:00.720222,residential,night,63.76,45.0,18.76,True,crowd-noise,0.4513,car,0.7853,False,0.625,ambient_exceeded,False,severe,1
+test_clip_1_chunk_0069,2025-11-02T00:06:00.720222,residential,night,63.76,45.0,18.76,True,crowd-noise,0.4513,car,0.7853,False,0.625,ambient_exceeded,False,severe,1
+test_clip_1_chunk_0070,2025-11-02T00:06:10.720222,residential,night,61.16,45.0,16.16,True,motorvehicle-horn,0.6927,person,0.7604,True,0.7143,ambient_exceeded; horn_prohibited; construction_prohibited; multiple_violations,False,severe,4
+test_clip_1_chunk_0070,2025-11-02T00:06:10.720222,residential,night,61.16,45.0,16.16,True,motorvehicle-horn,0.6927,person,0.7604,True,0.7143,ambient_exceeded; horn_prohibited; construction_prohibited; multiple_violations,False,severe,4
+test_clip_1_chunk_0071,2025-11-02T00:06:20.720222,residential,night,71.17,45.0,26.17,True,motorvehicle-horn,0.7526,car,0.7779,True,0.7143,ambient_exceeded; horn_prohibited; construction_prohibited; multiple_violations,False,severe,4
+test_clip_1_chunk_0071,2025-11-02T00:06:20.720222,residential,night,71.17,45.0,26.17,True,motorvehicle-horn,0.7526,car,0.7779,True,0.7143,ambient_exceeded; horn_prohibited; construction_prohibited; multiple_violations,False,severe,4
+test_clip_1_chunk_0072,2025-11-02T00:07:30.720222,residential,night,65.36,45.0,20.36,True,motorvehicle-horn,0.3943,truck,0.8364,True,0.7143,ambient_exceeded; construction_prohibited; multiple_violations,False,severe,3
+test_clip_1_chunk_0072,2025-11-02T00:07:30.720222,residential,night,65.36,45.0,20.36,True,motorvehicle-horn,0.3943,truck,0.8364,True,0.7143,ambient_exceeded; construction_prohibited; multiple_violations,False,severe,3
+test_clip_1_chunk_0073,2025-11-02T00:07:40.720222,residential,night,69.99,45.0,24.99,True,motorvehicle-horn,0.4967,truck,0.7629,True,0.7143,ambient_exceeded; construction_prohibited; multiple_violations,False,severe,3
+test_clip_1_chunk_0073,2025-11-02T00:07:40.720222,residential,night,69.99,45.0,24.99,True,motorvehicle-horn,0.4967,truck,0.7629,True,0.7143,ambient_exceeded; construction_prohibited; multiple_violations,False,severe,3
+test_clip_1_chunk_0074,2025-11-02T00:07:50.720222,residential,night,60.4,45.0,15.4,True,motorvehicle-horn,0.5045,car,0.8132,False,0.3333,ambient_exceeded,False,severe,1
+test_clip_1_chunk_0074,2025-11-02T00:07:50.720222,residential,night,60.4,45.0,15.4,True,motorvehicle-horn,0.5045,car,0.8132,False,0.3333,ambient_exceeded,False,severe,1
+test_clip_1_chunk_0075,2025-11-02T00:07:00.720222,residential,night,57.51,45.0,12.51,True,motorvehicle-horn,0.5338,car,0.7949,False,0.6667,ambient_exceeded,False,moderate,1
+test_clip_1_chunk_0075,2025-11-02T00:07:00.720222,residential,night,57.51,45.0,12.51,True,motorvehicle-horn,0.5338,car,0.7949,False,0.6667,ambient_exceeded,False,moderate,1
+test_clip_1_chunk_0076,2025-11-02T00:07:10.720222,residential,night,60.04,45.0,15.04,True,motorvehicle-horn,0.3835,truck,0.8319,False,0.0,ambient_exceeded,False,severe,1
+test_clip_1_chunk_0076,2025-11-02T00:07:10.720222,residential,night,60.04,45.0,15.04,True,motorvehicle-horn,0.3835,truck,0.8319,False,0.0,ambient_exceeded,False,severe,1
+test_clip_1_chunk_0077,2025-11-02T00:07:20.720222,residential,night,59.04,45.0,14.04,True,crowd-noise,0.4782,motorcycle,0.7046,False,0.6667,ambient_exceeded,False,moderate,1
+test_clip_1_chunk_0077,2025-11-02T00:07:20.720222,residential,night,59.04,45.0,14.04,True,crowd-noise,0.4782,motorcycle,0.7046,False,0.6667,ambient_exceeded,False,moderate,1
+test_clip_1_chunk_0078,2025-11-02T00:08:30.720222,residential,night,68.45,45.0,23.45,True,crowd-noise,0.5615,person,0.7628,False,0.0,ambient_exceeded,False,severe,1
+test_clip_1_chunk_0078,2025-11-02T00:08:30.720222,residential,night,68.45,45.0,23.45,True,crowd-noise,0.5615,person,0.7628,False,0.0,ambient_exceeded,False,severe,1
+test_clip_1_chunk_0079,2025-11-02T00:08:40.720222,residential,night,63.55,45.0,18.55,True,crowd-noise,0.7683,person,0.7804,False,0.0,ambient_exceeded,False,severe,1
+test_clip_1_chunk_0079,2025-11-02T00:08:40.720222,residential,night,63.55,45.0,18.55,True,crowd-noise,0.7683,person,0.7804,False,0.0,ambient_exceeded,False,severe,1
+test_clip_1_chunk_0080,2025-11-02T00:08:50.720222,residential,night,62.75,45.0,17.75,True,crowd-noise,0.5364,car,0.8505,False,0.3,ambient_exceeded,False,severe,1
+test_clip_1_chunk_0080,2025-11-02T00:08:50.720222,residential,night,62.75,45.0,17.75,True,crowd-noise,0.5364,car,0.8505,False,0.3,ambient_exceeded,False,severe,1
+test_clip_1_chunk_0081,2025-11-02T00:08:00.720222,residential,night,68.4,45.0,23.4,True,crowd-noise,0.398,person,0.7691,False,0.4,ambient_exceeded,False,severe,1
+test_clip_1_chunk_0081,2025-11-02T00:08:00.720222,residential,night,68.4,45.0,23.4,True,crowd-noise,0.398,person,0.7691,False,0.4,ambient_exceeded,False,severe,1
+test_clip_1_chunk_0082,2025-11-02T00:08:10.720222,residential,night,62.4,45.0,17.4,True,motorvehicle-horn,0.4835,car,0.8345,False,0.4444,ambient_exceeded,False,severe,1
+test_clip_1_chunk_0082,2025-11-02T00:08:10.720222,residential,night,62.4,45.0,17.4,True,motorvehicle-horn,0.4835,car,0.8345,False,0.4444,ambient_exceeded,False,severe,1
+test_clip_1_chunk_0083,2025-11-02T00:08:20.720222,residential,night,63.36,45.0,18.36,True,crowd-noise,0.5025,car,0.8801,False,0.0,ambient_exceeded,False,severe,1
+test_clip_1_chunk_0083,2025-11-02T00:08:20.720222,residential,night,63.36,45.0,18.36,True,crowd-noise,0.5025,car,0.8801,False,0.0,ambient_exceeded,False,severe,1
+test_clip_1_chunk_0084,2025-11-02T00:09:30.720222,residential,night,65.17,45.0,20.17,True,crowd-noise,0.4695,car,0.8535,False,0.3333,ambient_exceeded,False,severe,1
+test_clip_1_chunk_0084,2025-11-02T00:09:30.720222,residential,night,65.17,45.0,20.17,True,crowd-noise,0.4695,car,0.8535,False,0.3333,ambient_exceeded,False,severe,1
+test_clip_1_chunk_0085,2025-11-02T00:09:40.720222,residential,night,59.79,45.0,14.79,True,crowd-noise,0.6966,car,0.8675,False,0.375,ambient_exceeded,False,moderate,1
+test_clip_1_chunk_0085,2025-11-02T00:09:40.720222,residential,night,59.79,45.0,14.79,True,crowd-noise,0.6966,car,0.8675,False,0.375,ambient_exceeded,False,moderate,1
+test_clip_1_chunk_0086,2025-11-02T00:09:50.720222,residential,night,55.09,45.0,10.09,True,crowd-noise,0.4438,person,0.7809,False,0.25,ambient_exceeded,False,moderate,1
+test_clip_1_chunk_0086,2025-11-02T00:09:50.720222,residential,night,55.09,45.0,10.09,True,crowd-noise,0.4438,person,0.7809,False,0.25,ambient_exceeded,False,moderate,1
+test_clip_1_chunk_0087,2025-11-02T00:09:00.720222,residential,night,54.37,45.0,9.37,True,crowd-noise,0.4749,car,0.8641,False,0.25,ambient_exceeded,False,minor,1
+test_clip_1_chunk_0087,2025-11-02T00:09:00.720222,residential,night,54.37,45.0,9.37,True,crowd-noise,0.4749,car,0.8641,False,0.25,ambient_exceeded,False,minor,1
+test_clip_1_chunk_0088,2025-11-02T00:09:10.720222,residential,night,53.43,45.0,8.43,True,motorvehicle-horn,0.4361,car,0.836,False,0.25,ambient_exceeded,False,minor,1
+test_clip_1_chunk_0088,2025-11-02T00:09:10.720222,residential,night,53.43,45.0,8.43,True,motorvehicle-horn,0.4361,car,0.836,False,0.25,ambient_exceeded,False,minor,1
+test_clip_1_chunk_0089,2025-11-02T00:09:20.720222,residential,night,54.85,45.0,9.85,True,motorvehicle-horn,0.4956,car,0.7039,False,0.2857,ambient_exceeded,False,minor,1
+test_clip_1_chunk_0089,2025-11-02T00:09:20.720222,residential,night,54.85,45.0,9.85,True,motorvehicle-horn,0.4956,car,0.7039,False,0.2857,ambient_exceeded,False,minor,1
+test_clip_1_chunk_0090,2025-11-02T00:10:30.720222,residential,night,69.57,45.0,24.57,True,construction-site,0.3973,person,0.7903,False,0.1429,ambient_exceeded,False,severe,1
+test_clip_1_chunk_0090,2025-11-02T00:10:30.720222,residential,night,69.57,45.0,24.57,True,construction-site,0.3973,person,0.7903,False,0.1429,ambient_exceeded,False,severe,1
+test_clip_1_chunk_0091,2025-11-02T00:10:40.720222,residential,night,58.35,45.0,13.35,True,crowd-noise,0.4439,person,0.7427,False,0.2857,ambient_exceeded,False,moderate,1
+test_clip_1_chunk_0091,2025-11-02T00:10:40.720222,residential,night,58.35,45.0,13.35,True,crowd-noise,0.4439,person,0.7427,False,0.2857,ambient_exceeded,False,moderate,1
+test_clip_1_chunk_0092,2025-11-02T00:10:50.720222,residential,night,62.07,45.0,17.07,True,crowd-noise,0.5701,car,0.79,True,0.7143,ambient_exceeded; construction_prohibited; multiple_violations,False,severe,3
+test_clip_1_chunk_0092,2025-11-02T00:10:50.720222,residential,night,62.07,45.0,17.07,True,crowd-noise,0.5701,car,0.79,True,0.7143,ambient_exceeded; construction_prohibited; multiple_violations,False,severe,3
+test_clip_1_chunk_0093,2025-11-02T00:10:00.720222,residential,night,60.02,45.0,15.02,True,motorvehicle-horn,0.7673,car,0.778,False,0.5,ambient_exceeded; horn_prohibited; multiple_violations,False,severe,3
+test_clip_1_chunk_0093,2025-11-02T00:10:00.720222,residential,night,60.02,45.0,15.02,True,motorvehicle-horn,0.7673,car,0.778,False,0.5,ambient_exceeded; horn_prohibited; multiple_violations,False,severe,3
+test_clip_1_chunk_0094,2025-11-02T00:10:10.720222,residential,night,60.87,45.0,15.87,True,crowd-noise,0.6732,car,0.7994,True,1.0,ambient_exceeded; construction_prohibited; multiple_violations,False,severe,3
+test_clip_1_chunk_0094,2025-11-02T00:10:10.720222,residential,night,60.87,45.0,15.87,True,crowd-noise,0.6732,car,0.7994,True,1.0,ambient_exceeded; construction_prohibited; multiple_violations,False,severe,3
+test_clip_1_chunk_0095,2025-11-02T00:10:20.720222,residential,night,61.94,45.0,16.94,True,generator,0.2879,motorcycle,0.7884,False,0.3333,ambient_exceeded,False,severe,1
+test_clip_1_chunk_0095,2025-11-02T00:10:20.720222,residential,night,61.94,45.0,16.94,True,generator,0.2879,motorcycle,0.7884,False,0.3333,ambient_exceeded,False,severe,1
+test_clip_1_chunk_0096,2025-11-02T00:11:30.720222,residential,night,60.41,45.0,15.41,True,motorvehicle-horn,0.3064,person,0.7293,False,0.3333,ambient_exceeded,False,severe,1
+test_clip_1_chunk_0096,2025-11-02T00:11:30.720222,residential,night,60.41,45.0,15.41,True,motorvehicle-horn,0.3064,person,0.7293,False,0.3333,ambient_exceeded,False,severe,1
+test_clip_1_chunk_0097,2025-11-02T00:11:40.720222,residential,night,64.03,45.0,19.03,True,crowd-noise,0.6835,car,0.8902,False,0.0,ambient_exceeded,False,severe,1
+test_clip_1_chunk_0097,2025-11-02T00:11:40.720222,residential,night,64.03,45.0,19.03,True,crowd-noise,0.6835,car,0.8902,False,0.0,ambient_exceeded,False,severe,1
+test_clip_1_chunk_0098,2025-11-02T00:11:50.720222,residential,night,64.17,45.0,19.17,True,crowd-noise,0.4806,car,0.9081,False,0.3,ambient_exceeded,False,severe,1
+test_clip_1_chunk_0098,2025-11-02T00:11:50.720222,residential,night,64.17,45.0,19.17,True,crowd-noise,0.4806,car,0.9081,False,0.3,ambient_exceeded,False,severe,1
+test_clip_1_chunk_0099,2025-11-02T00:11:00.720222,residential,night,61.91,45.0,16.91,True,crowd-noise,0.4445,person,0.6704,False,0.3,ambient_exceeded,False,severe,1
+test_clip_1_chunk_0099,2025-11-02T00:11:00.720222,residential,night,61.91,45.0,16.91,True,crowd-noise,0.4445,person,0.6704,False,0.3,ambient_exceeded,False,severe,1
+test_clip_1_chunk_0100,2025-11-02T00:11:10.720222,residential,night,57.64,45.0,12.64,True,crowd-noise,0.5547,person,0.7531,False,0.0,ambient_exceeded,False,moderate,1
+test_clip_1_chunk_0100,2025-11-02T00:11:10.720222,residential,night,57.64,45.0,12.64,True,crowd-noise,0.5547,person,0.7531,False,0.0,ambient_exceeded,False,moderate,1
+test_clip_1_chunk_0101,2025-11-02T00:11:20.720222,residential,night,58.38,45.0,13.38,True,motorvehicle-horn,0.5441,person,0.6732,False,0.2222,ambient_exceeded,False,moderate,1
+test_clip_1_chunk_0101,2025-11-02T00:11:20.720222,residential,night,58.38,45.0,13.38,True,motorvehicle-horn,0.5441,person,0.6732,False,0.2222,ambient_exceeded,False,moderate,1
+test_clip_1_chunk_0102,2025-11-02T00:12:30.720222,residential,night,61.78,45.0,16.78,True,mobile-music,0.4448,bicycle,0.6573,True,0.8889,ambient_exceeded; construction_prohibited; multiple_violations,False,severe,3
+test_clip_1_chunk_0102,2025-11-02T00:12:30.720222,residential,night,61.78,45.0,16.78,True,mobile-music,0.4448,bicycle,0.6573,True,0.8889,ambient_exceeded; construction_prohibited; multiple_violations,False,severe,3
+test_clip_1_chunk_0103,2025-11-02T00:12:40.720222,residential,night,60.59,45.0,15.59,True,motorvehicle-horn,0.5562,person,0.6535,False,0.5556,ambient_exceeded,False,severe,1
+test_clip_1_chunk_0103,2025-11-02T00:12:40.720222,residential,night,60.59,45.0,15.59,True,motorvehicle-horn,0.5562,person,0.6535,False,0.5556,ambient_exceeded,False,severe,1
+test_clip_1_chunk_0104,2025-11-02T00:12:50.720222,residential,night,61.03,45.0,16.03,True,crowd-noise,0.688,person,0.6778,False,0.5556,ambient_exceeded,False,severe,1
+test_clip_1_chunk_0104,2025-11-02T00:12:50.720222,residential,night,61.03,45.0,16.03,True,crowd-noise,0.688,person,0.6778,False,0.5556,ambient_exceeded,False,severe,1
+test_clip_1_chunk_0105,2025-11-02T00:12:00.720222,residential,night,71.41,45.0,26.41,True,crowd-noise,0.4743,car,0.7047,False,0.375,ambient_exceeded,False,severe,1
+test_clip_1_chunk_0105,2025-11-02T00:12:00.720222,residential,night,71.41,45.0,26.41,True,crowd-noise,0.4743,car,0.7047,False,0.375,ambient_exceeded,False,severe,1
+test_clip_1_chunk_0106,2025-11-02T00:12:10.720222,residential,night,68.86,45.0,23.86,True,motorvehicle-horn,0.6993,car,0.7127,False,0.125,ambient_exceeded; horn_prohibited; multiple_violations,False,severe,3
+test_clip_1_chunk_0106,2025-11-02T00:12:10.720222,residential,night,68.86,45.0,23.86,True,motorvehicle-horn,0.6993,car,0.7127,False,0.125,ambient_exceeded; horn_prohibited; multiple_violations,False,severe,3
+test_clip_1_chunk_0107,2025-11-02T00:12:20.720222,residential,night,64.8,45.0,19.8,True,motorvehicle-horn,0.7356,person,0.7977,False,0.375,ambient_exceeded; horn_prohibited; multiple_violations,False,severe,3
+test_clip_1_chunk_0107,2025-11-02T00:12:20.720222,residential,night,64.8,45.0,19.8,True,motorvehicle-horn,0.7356,person,0.7977,False,0.375,ambient_exceeded; horn_prohibited; multiple_violations,False,severe,3
+test_clip_1_chunk_0108,2025-11-02T00:13:30.720222,residential,night,64.84,45.0,19.84,True,motorvehicle-horn,0.6209,person,0.7743,False,0.0,ambient_exceeded; horn_prohibited; multiple_violations,False,severe,3
+test_clip_1_chunk_0108,2025-11-02T00:13:30.720222,residential,night,64.84,45.0,19.84,True,motorvehicle-horn,0.6209,person,0.7743,False,0.0,ambient_exceeded; horn_prohibited; multiple_violations,False,severe,3
+test_clip_1_chunk_0109,2025-11-02T00:13:40.720222,residential,night,69.19,45.0,24.19,True,motorvehicle-horn,0.7004,motorcycle,0.7205,False,0.0,ambient_exceeded; horn_prohibited; multiple_violations,False,severe,3
+test_clip_1_chunk_0109,2025-11-02T00:13:40.720222,residential,night,69.19,45.0,24.19,True,motorvehicle-horn,0.7004,motorcycle,0.7205,False,0.0,ambient_exceeded; horn_prohibited; multiple_violations,False,severe,3
+test_clip_1_chunk_0110,2025-11-02T00:13:50.720222,residential,night,63.0,45.0,18.0,True,motorvehicle-horn,0.5609,person,0.679,False,0.2857,ambient_exceeded,False,severe,1
+test_clip_1_chunk_0110,2025-11-02T00:13:50.720222,residential,night,63.0,45.0,18.0,True,motorvehicle-horn,0.5609,person,0.679,False,0.2857,ambient_exceeded,False,severe,1
+test_clip_1_chunk_0111,2025-11-02T00:13:00.720222,residential,night,67.69,45.0,22.69,True,generator,0.6854,airplane,0.7123,True,1.0,ambient_exceeded; construction_prohibited; multiple_violations,False,severe,3
+test_clip_1_chunk_0111,2025-11-02T00:13:00.720222,residential,night,67.69,45.0,22.69,True,generator,0.6854,airplane,0.7123,True,1.0,ambient_exceeded; construction_prohibited; multiple_violations,False,severe,3
+test_clip_1_chunk_0112,2025-11-02T00:13:10.720222,residential,night,69.42,45.0,24.42,True,generator,0.4989,airplane,0.6715,True,1.0,ambient_exceeded; construction_prohibited; multiple_violations,False,severe,3
+test_clip_1_chunk_0112,2025-11-02T00:13:10.720222,residential,night,69.42,45.0,24.42,True,generator,0.4989,airplane,0.6715,True,1.0,ambient_exceeded; construction_prohibited; multiple_violations,False,severe,3
+test_clip_1_chunk_0113,2025-11-02T00:13:20.720222,residential,night,68.76,45.0,23.76,True,generator,0.8257,airplane,0.6101,True,1.0,ambient_exceeded; construction_prohibited; multiple_violations,False,severe,3
+test_clip_1_chunk_0113,2025-11-02T00:13:20.720222,residential,night,68.76,45.0,23.76,True,generator,0.8257,airplane,0.6101,True,1.0,ambient_exceeded; construction_prohibited; multiple_violations,False,severe,3
+test_clip_1_chunk_0114,2025-11-02T00:14:30.720222,residential,night,67.28,45.0,22.28,True,generator,0.9289,airplane,0.627,True,1.0,ambient_exceeded; construction_prohibited; multiple_violations,False,severe,3
+test_clip_1_chunk_0114,2025-11-02T00:14:30.720222,residential,night,67.28,45.0,22.28,True,generator,0.9289,airplane,0.627,True,1.0,ambient_exceeded; construction_prohibited; multiple_violations,False,severe,3
+test_clip_1_chunk_0115,2025-11-02T00:14:40.720222,residential,night,73.34,45.0,28.34,True,construction-site,0.675,none,0.0,True,1.0,ambient_exceeded; construction_prohibited; multiple_violations,False,severe,3
+test_clip_1_chunk_0115,2025-11-02T00:14:40.720222,residential,night,73.34,45.0,28.34,True,construction-site,0.675,none,0.0,True,1.0,ambient_exceeded; construction_prohibited; multiple_violations,False,severe,3
+test_clip_1_chunk_0116,2025-11-02T00:14:50.720222,residential,night,69.61,45.0,24.61,True,construction-site,0.4,truck,0.5382,True,1.0,ambient_exceeded; construction_prohibited; multiple_violations,False,severe,3
+test_clip_1_chunk_0116,2025-11-02T00:14:50.720222,residential,night,69.61,45.0,24.61,True,construction-site,0.4,truck,0.5382,True,1.0,ambient_exceeded; construction_prohibited; multiple_violations,False,severe,3
+test_clip_1_chunk_0117,2025-11-02T00:14:00.720222,residential,night,67.39,45.0,22.39,True,construction-site,0.4225,truck,0.5405,True,1.0,ambient_exceeded; construction_prohibited; multiple_violations,False,severe,3
+test_clip_1_chunk_0117,2025-11-02T00:14:00.720222,residential,night,67.39,45.0,22.39,True,construction-site,0.4225,truck,0.5405,True,1.0,ambient_exceeded; construction_prohibited; multiple_violations,False,severe,3
+test_clip_1_chunk_0118,2025-11-02T00:14:10.720222,residential,night,69.49,45.0,24.49,True,construction-site,0.6579,truck,0.5444,True,1.0,ambient_exceeded; construction_prohibited; multiple_violations,False,severe,3
+test_clip_1_chunk_0118,2025-11-02T00:14:10.720222,residential,night,69.49,45.0,24.49,True,construction-site,0.6579,truck,0.5444,True,1.0,ambient_exceeded; construction_prohibited; multiple_violations,False,severe,3
+test_clip_1_chunk_0119,2025-11-02T00:14:20.720222,residential,night,69.37,45.0,24.37,True,construction-site,0.6621,truck,0.7559,True,0.9,ambient_exceeded; construction_prohibited; multiple_violations,False,severe,3
+test_clip_1_chunk_0119,2025-11-02T00:14:20.720222,residential,night,69.37,45.0,24.37,True,construction-site,0.6621,truck,0.7559,True,0.9,ambient_exceeded; construction_prohibited; multiple_violations,False,severe,3
+test_clip_1_chunk_0120,2025-11-02T00:15:30.720222,residential,night,66.62,45.0,21.62,True,generator,0.5247,truck,0.4453,True,1.0,ambient_exceeded; construction_prohibited; multiple_violations,False,severe,3
+test_clip_1_chunk_0120,2025-11-02T00:15:30.720222,residential,night,66.62,45.0,21.62,True,generator,0.5247,truck,0.4453,True,1.0,ambient_exceeded; construction_prohibited; multiple_violations,False,severe,3
+test_clip_1_chunk_0121,2025-11-02T00:15:40.720222,residential,night,69.4,45.0,24.4,True,generator,0.5409,truck,0.4926,True,1.0,ambient_exceeded; construction_prohibited; multiple_violations,False,severe,3
+test_clip_1_chunk_0121,2025-11-02T00:15:40.720222,residential,night,69.4,45.0,24.4,True,generator,0.5409,truck,0.4926,True,1.0,ambient_exceeded; construction_prohibited; multiple_violations,False,severe,3
+test_clip_1_chunk_0122,2025-11-02T00:15:50.720222,residential,night,67.02,45.0,22.02,True,generator,0.6977,motorcycle,0.5264,True,1.0,ambient_exceeded; construction_prohibited; multiple_violations,False,severe,3
+test_clip_1_chunk_0122,2025-11-02T00:15:50.720222,residential,night,67.02,45.0,22.02,True,generator,0.6977,motorcycle,0.5264,True,1.0,ambient_exceeded; construction_prohibited; multiple_violations,False,severe,3
+test_clip_1_chunk_0123,2025-11-02T00:15:00.720222,residential,night,67.76,45.0,22.76,True,generator,0.6989,truck,0.5482,True,1.0,ambient_exceeded; construction_prohibited; multiple_violations,False,severe,3
+test_clip_1_chunk_0123,2025-11-02T00:15:00.720222,residential,night,67.76,45.0,22.76,True,generator,0.6989,truck,0.5482,True,1.0,ambient_exceeded; construction_prohibited; multiple_violations,False,severe,3
+test_clip_1_chunk_0124,2025-11-02T00:15:10.720222,residential,night,70.79,45.0,25.79,True,construction-site,0.4921,truck,0.7367,True,1.0,ambient_exceeded; construction_prohibited; multiple_violations,False,severe,3
+test_clip_1_chunk_0124,2025-11-02T00:15:10.720222,residential,night,70.79,45.0,25.79,True,construction-site,0.4921,truck,0.7367,True,1.0,ambient_exceeded; construction_prohibited; multiple_violations,False,severe,3
+test_clip_1_chunk_0125,2025-11-02T00:15:20.720222,residential,night,68.9,45.0,23.9,True,generator,0.6751,truck,0.5494,True,1.0,ambient_exceeded; construction_prohibited; multiple_violations,False,severe,3
+test_clip_1_chunk_0125,2025-11-02T00:15:20.720222,residential,night,68.9,45.0,23.9,True,generator,0.6751,truck,0.5494,True,1.0,ambient_exceeded; construction_prohibited; multiple_violations,False,severe,3
+test_clip_1_chunk_0126,2025-11-02T00:16:30.720222,residential,night,69.77,45.0,24.77,True,generator,0.4767,none,0.0,True,1.0,ambient_exceeded; construction_prohibited; multiple_violations,False,severe,3
+test_clip_1_chunk_0126,2025-11-02T00:16:30.720222,residential,night,69.77,45.0,24.77,True,generator,0.4767,none,0.0,True,1.0,ambient_exceeded; construction_prohibited; multiple_violations,False,severe,3
+test_clip_1_chunk_0127,2025-11-02T00:16:40.720222,residential,night,68.97,45.0,23.97,True,generator,0.7548,truck,0.5911,True,1.0,ambient_exceeded; construction_prohibited; multiple_violations,False,severe,3
+test_clip_1_chunk_0127,2025-11-02T00:16:40.720222,residential,night,68.97,45.0,23.97,True,generator,0.7548,truck,0.5911,True,1.0,ambient_exceeded; construction_prohibited; multiple_violations,False,severe,3
+test_clip_1_chunk_0128,2025-11-02T00:16:50.720222,residential,night,70.92,45.0,25.92,True,generator,0.6908,truck,0.7176,True,1.0,ambient_exceeded; construction_prohibited; multiple_violations,False,severe,3
+test_clip_1_chunk_0128,2025-11-02T00:16:50.720222,residential,night,70.92,45.0,25.92,True,generator,0.6908,truck,0.7176,True,1.0,ambient_exceeded; construction_prohibited; multiple_violations,False,severe,3
+test_clip_1_chunk_0129,2025-11-02T00:16:00.720222,residential,night,67.37,45.0,22.37,True,generator,0.675,truck,0.6048,True,1.0,ambient_exceeded; construction_prohibited; multiple_violations,False,severe,3
+test_clip_1_chunk_0129,2025-11-02T00:16:00.720222,residential,night,67.37,45.0,22.37,True,generator,0.675,truck,0.6048,True,1.0,ambient_exceeded; construction_prohibited; multiple_violations,False,severe,3
+test_clip_1_chunk_0130,2025-11-02T00:16:10.720222,residential,night,70.06,45.0,25.06,True,construction-site,0.3772,truck,0.5914,True,1.0,ambient_exceeded; construction_prohibited; multiple_violations,False,severe,3
+test_clip_1_chunk_0130,2025-11-02T00:16:10.720222,residential,night,70.06,45.0,25.06,True,construction-site,0.3772,truck,0.5914,True,1.0,ambient_exceeded; construction_prohibited; multiple_violations,False,severe,3
+test_clip_1_chunk_0131,2025-11-02T00:16:20.720222,residential,night,68.98,45.0,23.98,True,generator,0.7261,truck,0.8637,True,1.0,ambient_exceeded; construction_prohibited; multiple_violations,False,severe,3
+test_clip_1_chunk_0131,2025-11-02T00:16:20.720222,residential,night,68.98,45.0,23.98,True,generator,0.7261,truck,0.8637,True,1.0,ambient_exceeded; construction_prohibited; multiple_violations,False,severe,3
+test_clip_1_chunk_0132,2025-11-02T00:17:30.720222,residential,night,69.27,45.0,24.27,True,generator,0.5516,airplane,0.5349,True,1.0,ambient_exceeded; construction_prohibited; multiple_violations,False,severe,3
+test_clip_1_chunk_0132,2025-11-02T00:17:30.720222,residential,night,69.27,45.0,24.27,True,generator,0.5516,airplane,0.5349,True,1.0,ambient_exceeded; construction_prohibited; multiple_violations,False,severe,3
+test_clip_1_chunk_0133,2025-11-02T00:17:40.720222,residential,night,69.31,45.0,24.31,True,generator,0.4966,truck,0.8118,True,1.0,ambient_exceeded; construction_prohibited; multiple_violations,False,severe,3
+test_clip_1_chunk_0133,2025-11-02T00:17:40.720222,residential,night,69.31,45.0,24.31,True,generator,0.4966,truck,0.8118,True,1.0,ambient_exceeded; construction_prohibited; multiple_violations,False,severe,3
+test_clip_1_chunk_0134,2025-11-02T00:17:50.720222,residential,night,67.3,45.0,22.3,True,generator,0.5375,truck,0.7176,True,1.0,ambient_exceeded; construction_prohibited; multiple_violations,False,severe,3
+test_clip_1_chunk_0134,2025-11-02T00:17:50.720222,residential,night,67.3,45.0,22.3,True,generator,0.5375,truck,0.7176,True,1.0,ambient_exceeded; construction_prohibited; multiple_violations,False,severe,3
+test_clip_1_chunk_0135,2025-11-02T00:17:00.720222,residential,night,69.36,45.0,24.36,True,generator,0.7136,truck,0.5918,True,1.0,ambient_exceeded; construction_prohibited; multiple_violations,False,severe,3
+test_clip_1_chunk_0135,2025-11-02T00:17:00.720222,residential,night,69.36,45.0,24.36,True,generator,0.7136,truck,0.5918,True,1.0,ambient_exceeded; construction_prohibited; multiple_violations,False,severe,3
+test_clip_1_chunk_0136,2025-11-02T00:17:10.720222,residential,night,69.93,45.0,24.93,True,generator,0.8235,truck,0.7584,True,1.0,ambient_exceeded; construction_prohibited; multiple_violations,False,severe,3
+test_clip_1_chunk_0136,2025-11-02T00:17:10.720222,residential,night,69.93,45.0,24.93,True,generator,0.8235,truck,0.7584,True,1.0,ambient_exceeded; construction_prohibited; multiple_violations,False,severe,3
+test_clip_1_chunk_0137,2025-11-02T00:17:20.720222,residential,night,68.49,45.0,23.49,True,generator,0.797,truck,0.5719,True,1.0,ambient_exceeded; construction_prohibited; multiple_violations,False,severe,3
+test_clip_1_chunk_0137,2025-11-02T00:17:20.720222,residential,night,68.49,45.0,23.49,True,generator,0.797,truck,0.5719,True,1.0,ambient_exceeded; construction_prohibited; multiple_violations,False,severe,3
+test_clip_1_chunk_0138,2025-11-02T00:18:30.720222,residential,night,70.01,45.0,25.01,True,construction-site,0.4749,truck,0.7088,True,1.0,ambient_exceeded; construction_prohibited; multiple_violations,False,severe,3
+test_clip_1_chunk_0138,2025-11-02T00:18:30.720222,residential,night,70.01,45.0,25.01,True,construction-site,0.4749,truck,0.7088,True,1.0,ambient_exceeded; construction_prohibited; multiple_violations,False,severe,3
+test_clip_1_chunk_0139,2025-11-02T00:18:40.720222,residential,night,70.35,45.0,25.35,True,generator,0.6401,truck,0.4674,True,1.0,ambient_exceeded; construction_prohibited; multiple_violations,False,severe,3
+test_clip_1_chunk_0139,2025-11-02T00:18:40.720222,residential,night,70.35,45.0,25.35,True,generator,0.6401,truck,0.4674,True,1.0,ambient_exceeded; construction_prohibited; multiple_violations,False,severe,3
+test_clip_1_chunk_0140,2025-11-02T00:18:50.720222,residential,night,70.38,45.0,25.38,True,generator,0.4625,truck,0.6726,True,1.0,ambient_exceeded; construction_prohibited; multiple_violations,False,severe,3
+test_clip_1_chunk_0140,2025-11-02T00:18:50.720222,residential,night,70.38,45.0,25.38,True,generator,0.4625,truck,0.6726,True,1.0,ambient_exceeded; construction_prohibited; multiple_violations,False,severe,3
+test_clip_1_chunk_0141,2025-11-02T00:18:00.720222,residential,night,71.01,45.0,26.01,True,construction-site,0.5624,truck,0.5125,True,1.0,ambient_exceeded; construction_prohibited; multiple_violations,False,severe,3
+test_clip_1_chunk_0141,2025-11-02T00:18:00.720222,residential,night,71.01,45.0,26.01,True,construction-site,0.5624,truck,0.5125,True,1.0,ambient_exceeded; construction_prohibited; multiple_violations,False,severe,3
+test_clip_1_chunk_0142,2025-11-02T00:18:10.720222,residential,night,68.99,45.0,23.99,True,construction-site,0.5023,truck,0.6573,True,1.0,ambient_exceeded; construction_prohibited; multiple_violations,False,severe,3
+test_clip_1_chunk_0142,2025-11-02T00:18:10.720222,residential,night,68.99,45.0,23.99,True,construction-site,0.5023,truck,0.6573,True,1.0,ambient_exceeded; construction_prohibited; multiple_violations,False,severe,3
+test_clip_1_chunk_0143,2025-11-02T00:18:20.720222,residential,night,68.16,45.0,23.16,True,generator,0.4066,none,0.0,True,1.0,ambient_exceeded; construction_prohibited; multiple_violations,False,severe,3
+test_clip_1_chunk_0143,2025-11-02T00:18:20.720222,residential,night,68.16,45.0,23.16,True,generator,0.4066,none,0.0,True,1.0,ambient_exceeded; construction_prohibited; multiple_violations,False,severe,3
+test_clip_1_chunk_0144,2025-11-02T00:19:30.720222,residential,night,67.34,45.0,22.34,True,generator,0.6835,truck,0.464,True,1.0,ambient_exceeded; construction_prohibited; multiple_violations,False,severe,3
+test_clip_1_chunk_0144,2025-11-02T00:19:30.720222,residential,night,67.34,45.0,22.34,True,generator,0.6835,truck,0.464,True,1.0,ambient_exceeded; construction_prohibited; multiple_violations,False,severe,3
+test_clip_1_chunk_0145,2025-11-02T00:19:40.720222,residential,night,69.73,45.0,24.73,True,generator,0.4728,truck,0.7325,True,1.0,ambient_exceeded; construction_prohibited; multiple_violations,False,severe,3
+test_clip_1_chunk_0145,2025-11-02T00:19:40.720222,residential,night,69.73,45.0,24.73,True,generator,0.4728,truck,0.7325,True,1.0,ambient_exceeded; construction_prohibited; multiple_violations,False,severe,3
+test_clip_1_chunk_0146,2025-11-02T00:19:50.720222,residential,night,68.35,45.0,23.35,True,generator,0.4059,truck,0.5302,True,1.0,ambient_exceeded; construction_prohibited; multiple_violations,False,severe,3
+test_clip_1_chunk_0146,2025-11-02T00:19:50.720222,residential,night,68.35,45.0,23.35,True,generator,0.4059,truck,0.5302,True,1.0,ambient_exceeded; construction_prohibited; multiple_violations,False,severe,3
+test_clip_1_chunk_0147,2025-11-02T00:19:00.720222,residential,night,69.35,45.0,24.35,True,generator,0.5229,truck,0.7651,True,1.0,ambient_exceeded; construction_prohibited; multiple_violations,False,severe,3
+test_clip_1_chunk_0147,2025-11-02T00:19:00.720222,residential,night,69.35,45.0,24.35,True,generator,0.5229,truck,0.7651,True,1.0,ambient_exceeded; construction_prohibited; multiple_violations,False,severe,3
+test_clip_1_chunk_0148,2025-11-02T00:19:10.720222,residential,night,68.72,45.0,23.72,True,construction-site,0.4141,truck,0.4333,True,1.0,ambient_exceeded; construction_prohibited; multiple_violations,False,severe,3
+test_clip_1_chunk_0148,2025-11-02T00:19:10.720222,residential,night,68.72,45.0,23.72,True,construction-site,0.4141,truck,0.4333,True,1.0,ambient_exceeded; construction_prohibited; multiple_violations,False,severe,3
+test_clip_1_chunk_0149,2025-11-02T00:19:20.720222,residential,night,68.43,45.0,23.43,True,generator,0.5241,truck,0.7047,True,1.0,ambient_exceeded; construction_prohibited; multiple_violations,False,severe,3
+test_clip_1_chunk_0149,2025-11-02T00:19:20.720222,residential,night,68.43,45.0,23.43,True,generator,0.5241,truck,0.7047,True,1.0,ambient_exceeded; construction_prohibited; multiple_violations,False,severe,3
+test_clip_1_chunk_0150,2025-11-02T00:20:30.720222,residential,night,69.36,45.0,24.36,True,generator,0.618,truck,0.5933,True,1.0,ambient_exceeded; construction_prohibited; multiple_violations,False,severe,3
+test_clip_1_chunk_0150,2025-11-02T00:20:30.720222,residential,night,69.36,45.0,24.36,True,generator,0.618,truck,0.5933,True,1.0,ambient_exceeded; construction_prohibited; multiple_violations,False,severe,3
+test_clip_1_chunk_0151,2025-11-02T00:20:40.720222,residential,night,68.33,45.0,23.33,True,construction-site,0.4882,truck,0.4472,True,1.0,ambient_exceeded; construction_prohibited; multiple_violations,False,severe,3
+test_clip_1_chunk_0151,2025-11-02T00:20:40.720222,residential,night,68.33,45.0,23.33,True,construction-site,0.4882,truck,0.4472,True,1.0,ambient_exceeded; construction_prohibited; multiple_violations,False,severe,3
+test_clip_1_chunk_0152,2025-11-02T00:20:50.720222,residential,night,69.65,45.0,24.65,True,generator,0.6417,truck,0.7913,True,1.0,ambient_exceeded; construction_prohibited; multiple_violations,False,severe,3
+test_clip_1_chunk_0152,2025-11-02T00:20:50.720222,residential,night,69.65,45.0,24.65,True,generator,0.6417,truck,0.7913,True,1.0,ambient_exceeded; construction_prohibited; multiple_violations,False,severe,3
+test_clip_1_chunk_0153,2025-11-02T00:20:00.720222,residential,night,69.12,45.0,24.12,True,generator,0.6915,truck,0.6836,True,1.0,ambient_exceeded; construction_prohibited; multiple_violations,False,severe,3
+test_clip_1_chunk_0153,2025-11-02T00:20:00.720222,residential,night,69.12,45.0,24.12,True,generator,0.6915,truck,0.6836,True,1.0,ambient_exceeded; construction_prohibited; multiple_violations,False,severe,3
+test_clip_1_chunk_0154,2025-11-02T00:20:10.720222,residential,night,68.83,45.0,23.83,True,construction-site,0.5353,truck,0.7372,True,1.0,ambient_exceeded; construction_prohibited; multiple_violations,False,severe,3
+test_clip_1_chunk_0154,2025-11-02T00:20:10.720222,residential,night,68.83,45.0,23.83,True,construction-site,0.5353,truck,0.7372,True,1.0,ambient_exceeded; construction_prohibited; multiple_violations,False,severe,3
+test_clip_1_chunk_0155,2025-11-02T00:20:20.720222,residential,night,69.28,45.0,24.28,True,generator,0.5564,truck,0.6526,True,1.0,ambient_exceeded; construction_prohibited; multiple_violations,False,severe,3
+test_clip_1_chunk_0155,2025-11-02T00:20:20.720222,residential,night,69.28,45.0,24.28,True,generator,0.5564,truck,0.6526,True,1.0,ambient_exceeded; construction_prohibited; multiple_violations,False,severe,3
+test_clip_1_chunk_0156,2025-11-02T00:21:30.720222,residential,night,70.11,45.0,25.11,True,construction-site,0.5569,truck,0.8035,True,1.0,ambient_exceeded; construction_prohibited; multiple_violations,False,severe,3
+test_clip_1_chunk_0156,2025-11-02T00:21:30.720222,residential,night,70.11,45.0,25.11,True,construction-site,0.5569,truck,0.8035,True,1.0,ambient_exceeded; construction_prohibited; multiple_violations,False,severe,3
+test_clip_1_chunk_0157,2025-11-02T00:21:40.720222,residential,night,68.21,45.0,23.21,True,construction-site,0.5838,truck,0.7294,True,1.0,ambient_exceeded; construction_prohibited; multiple_violations,False,severe,3
+test_clip_1_chunk_0157,2025-11-02T00:21:40.720222,residential,night,68.21,45.0,23.21,True,construction-site,0.5838,truck,0.7294,True,1.0,ambient_exceeded; construction_prohibited; multiple_violations,False,severe,3
+test_clip_1_chunk_0158,2025-11-02T00:21:50.720222,residential,night,69.58,45.0,24.58,True,construction-site,0.646,truck,0.7942,True,1.0,ambient_exceeded; construction_prohibited; multiple_violations,False,severe,3
+test_clip_1_chunk_0158,2025-11-02T00:21:50.720222,residential,night,69.58,45.0,24.58,True,construction-site,0.646,truck,0.7942,True,1.0,ambient_exceeded; construction_prohibited; multiple_violations,False,severe,3
+test_clip_1_chunk_0159,2025-11-02T00:21:00.720222,residential,night,71.84,45.0,26.84,True,construction-site,0.4815,truck,0.7744,True,1.0,ambient_exceeded; construction_prohibited; multiple_violations,False,severe,3
+test_clip_1_chunk_0159,2025-11-02T00:21:00.720222,residential,night,71.84,45.0,26.84,True,construction-site,0.4815,truck,0.7744,True,1.0,ambient_exceeded; construction_prohibited; multiple_violations,False,severe,3
+test_clip_1_chunk_0160,2025-11-02T00:21:10.720222,residential,night,72.24,45.0,27.24,True,construction-site,0.5165,truck,0.8229,True,1.0,ambient_exceeded; construction_prohibited; multiple_violations,False,severe,3
+test_clip_1_chunk_0160,2025-11-02T00:21:10.720222,residential,night,72.24,45.0,27.24,True,construction-site,0.5165,truck,0.8229,True,1.0,ambient_exceeded; construction_prohibited; multiple_violations,False,severe,3
+test_clip_1_chunk_0161,2025-11-02T00:21:20.720222,residential,night,66.36,45.0,21.36,True,construction-site,0.39,truck,0.5068,True,1.0,ambient_exceeded; construction_prohibited; multiple_violations,False,severe,3
+test_clip_1_chunk_0161,2025-11-02T00:21:20.720222,residential,night,66.36,45.0,21.36,True,construction-site,0.39,truck,0.5068,True,1.0,ambient_exceeded; construction_prohibited; multiple_violations,False,severe,3
+test_clip_1_chunk_0162,2025-11-02T00:22:30.720222,residential,night,68.8,45.0,23.8,True,generator,0.5255,truck,0.6228,True,1.0,ambient_exceeded; construction_prohibited; multiple_violations,False,severe,3
+test_clip_1_chunk_0162,2025-11-02T00:22:30.720222,residential,night,68.8,45.0,23.8,True,generator,0.5255,truck,0.6228,True,1.0,ambient_exceeded; construction_prohibited; multiple_violations,False,severe,3
+test_clip_1_chunk_0163,2025-11-02T00:22:40.720222,residential,night,69.6,45.0,24.6,True,construction-site,0.7472,truck,0.5465,True,1.0,ambient_exceeded; construction_prohibited; multiple_violations,False,severe,3
+test_clip_1_chunk_0163,2025-11-02T00:22:40.720222,residential,night,69.6,45.0,24.6,True,construction-site,0.7472,truck,0.5465,True,1.0,ambient_exceeded; construction_prohibited; multiple_violations,False,severe,3
+test_clip_1_chunk_0164,2025-11-02T00:22:50.720222,residential,night,69.54,45.0,24.54,True,construction-site,0.5733,truck,0.5749,True,1.0,ambient_exceeded; construction_prohibited; multiple_violations,False,severe,3
+test_clip_1_chunk_0164,2025-11-02T00:22:50.720222,residential,night,69.54,45.0,24.54,True,construction-site,0.5733,truck,0.5749,True,1.0,ambient_exceeded; construction_prohibited; multiple_violations,False,severe,3
+test_clip_1_chunk_0165,2025-11-02T00:22:00.720222,residential,night,69.4,45.0,24.4,True,construction-site,0.6144,truck,0.6852,True,1.0,ambient_exceeded; construction_prohibited; multiple_violations,False,severe,3
+test_clip_1_chunk_0165,2025-11-02T00:22:00.720222,residential,night,69.4,45.0,24.4,True,construction-site,0.6144,truck,0.6852,True,1.0,ambient_exceeded; construction_prohibited; multiple_violations,False,severe,3
+test_clip_1_chunk_0166,2025-11-02T00:22:10.720222,residential,night,69.13,45.0,24.13,True,construction-site,0.5781,truck,0.6245,True,1.0,ambient_exceeded; construction_prohibited; multiple_violations,False,severe,3
+test_clip_1_chunk_0166,2025-11-02T00:22:10.720222,residential,night,69.13,45.0,24.13,True,construction-site,0.5781,truck,0.6245,True,1.0,ambient_exceeded; construction_prohibited; multiple_violations,False,severe,3
+test_clip_1_chunk_0167,2025-11-02T00:22:20.720222,residential,night,68.68,45.0,23.68,True,construction-site,0.5695,truck,0.515,True,1.0,ambient_exceeded; construction_prohibited; multiple_violations,False,severe,3
+test_clip_1_chunk_0167,2025-11-02T00:22:20.720222,residential,night,68.68,45.0,23.68,True,construction-site,0.5695,truck,0.515,True,1.0,ambient_exceeded; construction_prohibited; multiple_violations,False,severe,3
+test_clip_1_chunk_0168,2025-11-02T00:23:30.720222,residential,night,69.07,45.0,24.07,True,generator,0.5027,truck,0.462,True,1.0,ambient_exceeded; construction_prohibited; multiple_violations,False,severe,3
+test_clip_1_chunk_0168,2025-11-02T00:23:30.720222,residential,night,69.07,45.0,24.07,True,generator,0.5027,truck,0.462,True,1.0,ambient_exceeded; construction_prohibited; multiple_violations,False,severe,3
+test_clip_1_chunk_0169,2025-11-02T00:23:40.720222,residential,night,67.08,45.0,22.08,True,construction-site,0.6033,truck,0.6449,True,1.0,ambient_exceeded; construction_prohibited; multiple_violations,False,severe,3
+test_clip_1_chunk_0169,2025-11-02T00:23:40.720222,residential,night,67.08,45.0,22.08,True,construction-site,0.6033,truck,0.6449,True,1.0,ambient_exceeded; construction_prohibited; multiple_violations,False,severe,3
+test_clip_1_chunk_0170,2025-11-02T00:23:50.720222,residential,night,68.97,45.0,23.97,True,construction-site,0.4795,truck,0.4082,True,1.0,ambient_exceeded; construction_prohibited; multiple_violations,False,severe,3
+test_clip_1_chunk_0170,2025-11-02T00:23:50.720222,residential,night,68.97,45.0,23.97,True,construction-site,0.4795,truck,0.4082,True,1.0,ambient_exceeded; construction_prohibited; multiple_violations,False,severe,3
+test_clip_1_chunk_0171,2025-11-02T00:23:00.720222,residential,night,69.18,45.0,24.18,True,construction-site,0.5221,truck,0.3894,True,1.0,ambient_exceeded; construction_prohibited; multiple_violations,False,severe,3
+test_clip_1_chunk_0171,2025-11-02T00:23:00.720222,residential,night,69.18,45.0,24.18,True,construction-site,0.5221,truck,0.3894,True,1.0,ambient_exceeded; construction_prohibited; multiple_violations,False,severe,3
+test_clip_1_chunk_0172,2025-11-02T00:23:10.720222,residential,night,68.08,45.0,23.08,True,construction-site,0.7167,none,0.0,True,0.875,ambient_exceeded; construction_prohibited; multiple_violations,False,severe,3
+test_clip_1_chunk_0172,2025-11-02T00:23:10.720222,residential,night,68.08,45.0,23.08,True,construction-site,0.7167,none,0.0,True,0.875,ambient_exceeded; construction_prohibited; multiple_violations,False,severe,3
+test_clip_1_chunk_0173,2025-11-02T00:23:20.720222,residential,night,70.01,45.0,25.01,True,construction-site,0.5263,truck,0.6714,True,1.0,ambient_exceeded; construction_prohibited; multiple_violations,False,severe,3
+test_clip_1_chunk_0173,2025-11-02T00:23:20.720222,residential,night,70.01,45.0,25.01,True,construction-site,0.5263,truck,0.6714,True,1.0,ambient_exceeded; construction_prohibited; multiple_violations,False,severe,3
+test_clip_1_chunk_0174,2025-11-02T00:24:30.720222,residential,night,69.4,45.0,24.4,True,construction-site,0.5808,truck,0.7242,True,1.0,ambient_exceeded; construction_prohibited; multiple_violations,False,severe,3
+test_clip_1_chunk_0174,2025-11-02T00:24:30.720222,residential,night,69.4,45.0,24.4,True,construction-site,0.5808,truck,0.7242,True,1.0,ambient_exceeded; construction_prohibited; multiple_violations,False,severe,3
+test_clip_1_chunk_0175,2025-11-02T00:24:40.720222,residential,night,69.95,45.0,24.95,True,construction-site,0.6272,truck,0.5624,True,0.8571,ambient_exceeded; construction_prohibited; multiple_violations,False,severe,3
+test_clip_1_chunk_0175,2025-11-02T00:24:40.720222,residential,night,69.95,45.0,24.95,True,construction-site,0.6272,truck,0.5624,True,0.8571,ambient_exceeded; construction_prohibited; multiple_violations,False,severe,3
+test_clip_1_chunk_0176,2025-11-02T00:24:50.720222,residential,night,65.25,45.0,20.25,True,generator,0.4635,truck,0.4824,True,1.0,ambient_exceeded; construction_prohibited; multiple_violations,False,severe,3
+test_clip_1_chunk_0176,2025-11-02T00:24:50.720222,residential,night,65.25,45.0,20.25,True,generator,0.4635,truck,0.4824,True,1.0,ambient_exceeded; construction_prohibited; multiple_violations,False,severe,3
+test_clip_1_chunk_0177,2025-11-02T00:24:00.720222,residential,night,68.88,45.0,23.88,True,generator,0.8169,airplane,0.5367,True,1.0,ambient_exceeded; construction_prohibited; multiple_violations,False,severe,3
+test_clip_1_chunk_0177,2025-11-02T00:24:00.720222,residential,night,68.88,45.0,23.88,True,generator,0.8169,airplane,0.5367,True,1.0,ambient_exceeded; construction_prohibited; multiple_violations,False,severe,3
+test_clip_1_chunk_0178,2025-11-02T00:24:10.720222,residential,night,68.72,45.0,23.72,True,generator,0.648,truck,0.5094,True,1.0,ambient_exceeded; construction_prohibited; multiple_violations,False,severe,3
+test_clip_1_chunk_0178,2025-11-02T00:24:10.720222,residential,night,68.72,45.0,23.72,True,generator,0.648,truck,0.5094,True,1.0,ambient_exceeded; construction_prohibited; multiple_violations,False,severe,3
+test_clip_1_chunk_0179,2025-11-02T00:24:20.720222,residential,night,69.02,45.0,24.02,True,construction-site,0.5235,truck,0.6155,True,1.0,ambient_exceeded; construction_prohibited; multiple_violations,False,severe,3
+test_clip_1_chunk_0179,2025-11-02T00:24:20.720222,residential,night,69.02,45.0,24.02,True,construction-site,0.5235,truck,0.6155,True,1.0,ambient_exceeded; construction_prohibited; multiple_violations,False,severe,3
+test_clip_1_chunk_0180,2025-11-02T00:25:30.720222,residential,night,68.9,45.0,23.9,True,generator,0.675,airplane,0.533,True,1.0,ambient_exceeded; construction_prohibited; multiple_violations,False,severe,3
+test_clip_1_chunk_0180,2025-11-02T00:25:30.720222,residential,night,68.9,45.0,23.9,True,generator,0.675,airplane,0.533,True,1.0,ambient_exceeded; construction_prohibited; multiple_violations,False,severe,3
+test_clip_1_chunk_0181,2025-11-02T00:25:40.720222,residential,night,69.29,45.0,24.29,True,generator,0.6647,truck,0.7403,True,1.0,ambient_exceeded; construction_prohibited; multiple_violations,False,severe,3
+test_clip_1_chunk_0181,2025-11-02T00:25:40.720222,residential,night,69.29,45.0,24.29,True,generator,0.6647,truck,0.7403,True,1.0,ambient_exceeded; construction_prohibited; multiple_violations,False,severe,3
+test_clip_1_chunk_0182,2025-11-02T00:25:50.720222,residential,night,67.77,45.0,22.77,True,generator,0.8118,airplane,0.599,True,1.0,ambient_exceeded; construction_prohibited; multiple_violations,False,severe,3
+test_clip_1_chunk_0182,2025-11-02T00:25:50.720222,residential,night,67.77,45.0,22.77,True,generator,0.8118,airplane,0.599,True,1.0,ambient_exceeded; construction_prohibited; multiple_violations,False,severe,3
+test_clip_1_chunk_0183,2025-11-02T00:25:00.720222,residential,night,70.07,45.0,25.07,True,construction-site,0.6033,truck,0.7236,True,1.0,ambient_exceeded; construction_prohibited; multiple_violations,False,severe,3
+test_clip_1_chunk_0183,2025-11-02T00:25:00.720222,residential,night,70.07,45.0,25.07,True,construction-site,0.6033,truck,0.7236,True,1.0,ambient_exceeded; construction_prohibited; multiple_violations,False,severe,3
+test_clip_1_chunk_0184,2025-11-02T00:25:10.720222,residential,night,70.5,45.0,25.5,True,construction-site,0.6023,truck,0.6222,True,1.0,ambient_exceeded; construction_prohibited; multiple_violations,False,severe,3
+test_clip_1_chunk_0184,2025-11-02T00:25:10.720222,residential,night,70.5,45.0,25.5,True,construction-site,0.6023,truck,0.6222,True,1.0,ambient_exceeded; construction_prohibited; multiple_violations,False,severe,3
+test_clip_1_chunk_0185,2025-11-02T00:25:20.720222,residential,night,69.41,45.0,24.41,True,construction-site,0.6041,truck,0.5604,True,1.0,ambient_exceeded; construction_prohibited; multiple_violations,False,severe,3
+test_clip_1_chunk_0185,2025-11-02T00:25:20.720222,residential,night,69.41,45.0,24.41,True,construction-site,0.6041,truck,0.5604,True,1.0,ambient_exceeded; construction_prohibited; multiple_violations,False,severe,3
+test_clip_1_chunk_0186,2025-11-02T00:26:30.720222,residential,night,70.14,45.0,25.14,True,construction-site,0.4796,horse,0.5798,True,1.0,ambient_exceeded; construction_prohibited; multiple_violations,False,severe,3
+test_clip_1_chunk_0186,2025-11-02T00:26:30.720222,residential,night,70.14,45.0,25.14,True,construction-site,0.4796,horse,0.5798,True,1.0,ambient_exceeded; construction_prohibited; multiple_violations,False,severe,3
+test_clip_1_chunk_0187,2025-11-02T00:26:40.720222,residential,night,70.84,45.0,25.84,True,construction-site,0.6806,truck,0.7224,True,1.0,ambient_exceeded; construction_prohibited; multiple_violations,False,severe,3
+test_clip_1_chunk_0187,2025-11-02T00:26:40.720222,residential,night,70.84,45.0,25.84,True,construction-site,0.6806,truck,0.7224,True,1.0,ambient_exceeded; construction_prohibited; multiple_violations,False,severe,3
+test_clip_1_chunk_0188,2025-11-02T00:26:50.720222,residential,night,68.26,45.0,23.26,True,generator,0.5066,bench,0.5154,True,1.0,ambient_exceeded; construction_prohibited; multiple_violations,False,severe,3
+test_clip_1_chunk_0188,2025-11-02T00:26:50.720222,residential,night,68.26,45.0,23.26,True,generator,0.5066,bench,0.5154,True,1.0,ambient_exceeded; construction_prohibited; multiple_violations,False,severe,3
+test_clip_1_chunk_0189,2025-11-02T00:26:00.720222,residential,night,36.08,45.0,-8.92,False,mobile-music,0.9188,none,0.0,False,0.0,loudspeaker_prohibited,False,minor,1
+test_clip_1_chunk_0189,2025-11-02T00:26:00.720222,residential,night,36.08,45.0,-8.92,False,mobile-music,0.9188,none,0.0,False,0.0,loudspeaker_prohibited,False,minor,1

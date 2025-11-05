@@ -1,0 +1,15 @@
+{
+  "timestamp": "08:15:00",
+  "segment_id": "S001",
+  "location": "commercial",
+  "noise_db": 68.5,
+  "guideline_exceeded": true,
+  "event_type": "construction_activity",
+  "event_confidence": 0.22904814779758453,
+  "image_path": "d:\\Projects\\UrbanNoiseClassifier\\project\\output\\multiply_softmax\\events\\images\\S001_08-15-00.jpg",
+  "audio_path": null,
+  "video_path": null,
+  "extra": {
+    "hour_24": 8
+  }
+}

@@ -1,0 +1,20 @@
+# Core ML/DL
+tensorflow==2.20.0
+scikit-learn>=1.2
+numpy>=1.23
+scipy>=1.10
+
+# Audio processing
+librosa>=0.10.1
+soundfile>=0.12
+audioread>=3.0
+
+# Data handling and visualization
+pandas>=2.0
+matplotlib>=3.7
+seaborn>=0.12
+
+# Notebook and utilities
+ipython>=8.10
+jupyter>=1.0
+tqdm>=4.66

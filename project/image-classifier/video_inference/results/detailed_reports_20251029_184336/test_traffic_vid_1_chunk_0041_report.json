@@ -1,0 +1,63 @@
+{
+  "video_path": "D:\\Projects\\UrbanNoiseClassifier\\project\\pre_inference\\processed_media\\video_chunks\\test_traffic_vid_1_chunk_0041.mp4",
+  "total_frames": 7,
+  "is_construction_site": false,
+  "construction_confidence": 0.14285714285714285,
+  "construction_equipment": [
+    "Truck"
+  ],
+  "standard_detections": [
+    {
+      "class_name": "car",
+      "confidence": 0.7469945847988129,
+      "detection_count": 36,
+      "total_frames": 7,
+      "detection_percentage": 514.2857142857143,
+      "model_source": "standard",
+      "avg_bbox": [
+        355.99339322042135,
+        219.91041056315103,
+        501.27805031670465,
+        292.05917994181317
+      ]
+    }
+  ],
+  "mocs_detections": [
+    {
+      "class_name": "Other vehicle",
+      "confidence": 0.8173796137173971,
+      "detection_count": 15,
+      "total_frames": 7,
+      "detection_percentage": 214.28571428571428,
+      "model_source": "mocs",
+      "avg_bbox": [
+        234.53033472696941,
+        221.42147928873698,
+        441.48325805664064,
+        300.64959615071615
+      ]
+    },
+    {
+      "class_name": "Truck",
+      "confidence": 0.5539485812187195,
+      "detection_count": 1,
+      "total_frames": 7,
+      "detection_percentage": 14.285714285714285,
+      "model_source": "mocs",
+      "avg_bbox": [
+        1.4255441427230835,
+        107.72592163085938,
+        336.01971435546875,
+        302.34130859375
+      ]
+    }
+  ],
+  "metadata": {
+    "fps": 30.0,
+    "frame_count": 197,
+    "width": 852,
+    "height": 480,
+    "duration": 6.566666666666666,
+    "codec": 875967080
+  }
+}

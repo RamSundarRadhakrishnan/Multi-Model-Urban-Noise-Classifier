@@ -1,0 +1,13 @@
+{
+  "metadata": {
+    "total_violations": 0,
+    "generated_at": "2025-11-02T01:24:20.918550",
+    "severity_breakdown": {
+      "compliant": 0,
+      "minor": 0,
+      "moderate": 0,
+      "severe": 0
+    }
+  },
+  "violations": []
+}

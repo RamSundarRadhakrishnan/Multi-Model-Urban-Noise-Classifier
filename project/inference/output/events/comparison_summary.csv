@@ -1,0 +1,15 @@
+Metric,Audio-Only Inference,Full Pipeline (Audio + Video)
+Total Chunks/Events,193,190
+Unique Classes Detected,6,6 audio + 15 video
+Average Confidence,56.55%,N/A (multi-modal)
+Compliant Events,N/A,9
+Violation Events,N/A,181
+Compliance Rate,N/A,4.7%
+Construction Sites Detected,38,91
+Average Noise Level (dB),N/A,64.22
+Severe Violations,N/A,20
+Moderate Violations,N/A,73
+Minor Violations,N/A,88
+Event Classification,✗,✓
+Regulatory Compliance Analysis,✗,✓
+Multi-modal Detection,✗,✓

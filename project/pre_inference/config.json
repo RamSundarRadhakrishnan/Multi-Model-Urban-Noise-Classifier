@@ -1,0 +1,42 @@
+{
+  "directories": {
+    "input": "./input_data_buffer",
+    "output": "./processed_media"
+  },
+  "processing": {
+    "audio_format": "wav",
+    "audio_sample_rate": 44100,
+    "audio_channels": 2,
+    "file_pattern": "*.mp4",
+    "overwrite_existing": true,
+    "chunk_duration": 10.0,
+    "enable_chunking": true,
+    "enable_noise_analysis": true
+  },
+  "chunking": {
+    "chunk_duration_seconds": 10.0,
+    "create_full_files": true,
+    "create_chunks": true
+  },
+  "noise_analysis": {
+    "calculate_a_weighting": true,
+    "calculate_leq": true,
+    "calculate_statistics": true,
+    "export_csv": true
+  },
+  "output_structure": {
+    "audio_subdir": "audio",
+    "video_subdir": "video",
+    "metadata_subdir": "metadata",
+    "audio_chunks_subdir": "audio_chunks",
+    "video_chunks_subdir": "video_chunks",
+    "chunk_metadata_subdir": "chunk_metadata",
+    "noise_analysis_subdir": "noise_analysis"
+  },
+  "metadata": {
+    "include_media_info": true,
+    "create_master_index": true,
+    "create_aligned_pairs_mapping": true,
+    "include_noise_levels": true
+  }
+}

@@ -1,0 +1,79 @@
+[
+  {
+    "video_path": "D:\\Projects\\UrbanNoiseClassifier\\project\\pre_inference\\processed_media\\video_chunks\\test_traffic_vid_1_chunk_0017.mp4",
+    "total_frames": 7,
+    "is_construction_site": true,
+    "construction_confidence": 0.8571428571428571,
+    "construction_equipment": [
+      "Crane"
+    ],
+    "standard_detections": [
+      {
+        "class_name": "car",
+        "confidence": 0.6986134012540182,
+        "detection_count": 30,
+        "total_frames": 7,
+        "detection_percentage": 428.57142857142856,
+        "model_source": "standard",
+        "avg_bbox": [
+          503.0803943268334,
+          224.24597625732423,
+          649.5493471781413,
+          281.53890024820964
+        ]
+      },
+      {
+        "class_name": "truck",
+        "confidence": 0.5388926863670349,
+        "detection_count": 1,
+        "total_frames": 7,
+        "detection_percentage": 14.285714285714285,
+        "model_source": "standard",
+        "avg_bbox": [
+          2.2550971508026123,
+          230.34906005859375,
+          346.7791442871094,
+          394.25311279296875
+        ]
+      }
+    ],
+    "mocs_detections": [
+      {
+        "class_name": "Other vehicle",
+        "confidence": 0.8254677397864205,
+        "detection_count": 7,
+        "total_frames": 7,
+        "detection_percentage": 100.0,
+        "model_source": "mocs",
+        "avg_bbox": [
+          210.05512429135186,
+          233.52217755998885,
+          491.09178924560547,
+          348.44496372767856
+        ]
+      },
+      {
+        "class_name": "Crane",
+        "confidence": 0.6272971431414286,
+        "detection_count": 6,
+        "total_frames": 7,
+        "detection_percentage": 85.71428571428571,
+        "model_source": "mocs",
+        "avg_bbox": [
+          618.1261596679688,
+          0.0,
+          851.80029296875,
+          275.6184438069661
+        ]
+      }
+    ],
+    "metadata": {
+      "fps": 30.0,
+      "frame_count": 184,
+      "width": 852,
+      "height": 480,
+      "duration": 6.133333333333334,
+      "codec": 875967080
+    }
+  }
+]

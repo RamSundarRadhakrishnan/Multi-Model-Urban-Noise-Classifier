@@ -1,0 +1,15 @@
+{
+  "timestamp": "23:10:30",
+  "segment_id": "S002",
+  "location": "commercial",
+  "noise_db": 52.0,
+  "guideline_exceeded": false,
+  "event_type": null,
+  "event_confidence": null,
+  "image_path": "d:\\Projects\\UrbanNoiseClassifier\\project\\output\\weighted_sum\\events\\images\\S002_23-10-30.jpg",
+  "audio_path": null,
+  "video_path": null,
+  "extra": {
+    "hour_24": 23
+  }
+}

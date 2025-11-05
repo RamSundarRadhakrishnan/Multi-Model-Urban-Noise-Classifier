@@ -1,0 +1,75 @@
+{
+  "video_path": "D:\\Projects\\UrbanNoiseClassifier\\project\\pre_inference\\processed_media\\video_chunks\\test_traffic_vid_1_chunk_0005.mp4",
+  "total_frames": 9,
+  "is_construction_site": false,
+  "construction_confidence": 0.0,
+  "construction_equipment": [],
+  "standard_detections": [
+    {
+      "class_name": "person",
+      "confidence": 0.8327030539512634,
+      "detection_count": 4,
+      "total_frames": 9,
+      "detection_percentage": 44.44444444444444,
+      "model_source": "standard",
+      "avg_bbox": [
+        476.73748779296875,
+        276.7720642089844,
+        580.6140289306641,
+        476.48328399658203
+      ]
+    },
+    {
+      "class_name": "car",
+      "confidence": 0.7589606631885876,
+      "detection_count": 55,
+      "total_frames": 9,
+      "detection_percentage": 611.1111111111111,
+      "model_source": "standard",
+      "avg_bbox": [
+        387.84417090476916,
+        224.23419133966618,
+        531.8799562974409,
+        284.77005226828834
+      ]
+    }
+  ],
+  "mocs_detections": [
+    {
+      "class_name": "Worker",
+      "confidence": 0.8597155412038168,
+      "detection_count": 3,
+      "total_frames": 9,
+      "detection_percentage": 33.33333333333333,
+      "model_source": "mocs",
+      "avg_bbox": [
+        411.4667663574219,
+        271.92591857910156,
+        508.3209940592448,
+        475.88414510091144
+      ]
+    },
+    {
+      "class_name": "Other vehicle",
+      "confidence": 0.8259267069044567,
+      "detection_count": 21,
+      "total_frames": 9,
+      "detection_percentage": 233.33333333333334,
+      "model_source": "mocs",
+      "avg_bbox": [
+        172.93943200083007,
+        223.7102544875372,
+        344.9053050449916,
+        301.2207278297061
+      ]
+    }
+  ],
+  "metadata": {
+    "fps": 30.0,
+    "frame_count": 260,
+    "width": 852,
+    "height": 480,
+    "duration": 8.666666666666666,
+    "codec": 875967080
+  }
+}
