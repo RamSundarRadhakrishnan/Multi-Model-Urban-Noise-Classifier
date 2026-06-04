@@ -1,0 +1,1413 @@
+{
+  "original_file": "YTDown_YouTube_Traffic-Sound-Indian-Traffic-Sound-Traff_Media_9wbA9FVtWF4_001_480p.mp4",
+  "base_name": "YTDown_YouTube_Traffic-Sound-Indian-Traffic-Sound-Traff_Media_9wbA9FVtWF4_001_480p",
+  "chunk_duration": 10.0,
+  "total_chunks": 52,
+  "chunks": [
+    {
+      "chunk_index": 0,
+      "original_file": "YTDown_YouTube_Traffic-Sound-Indian-Traffic-Sound-Traff_Media_9wbA9FVtWF4_001_480p.mp4",
+      "audio_chunk": "YTDown_YouTube_Traffic-Sound-Indian-Traffic-Sound-Traff_Media_9wbA9FVtWF4_001_480p_chunk_0000.wav",
+      "video_chunk": "YTDown_YouTube_Traffic-Sound-Indian-Traffic-Sound-Traff_Media_9wbA9FVtWF4_001_480p_chunk_0000.mp4",
+      "start_time": 0.0,
+      "end_time": 10.0,
+      "duration": 10.0,
+      "temporal_alignment": {
+        "synchronized": true,
+        "chunk_duration": 10.0
+      },
+      "noise_analysis": {
+        "rms": 0.042414430528879166,
+        "rms_db": -27.44972719228474,
+        "peak": 0.753753662109375,
+        "peak_db": -2.455411195755005,
+        "a_weighted_spl": 65.94854675585532,
+        "leq_a": 65.94854675585532,
+        "crest_factor": 17.771160125732422,
+        "crest_factor_db": 24.99431610107422,
+        "sample_rate": 44100,
+        "num_channels": 2,
+        "duration": 10.00780045351474,
+        "filename": "YTDown_YouTube_Traffic-Sound-Indian-Traffic-Sound-Traff_Media_9wbA9FVtWF4_001_480p_chunk_0000.wav"
+      }
+    },
+    {
+      "chunk_index": 1,
+      "original_file": "YTDown_YouTube_Traffic-Sound-Indian-Traffic-Sound-Traff_Media_9wbA9FVtWF4_001_480p.mp4",
+      "audio_chunk": "YTDown_YouTube_Traffic-Sound-Indian-Traffic-Sound-Traff_Media_9wbA9FVtWF4_001_480p_chunk_0001.wav",
+      "video_chunk": "YTDown_YouTube_Traffic-Sound-Indian-Traffic-Sound-Traff_Media_9wbA9FVtWF4_001_480p_chunk_0001.mp4",
+      "start_time": 10.0,
+      "end_time": 20.0,
+      "duration": 10.0,
+      "temporal_alignment": {
+        "synchronized": true,
+        "chunk_duration": 10.0
+      },
+      "noise_analysis": {
+        "rms": 0.04398787394165993,
+        "rms_db": -27.133340563926545,
+        "peak": 0.395782470703125,
+        "peak_db": -8.05086898803711,
+        "a_weighted_spl": 60.7403373563439,
+        "leq_a": 60.7403373563439,
+        "crest_factor": 8.997535705566406,
+        "crest_factor_db": 19.08247184753418,
+        "sample_rate": 44100,
+        "num_channels": 2,
+        "duration": 10.00780045351474,
+        "filename": "YTDown_YouTube_Traffic-Sound-Indian-Traffic-Sound-Traff_Media_9wbA9FVtWF4_001_480p_chunk_0001.wav"
+      }
+    },
+    {
+      "chunk_index": 2,
+      "original_file": "YTDown_YouTube_Traffic-Sound-Indian-Traffic-Sound-Traff_Media_9wbA9FVtWF4_001_480p.mp4",
+      "audio_chunk": "YTDown_YouTube_Traffic-Sound-Indian-Traffic-Sound-Traff_Media_9wbA9FVtWF4_001_480p_chunk_0002.wav",
+      "video_chunk": "YTDown_YouTube_Traffic-Sound-Indian-Traffic-Sound-Traff_Media_9wbA9FVtWF4_001_480p_chunk_0002.mp4",
+      "start_time": 20.0,
+      "end_time": 30.0,
+      "duration": 10.0,
+      "temporal_alignment": {
+        "synchronized": true,
+        "chunk_duration": 10.0
+      },
+      "noise_analysis": {
+        "rms": 0.03360483795404434,
+        "rms_db": -29.471963889408677,
+        "peak": 0.354339599609375,
+        "peak_db": -9.011606216430664,
+        "a_weighted_spl": 59.26725322299304,
+        "leq_a": 59.26725322299304,
+        "crest_factor": 10.544302940368652,
+        "crest_factor_db": 20.460357666015625,
+        "sample_rate": 44100,
+        "num_channels": 2,
+        "duration": 9.984580498866213,
+        "filename": "YTDown_YouTube_Traffic-Sound-Indian-Traffic-Sound-Traff_Media_9wbA9FVtWF4_001_480p_chunk_0002.wav"
+      }
+    },
+    {
+      "chunk_index": 3,
+      "original_file": "YTDown_YouTube_Traffic-Sound-Indian-Traffic-Sound-Traff_Media_9wbA9FVtWF4_001_480p.mp4",
+      "audio_chunk": "YTDown_YouTube_Traffic-Sound-Indian-Traffic-Sound-Traff_Media_9wbA9FVtWF4_001_480p_chunk_0003.wav",
+      "video_chunk": "YTDown_YouTube_Traffic-Sound-Indian-Traffic-Sound-Traff_Media_9wbA9FVtWF4_001_480p_chunk_0003.mp4",
+      "start_time": 30.0,
+      "end_time": 40.0,
+      "duration": 10.0,
+      "temporal_alignment": {
+        "synchronized": true,
+        "chunk_duration": 10.0
+      },
+      "noise_analysis": {
+        "rms": 0.03865590691566467,
+        "rms_db": -28.255682663701492,
+        "peak": 0.528594970703125,
+        "peak_db": -5.537539005279541,
+        "a_weighted_spl": 61.11299233562357,
+        "leq_a": 61.11299233562357,
+        "crest_factor": 13.674365043640137,
+        "crest_factor_db": 22.718143463134766,
+        "sample_rate": 44100,
+        "num_channels": 2,
+        "duration": 10.00780045351474,
+        "filename": "YTDown_YouTube_Traffic-Sound-Indian-Traffic-Sound-Traff_Media_9wbA9FVtWF4_001_480p_chunk_0003.wav"
+      }
+    },
+    {
+      "chunk_index": 4,
+      "original_file": "YTDown_YouTube_Traffic-Sound-Indian-Traffic-Sound-Traff_Media_9wbA9FVtWF4_001_480p.mp4",
+      "audio_chunk": "YTDown_YouTube_Traffic-Sound-Indian-Traffic-Sound-Traff_Media_9wbA9FVtWF4_001_480p_chunk_0004.wav",
+      "video_chunk": "YTDown_YouTube_Traffic-Sound-Indian-Traffic-Sound-Traff_Media_9wbA9FVtWF4_001_480p_chunk_0004.mp4",
+      "start_time": 40.0,
+      "end_time": 50.0,
+      "duration": 10.0,
+      "temporal_alignment": {
+        "synchronized": true,
+        "chunk_duration": 10.0
+      },
+      "noise_analysis": {
+        "rms": 0.03505481407046318,
+        "rms_db": -29.105046640581705,
+        "peak": 0.245025634765625,
+        "peak_db": -12.215768814086914,
+        "a_weighted_spl": 57.68719110979347,
+        "leq_a": 57.68719110979347,
+        "crest_factor": 6.989785671234131,
+        "crest_factor_db": 16.889278411865234,
+        "sample_rate": 44100,
+        "num_channels": 2,
+        "duration": 10.00780045351474,
+        "filename": "YTDown_YouTube_Traffic-Sound-Indian-Traffic-Sound-Traff_Media_9wbA9FVtWF4_001_480p_chunk_0004.wav"
+      }
+    },
+    {
+      "chunk_index": 5,
+      "original_file": "YTDown_YouTube_Traffic-Sound-Indian-Traffic-Sound-Traff_Media_9wbA9FVtWF4_001_480p.mp4",
+      "audio_chunk": "YTDown_YouTube_Traffic-Sound-Indian-Traffic-Sound-Traff_Media_9wbA9FVtWF4_001_480p_chunk_0005.wav",
+      "video_chunk": "YTDown_YouTube_Traffic-Sound-Indian-Traffic-Sound-Traff_Media_9wbA9FVtWF4_001_480p_chunk_0005.mp4",
+      "start_time": 50.0,
+      "end_time": 60.0,
+      "duration": 10.0,
+      "temporal_alignment": {
+        "synchronized": true,
+        "chunk_duration": 10.0
+      },
+      "noise_analysis": {
+        "rms": 0.027788817882537842,
+        "rms_db": -31.12259854844694,
+        "peak": 0.42694091796875,
+        "peak_db": -7.39264440536499,
+        "a_weighted_spl": 59.37144933565696,
+        "leq_a": 59.37144933565696,
+        "crest_factor": 15.36376667022705,
+        "crest_factor_db": 23.72995376586914,
+        "sample_rate": 44100,
+        "num_channels": 2,
+        "duration": 9.984580498866213,
+        "filename": "YTDown_YouTube_Traffic-Sound-Indian-Traffic-Sound-Traff_Media_9wbA9FVtWF4_001_480p_chunk_0005.wav"
+      }
+    },
+    {
+      "chunk_index": 6,
+      "original_file": "YTDown_YouTube_Traffic-Sound-Indian-Traffic-Sound-Traff_Media_9wbA9FVtWF4_001_480p.mp4",
+      "audio_chunk": "YTDown_YouTube_Traffic-Sound-Indian-Traffic-Sound-Traff_Media_9wbA9FVtWF4_001_480p_chunk_0006.wav",
+      "video_chunk": "YTDown_YouTube_Traffic-Sound-Indian-Traffic-Sound-Traff_Media_9wbA9FVtWF4_001_480p_chunk_0006.mp4",
+      "start_time": 60.0,
+      "end_time": 70.0,
+      "duration": 10.0,
+      "temporal_alignment": {
+        "synchronized": true,
+        "chunk_duration": 10.0
+      },
+      "noise_analysis": {
+        "rms": 0.024670477956533432,
+        "rms_db": -32.15644873142594,
+        "peak": 0.48046875,
+        "peak_db": -6.366696834564209,
+        "a_weighted_spl": 60.69037462788384,
+        "leq_a": 60.69037462788384,
+        "crest_factor": 19.475454330444336,
+        "crest_factor_db": 25.789752960205078,
+        "sample_rate": 44100,
+        "num_channels": 2,
+        "duration": 10.00780045351474,
+        "filename": "YTDown_YouTube_Traffic-Sound-Indian-Traffic-Sound-Traff_Media_9wbA9FVtWF4_001_480p_chunk_0006.wav"
+      }
+    },
+    {
+      "chunk_index": 7,
+      "original_file": "YTDown_YouTube_Traffic-Sound-Indian-Traffic-Sound-Traff_Media_9wbA9FVtWF4_001_480p.mp4",
+      "audio_chunk": "YTDown_YouTube_Traffic-Sound-Indian-Traffic-Sound-Traff_Media_9wbA9FVtWF4_001_480p_chunk_0007.wav",
+      "video_chunk": "YTDown_YouTube_Traffic-Sound-Indian-Traffic-Sound-Traff_Media_9wbA9FVtWF4_001_480p_chunk_0007.mp4",
+      "start_time": 70.0,
+      "end_time": 80.0,
+      "duration": 10.0,
+      "temporal_alignment": {
+        "synchronized": true,
+        "chunk_duration": 10.0
+      },
+      "noise_analysis": {
+        "rms": 0.046216193586587906,
+        "rms_db": -26.704116526517048,
+        "peak": 0.5511474609375,
+        "peak_db": -5.1746439933776855,
+        "a_weighted_spl": 63.00716442561617,
+        "leq_a": 63.00716442561617,
+        "crest_factor": 11.925418853759766,
+        "crest_factor_db": 21.52947425842285,
+        "sample_rate": 44100,
+        "num_channels": 2,
+        "duration": 10.00780045351474,
+        "filename": "YTDown_YouTube_Traffic-Sound-Indian-Traffic-Sound-Traff_Media_9wbA9FVtWF4_001_480p_chunk_0007.wav"
+      }
+    },
+    {
+      "chunk_index": 8,
+      "original_file": "YTDown_YouTube_Traffic-Sound-Indian-Traffic-Sound-Traff_Media_9wbA9FVtWF4_001_480p.mp4",
+      "audio_chunk": "YTDown_YouTube_Traffic-Sound-Indian-Traffic-Sound-Traff_Media_9wbA9FVtWF4_001_480p_chunk_0008.wav",
+      "video_chunk": "YTDown_YouTube_Traffic-Sound-Indian-Traffic-Sound-Traff_Media_9wbA9FVtWF4_001_480p_chunk_0008.mp4",
+      "start_time": 80.0,
+      "end_time": 90.0,
+      "duration": 10.0,
+      "temporal_alignment": {
+        "synchronized": true,
+        "chunk_duration": 10.0
+      },
+      "noise_analysis": {
+        "rms": 0.05544766038656235,
+        "rms_db": -25.122335483584873,
+        "peak": 0.629425048828125,
+        "peak_db": -4.021119594573975,
+        "a_weighted_spl": 67.13177877354107,
+        "leq_a": 67.13177877354107,
+        "crest_factor": 11.351696968078613,
+        "crest_factor_db": 21.101215362548828,
+        "sample_rate": 44100,
+        "num_channels": 2,
+        "duration": 9.984580498866213,
+        "filename": "YTDown_YouTube_Traffic-Sound-Indian-Traffic-Sound-Traff_Media_9wbA9FVtWF4_001_480p_chunk_0008.wav"
+      }
+    },
+    {
+      "chunk_index": 9,
+      "original_file": "YTDown_YouTube_Traffic-Sound-Indian-Traffic-Sound-Traff_Media_9wbA9FVtWF4_001_480p.mp4",
+      "audio_chunk": "YTDown_YouTube_Traffic-Sound-Indian-Traffic-Sound-Traff_Media_9wbA9FVtWF4_001_480p_chunk_0009.wav",
+      "video_chunk": "YTDown_YouTube_Traffic-Sound-Indian-Traffic-Sound-Traff_Media_9wbA9FVtWF4_001_480p_chunk_0009.mp4",
+      "start_time": 90.0,
+      "end_time": 100.0,
+      "duration": 10.0,
+      "temporal_alignment": {
+        "synchronized": true,
+        "chunk_duration": 10.0
+      },
+      "noise_analysis": {
+        "rms": 0.03613020107150078,
+        "rms_db": -28.842592429862766,
+        "peak": 0.372802734375,
+        "peak_db": -8.570418357849121,
+        "a_weighted_spl": 63.91236767027139,
+        "leq_a": 63.91236767027139,
+        "crest_factor": 10.318313598632812,
+        "crest_factor_db": 20.272174835205078,
+        "sample_rate": 44100,
+        "num_channels": 2,
+        "duration": 10.00780045351474,
+        "filename": "YTDown_YouTube_Traffic-Sound-Indian-Traffic-Sound-Traff_Media_9wbA9FVtWF4_001_480p_chunk_0009.wav"
+      }
+    },
+    {
+      "chunk_index": 10,
+      "original_file": "YTDown_YouTube_Traffic-Sound-Indian-Traffic-Sound-Traff_Media_9wbA9FVtWF4_001_480p.mp4",
+      "audio_chunk": "YTDown_YouTube_Traffic-Sound-Indian-Traffic-Sound-Traff_Media_9wbA9FVtWF4_001_480p_chunk_0010.wav",
+      "video_chunk": "YTDown_YouTube_Traffic-Sound-Indian-Traffic-Sound-Traff_Media_9wbA9FVtWF4_001_480p_chunk_0010.mp4",
+      "start_time": 100.0,
+      "end_time": 110.0,
+      "duration": 10.0,
+      "temporal_alignment": {
+        "synchronized": true,
+        "chunk_duration": 10.0
+      },
+      "noise_analysis": {
+        "rms": 0.03151651844382286,
+        "rms_db": -30.02923528059621,
+        "peak": 0.52056884765625,
+        "peak_db": -5.670436859130859,
+        "a_weighted_spl": 61.2968959654528,
+        "leq_a": 61.2968959654528,
+        "crest_factor": 16.517333984375,
+        "crest_factor_db": 24.35879898071289,
+        "sample_rate": 44100,
+        "num_channels": 2,
+        "duration": 10.00780045351474,
+        "filename": "YTDown_YouTube_Traffic-Sound-Indian-Traffic-Sound-Traff_Media_9wbA9FVtWF4_001_480p_chunk_0010.wav"
+      }
+    },
+    {
+      "chunk_index": 11,
+      "original_file": "YTDown_YouTube_Traffic-Sound-Indian-Traffic-Sound-Traff_Media_9wbA9FVtWF4_001_480p.mp4",
+      "audio_chunk": "YTDown_YouTube_Traffic-Sound-Indian-Traffic-Sound-Traff_Media_9wbA9FVtWF4_001_480p_chunk_0011.wav",
+      "video_chunk": "YTDown_YouTube_Traffic-Sound-Indian-Traffic-Sound-Traff_Media_9wbA9FVtWF4_001_480p_chunk_0011.mp4",
+      "start_time": 110.0,
+      "end_time": 120.0,
+      "duration": 10.0,
+      "temporal_alignment": {
+        "synchronized": true,
+        "chunk_duration": 10.0
+      },
+      "noise_analysis": {
+        "rms": 0.06908567994832993,
+        "rms_db": -23.212239273623013,
+        "peak": 0.95330810546875,
+        "peak_db": -0.4153342843055725,
+        "a_weighted_spl": 71.22654221714686,
+        "leq_a": 71.22654221714686,
+        "crest_factor": 13.798924446105957,
+        "crest_factor_db": 22.796905517578125,
+        "sample_rate": 44100,
+        "num_channels": 2,
+        "duration": 9.984580498866213,
+        "filename": "YTDown_YouTube_Traffic-Sound-Indian-Traffic-Sound-Traff_Media_9wbA9FVtWF4_001_480p_chunk_0011.wav"
+      }
+    },
+    {
+      "chunk_index": 12,
+      "original_file": "YTDown_YouTube_Traffic-Sound-Indian-Traffic-Sound-Traff_Media_9wbA9FVtWF4_001_480p.mp4",
+      "audio_chunk": "YTDown_YouTube_Traffic-Sound-Indian-Traffic-Sound-Traff_Media_9wbA9FVtWF4_001_480p_chunk_0012.wav",
+      "video_chunk": "YTDown_YouTube_Traffic-Sound-Indian-Traffic-Sound-Traff_Media_9wbA9FVtWF4_001_480p_chunk_0012.mp4",
+      "start_time": 120.0,
+      "end_time": 130.0,
+      "duration": 10.0,
+      "temporal_alignment": {
+        "synchronized": true,
+        "chunk_duration": 10.0
+      },
+      "noise_analysis": {
+        "rms": 0.04057355225086212,
+        "rms_db": -27.835139355199946,
+        "peak": 0.4471435546875,
+        "peak_db": -6.991060256958008,
+        "a_weighted_spl": 65.47159994459844,
+        "leq_a": 65.47159994459844,
+        "crest_factor": 11.020566940307617,
+        "crest_factor_db": 20.844078063964844,
+        "sample_rate": 44100,
+        "num_channels": 2,
+        "duration": 10.00780045351474,
+        "filename": "YTDown_YouTube_Traffic-Sound-Indian-Traffic-Sound-Traff_Media_9wbA9FVtWF4_001_480p_chunk_0012.wav"
+      }
+    },
+    {
+      "chunk_index": 13,
+      "original_file": "YTDown_YouTube_Traffic-Sound-Indian-Traffic-Sound-Traff_Media_9wbA9FVtWF4_001_480p.mp4",
+      "audio_chunk": "YTDown_YouTube_Traffic-Sound-Indian-Traffic-Sound-Traff_Media_9wbA9FVtWF4_001_480p_chunk_0013.wav",
+      "video_chunk": "YTDown_YouTube_Traffic-Sound-Indian-Traffic-Sound-Traff_Media_9wbA9FVtWF4_001_480p_chunk_0013.mp4",
+      "start_time": 130.0,
+      "end_time": 140.0,
+      "duration": 10.0,
+      "temporal_alignment": {
+        "synchronized": true,
+        "chunk_duration": 10.0
+      },
+      "noise_analysis": {
+        "rms": 0.05968252196907997,
+        "rms_db": -24.48305666844455,
+        "peak": 1.0,
+        "peak_db": 0.0,
+        "a_weighted_spl": 70.08619456961358,
+        "leq_a": 70.08619456961358,
+        "crest_factor": 16.75532341003418,
+        "crest_factor_db": 24.483055114746094,
+        "sample_rate": 44100,
+        "num_channels": 2,
+        "duration": 10.00780045351474,
+        "filename": "YTDown_YouTube_Traffic-Sound-Indian-Traffic-Sound-Traff_Media_9wbA9FVtWF4_001_480p_chunk_0013.wav"
+      }
+    },
+    {
+      "chunk_index": 14,
+      "original_file": "YTDown_YouTube_Traffic-Sound-Indian-Traffic-Sound-Traff_Media_9wbA9FVtWF4_001_480p.mp4",
+      "audio_chunk": "YTDown_YouTube_Traffic-Sound-Indian-Traffic-Sound-Traff_Media_9wbA9FVtWF4_001_480p_chunk_0014.wav",
+      "video_chunk": "YTDown_YouTube_Traffic-Sound-Indian-Traffic-Sound-Traff_Media_9wbA9FVtWF4_001_480p_chunk_0014.mp4",
+      "start_time": 140.0,
+      "end_time": 150.0,
+      "duration": 10.0,
+      "temporal_alignment": {
+        "synchronized": true,
+        "chunk_duration": 10.0
+      },
+      "noise_analysis": {
+        "rms": 0.02515663206577301,
+        "rms_db": -31.986950041289166,
+        "peak": 0.6993408203125,
+        "peak_db": -3.10622239112854,
+        "a_weighted_spl": 60.50333327987062,
+        "leq_a": 60.50333327987062,
+        "crest_factor": 27.799461364746094,
+        "crest_factor_db": 28.880727767944336,
+        "sample_rate": 44100,
+        "num_channels": 2,
+        "duration": 9.984580498866213,
+        "filename": "YTDown_YouTube_Traffic-Sound-Indian-Traffic-Sound-Traff_Media_9wbA9FVtWF4_001_480p_chunk_0014.wav"
+      }
+    },
+    {
+      "chunk_index": 15,
+      "original_file": "YTDown_YouTube_Traffic-Sound-Indian-Traffic-Sound-Traff_Media_9wbA9FVtWF4_001_480p.mp4",
+      "audio_chunk": "YTDown_YouTube_Traffic-Sound-Indian-Traffic-Sound-Traff_Media_9wbA9FVtWF4_001_480p_chunk_0015.wav",
+      "video_chunk": "YTDown_YouTube_Traffic-Sound-Indian-Traffic-Sound-Traff_Media_9wbA9FVtWF4_001_480p_chunk_0015.mp4",
+      "start_time": 150.0,
+      "end_time": 160.0,
+      "duration": 10.0,
+      "temporal_alignment": {
+        "synchronized": true,
+        "chunk_duration": 10.0
+      },
+      "noise_analysis": {
+        "rms": 0.020119573920965195,
+        "rms_db": -33.92762441440274,
+        "peak": 0.28765869140625,
+        "peak_db": -10.822449684143066,
+        "a_weighted_spl": 57.56423203590332,
+        "leq_a": 57.56423203590332,
+        "crest_factor": 14.297454833984375,
+        "crest_factor_db": 23.105175018310547,
+        "sample_rate": 44100,
+        "num_channels": 2,
+        "duration": 10.00780045351474,
+        "filename": "YTDown_YouTube_Traffic-Sound-Indian-Traffic-Sound-Traff_Media_9wbA9FVtWF4_001_480p_chunk_0015.wav"
+      }
+    },
+    {
+      "chunk_index": 16,
+      "original_file": "YTDown_YouTube_Traffic-Sound-Indian-Traffic-Sound-Traff_Media_9wbA9FVtWF4_001_480p.mp4",
+      "audio_chunk": "YTDown_YouTube_Traffic-Sound-Indian-Traffic-Sound-Traff_Media_9wbA9FVtWF4_001_480p_chunk_0016.wav",
+      "video_chunk": "YTDown_YouTube_Traffic-Sound-Indian-Traffic-Sound-Traff_Media_9wbA9FVtWF4_001_480p_chunk_0016.mp4",
+      "start_time": 160.0,
+      "end_time": 170.0,
+      "duration": 10.0,
+      "temporal_alignment": {
+        "synchronized": true,
+        "chunk_duration": 10.0
+      },
+      "noise_analysis": {
+        "rms": 0.028115641325712204,
+        "rms_db": -31.021040113238264,
+        "peak": 0.363433837890625,
+        "peak_db": -8.79149341583252,
+        "a_weighted_spl": 60.20453634390487,
+        "leq_a": 60.20453634390487,
+        "crest_factor": 12.926393508911133,
+        "crest_factor_db": 22.22954750061035,
+        "sample_rate": 44100,
+        "num_channels": 2,
+        "duration": 10.00780045351474,
+        "filename": "YTDown_YouTube_Traffic-Sound-Indian-Traffic-Sound-Traff_Media_9wbA9FVtWF4_001_480p_chunk_0016.wav"
+      }
+    },
+    {
+      "chunk_index": 17,
+      "original_file": "YTDown_YouTube_Traffic-Sound-Indian-Traffic-Sound-Traff_Media_9wbA9FVtWF4_001_480p.mp4",
+      "audio_chunk": "YTDown_YouTube_Traffic-Sound-Indian-Traffic-Sound-Traff_Media_9wbA9FVtWF4_001_480p_chunk_0017.wav",
+      "video_chunk": "YTDown_YouTube_Traffic-Sound-Indian-Traffic-Sound-Traff_Media_9wbA9FVtWF4_001_480p_chunk_0017.mp4",
+      "start_time": 170.0,
+      "end_time": 180.0,
+      "duration": 10.0,
+      "temporal_alignment": {
+        "synchronized": true,
+        "chunk_duration": 10.0
+      },
+      "noise_analysis": {
+        "rms": 0.03163350746035576,
+        "rms_db": -29.99705303413179,
+        "peak": 0.3062744140625,
+        "peak_db": -10.277786254882812,
+        "a_weighted_spl": 59.17418597926508,
+        "leq_a": 59.17418597926508,
+        "crest_factor": 9.681962013244629,
+        "crest_factor_db": 19.719266891479492,
+        "sample_rate": 44100,
+        "num_channels": 2,
+        "duration": 9.984580498866213,
+        "filename": "YTDown_YouTube_Traffic-Sound-Indian-Traffic-Sound-Traff_Media_9wbA9FVtWF4_001_480p_chunk_0017.wav"
+      }
+    },
+    {
+      "chunk_index": 18,
+      "original_file": "YTDown_YouTube_Traffic-Sound-Indian-Traffic-Sound-Traff_Media_9wbA9FVtWF4_001_480p.mp4",
+      "audio_chunk": "YTDown_YouTube_Traffic-Sound-Indian-Traffic-Sound-Traff_Media_9wbA9FVtWF4_001_480p_chunk_0018.wav",
+      "video_chunk": "YTDown_YouTube_Traffic-Sound-Indian-Traffic-Sound-Traff_Media_9wbA9FVtWF4_001_480p_chunk_0018.mp4",
+      "start_time": 180.0,
+      "end_time": 190.0,
+      "duration": 10.0,
+      "temporal_alignment": {
+        "synchronized": true,
+        "chunk_duration": 10.0
+      },
+      "noise_analysis": {
+        "rms": 0.050092678517103195,
+        "rms_db": -26.004514908594846,
+        "peak": 0.92779541015625,
+        "peak_db": -0.6509556770324707,
+        "a_weighted_spl": 68.54987572973036,
+        "leq_a": 68.54987572973036,
+        "crest_factor": 18.521577835083008,
+        "crest_factor_db": 25.353561401367188,
+        "sample_rate": 44100,
+        "num_channels": 2,
+        "duration": 10.00780045351474,
+        "filename": "YTDown_YouTube_Traffic-Sound-Indian-Traffic-Sound-Traff_Media_9wbA9FVtWF4_001_480p_chunk_0018.wav"
+      }
+    },
+    {
+      "chunk_index": 19,
+      "original_file": "YTDown_YouTube_Traffic-Sound-Indian-Traffic-Sound-Traff_Media_9wbA9FVtWF4_001_480p.mp4",
+      "audio_chunk": "YTDown_YouTube_Traffic-Sound-Indian-Traffic-Sound-Traff_Media_9wbA9FVtWF4_001_480p_chunk_0019.wav",
+      "video_chunk": "YTDown_YouTube_Traffic-Sound-Indian-Traffic-Sound-Traff_Media_9wbA9FVtWF4_001_480p_chunk_0019.mp4",
+      "start_time": 190.0,
+      "end_time": 200.0,
+      "duration": 10.0,
+      "temporal_alignment": {
+        "synchronized": true,
+        "chunk_duration": 10.0
+      },
+      "noise_analysis": {
+        "rms": 0.03172087296843529,
+        "rms_db": -29.973097385375276,
+        "peak": 0.48858642578125,
+        "peak_db": -6.221172332763672,
+        "a_weighted_spl": 63.6640807763871,
+        "leq_a": 63.66408077638711,
+        "crest_factor": 15.402679443359375,
+        "crest_factor_db": 23.75192642211914,
+        "sample_rate": 44100,
+        "num_channels": 2,
+        "duration": 10.00780045351474,
+        "filename": "YTDown_YouTube_Traffic-Sound-Indian-Traffic-Sound-Traff_Media_9wbA9FVtWF4_001_480p_chunk_0019.wav"
+      }
+    },
+    {
+      "chunk_index": 20,
+      "original_file": "YTDown_YouTube_Traffic-Sound-Indian-Traffic-Sound-Traff_Media_9wbA9FVtWF4_001_480p.mp4",
+      "audio_chunk": "YTDown_YouTube_Traffic-Sound-Indian-Traffic-Sound-Traff_Media_9wbA9FVtWF4_001_480p_chunk_0020.wav",
+      "video_chunk": "YTDown_YouTube_Traffic-Sound-Indian-Traffic-Sound-Traff_Media_9wbA9FVtWF4_001_480p_chunk_0020.mp4",
+      "start_time": 200.0,
+      "end_time": 210.0,
+      "duration": 10.0,
+      "temporal_alignment": {
+        "synchronized": true,
+        "chunk_duration": 10.0
+      },
+      "noise_analysis": {
+        "rms": 0.03878278657793999,
+        "rms_db": -28.22721979377707,
+        "peak": 0.371673583984375,
+        "peak_db": -8.596765518188477,
+        "a_weighted_spl": 62.82416089641768,
+        "leq_a": 62.82416089641768,
+        "crest_factor": 9.583467483520508,
+        "crest_factor_db": 19.63045310974121,
+        "sample_rate": 44100,
+        "num_channels": 2,
+        "duration": 9.984580498866213,
+        "filename": "YTDown_YouTube_Traffic-Sound-Indian-Traffic-Sound-Traff_Media_9wbA9FVtWF4_001_480p_chunk_0020.wav"
+      }
+    },
+    {
+      "chunk_index": 21,
+      "original_file": "YTDown_YouTube_Traffic-Sound-Indian-Traffic-Sound-Traff_Media_9wbA9FVtWF4_001_480p.mp4",
+      "audio_chunk": "YTDown_YouTube_Traffic-Sound-Indian-Traffic-Sound-Traff_Media_9wbA9FVtWF4_001_480p_chunk_0021.wav",
+      "video_chunk": "YTDown_YouTube_Traffic-Sound-Indian-Traffic-Sound-Traff_Media_9wbA9FVtWF4_001_480p_chunk_0021.mp4",
+      "start_time": 210.0,
+      "end_time": 220.0,
+      "duration": 10.0,
+      "temporal_alignment": {
+        "synchronized": true,
+        "chunk_duration": 10.0
+      },
+      "noise_analysis": {
+        "rms": 0.05631442368030548,
+        "rms_db": -24.98760712162701,
+        "peak": 0.750335693359375,
+        "peak_db": -2.4948878288269043,
+        "a_weighted_spl": 68.48271834591611,
+        "leq_a": 68.48271834591611,
+        "crest_factor": 13.324041366577148,
+        "crest_factor_db": 22.492717742919922,
+        "sample_rate": 44100,
+        "num_channels": 2,
+        "duration": 10.00780045351474,
+        "filename": "YTDown_YouTube_Traffic-Sound-Indian-Traffic-Sound-Traff_Media_9wbA9FVtWF4_001_480p_chunk_0021.wav"
+      }
+    },
+    {
+      "chunk_index": 22,
+      "original_file": "YTDown_YouTube_Traffic-Sound-Indian-Traffic-Sound-Traff_Media_9wbA9FVtWF4_001_480p.mp4",
+      "audio_chunk": "YTDown_YouTube_Traffic-Sound-Indian-Traffic-Sound-Traff_Media_9wbA9FVtWF4_001_480p_chunk_0022.wav",
+      "video_chunk": "YTDown_YouTube_Traffic-Sound-Indian-Traffic-Sound-Traff_Media_9wbA9FVtWF4_001_480p_chunk_0022.mp4",
+      "start_time": 220.0,
+      "end_time": 230.0,
+      "duration": 10.0,
+      "temporal_alignment": {
+        "synchronized": true,
+        "chunk_duration": 10.0
+      },
+      "noise_analysis": {
+        "rms": 0.030585501343011856,
+        "rms_db": -30.28968792717899,
+        "peak": 0.53076171875,
+        "peak_db": -5.502008438110352,
+        "a_weighted_spl": 62.545226371799544,
+        "leq_a": 62.545226371799544,
+        "crest_factor": 17.353376388549805,
+        "crest_factor_db": 24.787677764892578,
+        "sample_rate": 44100,
+        "num_channels": 2,
+        "duration": 10.00780045351474,
+        "filename": "YTDown_YouTube_Traffic-Sound-Indian-Traffic-Sound-Traff_Media_9wbA9FVtWF4_001_480p_chunk_0022.wav"
+      }
+    },
+    {
+      "chunk_index": 23,
+      "original_file": "YTDown_YouTube_Traffic-Sound-Indian-Traffic-Sound-Traff_Media_9wbA9FVtWF4_001_480p.mp4",
+      "audio_chunk": "YTDown_YouTube_Traffic-Sound-Indian-Traffic-Sound-Traff_Media_9wbA9FVtWF4_001_480p_chunk_0023.wav",
+      "video_chunk": "YTDown_YouTube_Traffic-Sound-Indian-Traffic-Sound-Traff_Media_9wbA9FVtWF4_001_480p_chunk_0023.mp4",
+      "start_time": 230.0,
+      "end_time": 240.0,
+      "duration": 10.0,
+      "temporal_alignment": {
+        "synchronized": true,
+        "chunk_duration": 10.0
+      },
+      "noise_analysis": {
+        "rms": 0.031490638852119446,
+        "rms_db": -30.03637057441686,
+        "peak": 0.563140869140625,
+        "peak_db": -4.987659454345703,
+        "a_weighted_spl": 63.44069568782743,
+        "leq_a": 63.44069568782743,
+        "crest_factor": 17.882802963256836,
+        "crest_factor_db": 25.0487117767334,
+        "sample_rate": 44100,
+        "num_channels": 2,
+        "duration": 9.984580498866213,
+        "filename": "YTDown_YouTube_Traffic-Sound-Indian-Traffic-Sound-Traff_Media_9wbA9FVtWF4_001_480p_chunk_0023.wav"
+      }
+    },
+    {
+      "chunk_index": 24,
+      "original_file": "YTDown_YouTube_Traffic-Sound-Indian-Traffic-Sound-Traff_Media_9wbA9FVtWF4_001_480p.mp4",
+      "audio_chunk": "YTDown_YouTube_Traffic-Sound-Indian-Traffic-Sound-Traff_Media_9wbA9FVtWF4_001_480p_chunk_0024.wav",
+      "video_chunk": "YTDown_YouTube_Traffic-Sound-Indian-Traffic-Sound-Traff_Media_9wbA9FVtWF4_001_480p_chunk_0024.mp4",
+      "start_time": 240.0,
+      "end_time": 250.0,
+      "duration": 10.0,
+      "temporal_alignment": {
+        "synchronized": true,
+        "chunk_duration": 10.0
+      },
+      "noise_analysis": {
+        "rms": 0.03555307909846306,
+        "rms_db": -28.982455618760824,
+        "peak": 0.906890869140625,
+        "peak_db": -0.8488994240760803,
+        "a_weighted_spl": 65.27081877651807,
+        "leq_a": 65.27081877651807,
+        "crest_factor": 25.508081436157227,
+        "crest_factor_db": 28.133556365966797,
+        "sample_rate": 44100,
+        "num_channels": 2,
+        "duration": 10.00780045351474,
+        "filename": "YTDown_YouTube_Traffic-Sound-Indian-Traffic-Sound-Traff_Media_9wbA9FVtWF4_001_480p_chunk_0024.wav"
+      }
+    },
+    {
+      "chunk_index": 25,
+      "original_file": "YTDown_YouTube_Traffic-Sound-Indian-Traffic-Sound-Traff_Media_9wbA9FVtWF4_001_480p.mp4",
+      "audio_chunk": "YTDown_YouTube_Traffic-Sound-Indian-Traffic-Sound-Traff_Media_9wbA9FVtWF4_001_480p_chunk_0025.wav",
+      "video_chunk": "YTDown_YouTube_Traffic-Sound-Indian-Traffic-Sound-Traff_Media_9wbA9FVtWF4_001_480p_chunk_0025.mp4",
+      "start_time": 250.0,
+      "end_time": 260.0,
+      "duration": 10.0,
+      "temporal_alignment": {
+        "synchronized": true,
+        "chunk_duration": 10.0
+      },
+      "noise_analysis": {
+        "rms": 0.02351461723446846,
+        "rms_db": -32.573241724121296,
+        "peak": 0.44329833984375,
+        "peak_db": -7.066078186035156,
+        "a_weighted_spl": 59.91302923908268,
+        "leq_a": 59.91302923908268,
+        "crest_factor": 18.852033615112305,
+        "crest_factor_db": 25.507164001464844,
+        "sample_rate": 44100,
+        "num_channels": 2,
+        "duration": 10.00780045351474,
+        "filename": "YTDown_YouTube_Traffic-Sound-Indian-Traffic-Sound-Traff_Media_9wbA9FVtWF4_001_480p_chunk_0025.wav"
+      }
+    },
+    {
+      "chunk_index": 26,
+      "original_file": "YTDown_YouTube_Traffic-Sound-Indian-Traffic-Sound-Traff_Media_9wbA9FVtWF4_001_480p.mp4",
+      "audio_chunk": "YTDown_YouTube_Traffic-Sound-Indian-Traffic-Sound-Traff_Media_9wbA9FVtWF4_001_480p_chunk_0026.wav",
+      "video_chunk": "YTDown_YouTube_Traffic-Sound-Indian-Traffic-Sound-Traff_Media_9wbA9FVtWF4_001_480p_chunk_0026.mp4",
+      "start_time": 260.0,
+      "end_time": 270.0,
+      "duration": 10.0,
+      "temporal_alignment": {
+        "synchronized": true,
+        "chunk_duration": 10.0
+      },
+      "noise_analysis": {
+        "rms": 0.01776786521077156,
+        "rms_db": -35.00729498117743,
+        "peak": 0.239593505859375,
+        "peak_db": -12.41049861907959,
+        "a_weighted_spl": 55.20518855641266,
+        "leq_a": 55.20518855641266,
+        "crest_factor": 13.48465347290039,
+        "crest_factor_db": 22.5967960357666,
+        "sample_rate": 44100,
+        "num_channels": 2,
+        "duration": 9.984580498866213,
+        "filename": "YTDown_YouTube_Traffic-Sound-Indian-Traffic-Sound-Traff_Media_9wbA9FVtWF4_001_480p_chunk_0026.wav"
+      }
+    },
+    {
+      "chunk_index": 27,
+      "original_file": "YTDown_YouTube_Traffic-Sound-Indian-Traffic-Sound-Traff_Media_9wbA9FVtWF4_001_480p.mp4",
+      "audio_chunk": "YTDown_YouTube_Traffic-Sound-Indian-Traffic-Sound-Traff_Media_9wbA9FVtWF4_001_480p_chunk_0027.wav",
+      "video_chunk": "YTDown_YouTube_Traffic-Sound-Indian-Traffic-Sound-Traff_Media_9wbA9FVtWF4_001_480p_chunk_0027.mp4",
+      "start_time": 270.0,
+      "end_time": 280.0,
+      "duration": 10.0,
+      "temporal_alignment": {
+        "synchronized": true,
+        "chunk_duration": 10.0
+      },
+      "noise_analysis": {
+        "rms": 0.02044040523469448,
+        "rms_db": -33.790209969721886,
+        "peak": 0.198974609375,
+        "peak_db": -14.024046897888184,
+        "a_weighted_spl": 54.54898089760641,
+        "leq_a": 54.54898089760641,
+        "crest_factor": 9.734376907348633,
+        "crest_factor_db": 19.766162872314453,
+        "sample_rate": 44100,
+        "num_channels": 2,
+        "duration": 10.00780045351474,
+        "filename": "YTDown_YouTube_Traffic-Sound-Indian-Traffic-Sound-Traff_Media_9wbA9FVtWF4_001_480p_chunk_0027.wav"
+      }
+    },
+    {
+      "chunk_index": 28,
+      "original_file": "YTDown_YouTube_Traffic-Sound-Indian-Traffic-Sound-Traff_Media_9wbA9FVtWF4_001_480p.mp4",
+      "audio_chunk": "YTDown_YouTube_Traffic-Sound-Indian-Traffic-Sound-Traff_Media_9wbA9FVtWF4_001_480p_chunk_0028.wav",
+      "video_chunk": "YTDown_YouTube_Traffic-Sound-Indian-Traffic-Sound-Traff_Media_9wbA9FVtWF4_001_480p_chunk_0028.mp4",
+      "start_time": 280.0,
+      "end_time": 290.0,
+      "duration": 10.0,
+      "temporal_alignment": {
+        "synchronized": true,
+        "chunk_duration": 10.0
+      },
+      "noise_analysis": {
+        "rms": 0.01459414977580309,
+        "rms_db": -36.71642402027875,
+        "peak": 0.13458251953125,
+        "peak_db": -17.42022705078125,
+        "a_weighted_spl": 53.61529799255508,
+        "leq_a": 53.61529799255508,
+        "crest_factor": 9.221675872802734,
+        "crest_factor_db": 19.29619598388672,
+        "sample_rate": 44100,
+        "num_channels": 2,
+        "duration": 10.00780045351474,
+        "filename": "YTDown_YouTube_Traffic-Sound-Indian-Traffic-Sound-Traff_Media_9wbA9FVtWF4_001_480p_chunk_0028.wav"
+      }
+    },
+    {
+      "chunk_index": 29,
+      "original_file": "YTDown_YouTube_Traffic-Sound-Indian-Traffic-Sound-Traff_Media_9wbA9FVtWF4_001_480p.mp4",
+      "audio_chunk": "YTDown_YouTube_Traffic-Sound-Indian-Traffic-Sound-Traff_Media_9wbA9FVtWF4_001_480p_chunk_0029.wav",
+      "video_chunk": "YTDown_YouTube_Traffic-Sound-Indian-Traffic-Sound-Traff_Media_9wbA9FVtWF4_001_480p_chunk_0029.mp4",
+      "start_time": 290.0,
+      "end_time": 300.0,
+      "duration": 10.0,
+      "temporal_alignment": {
+        "synchronized": true,
+        "chunk_duration": 10.0
+      },
+      "noise_analysis": {
+        "rms": 0.018320325762033463,
+        "rms_db": -34.74133616424142,
+        "peak": 0.158233642578125,
+        "peak_db": -16.014022827148438,
+        "a_weighted_spl": 54.98178488708098,
+        "leq_a": 54.98178488708098,
+        "crest_factor": 8.637054443359375,
+        "crest_factor_db": 18.727313995361328,
+        "sample_rate": 44100,
+        "num_channels": 2,
+        "duration": 9.984580498866213,
+        "filename": "YTDown_YouTube_Traffic-Sound-Indian-Traffic-Sound-Traff_Media_9wbA9FVtWF4_001_480p_chunk_0029.wav"
+      }
+    },
+    {
+      "chunk_index": 30,
+      "original_file": "YTDown_YouTube_Traffic-Sound-Indian-Traffic-Sound-Traff_Media_9wbA9FVtWF4_001_480p.mp4",
+      "audio_chunk": "YTDown_YouTube_Traffic-Sound-Indian-Traffic-Sound-Traff_Media_9wbA9FVtWF4_001_480p_chunk_0030.wav",
+      "video_chunk": "YTDown_YouTube_Traffic-Sound-Indian-Traffic-Sound-Traff_Media_9wbA9FVtWF4_001_480p_chunk_0030.mp4",
+      "start_time": 300.0,
+      "end_time": 310.0,
+      "duration": 10.0,
+      "temporal_alignment": {
+        "synchronized": true,
+        "chunk_duration": 10.0
+      },
+      "noise_analysis": {
+        "rms": 0.059649717062711716,
+        "rms_db": -24.487832239669753,
+        "peak": 0.475494384765625,
+        "peak_db": -6.45709228515625,
+        "a_weighted_spl": 69.65599927465848,
+        "leq_a": 69.65599927465848,
+        "crest_factor": 7.971444129943848,
+        "crest_factor_db": 18.03074073791504,
+        "sample_rate": 44100,
+        "num_channels": 2,
+        "duration": 10.00780045351474,
+        "filename": "YTDown_YouTube_Traffic-Sound-Indian-Traffic-Sound-Traff_Media_9wbA9FVtWF4_001_480p_chunk_0030.wav"
+      }
+    },
+    {
+      "chunk_index": 31,
+      "original_file": "YTDown_YouTube_Traffic-Sound-Indian-Traffic-Sound-Traff_Media_9wbA9FVtWF4_001_480p.mp4",
+      "audio_chunk": "YTDown_YouTube_Traffic-Sound-Indian-Traffic-Sound-Traff_Media_9wbA9FVtWF4_001_480p_chunk_0031.wav",
+      "video_chunk": "YTDown_YouTube_Traffic-Sound-Indian-Traffic-Sound-Traff_Media_9wbA9FVtWF4_001_480p_chunk_0031.mp4",
+      "start_time": 310.0,
+      "end_time": 320.0,
+      "duration": 10.0,
+      "temporal_alignment": {
+        "synchronized": true,
+        "chunk_duration": 10.0
+      },
+      "noise_analysis": {
+        "rms": 0.02086314745247364,
+        "rms_db": -33.61240345018587,
+        "peak": 0.27008056640625,
+        "peak_db": -11.370133399963379,
+        "a_weighted_spl": 58.47172810510991,
+        "leq_a": 58.47172810510991,
+        "crest_factor": 12.945341110229492,
+        "crest_factor_db": 22.24226951599121,
+        "sample_rate": 44100,
+        "num_channels": 2,
+        "duration": 10.00780045351474,
+        "filename": "YTDown_YouTube_Traffic-Sound-Indian-Traffic-Sound-Traff_Media_9wbA9FVtWF4_001_480p_chunk_0031.wav"
+      }
+    },
+    {
+      "chunk_index": 32,
+      "original_file": "YTDown_YouTube_Traffic-Sound-Indian-Traffic-Sound-Traff_Media_9wbA9FVtWF4_001_480p.mp4",
+      "audio_chunk": "YTDown_YouTube_Traffic-Sound-Indian-Traffic-Sound-Traff_Media_9wbA9FVtWF4_001_480p_chunk_0032.wav",
+      "video_chunk": "YTDown_YouTube_Traffic-Sound-Indian-Traffic-Sound-Traff_Media_9wbA9FVtWF4_001_480p_chunk_0032.mp4",
+      "start_time": 320.0,
+      "end_time": 330.0,
+      "duration": 10.0,
+      "temporal_alignment": {
+        "synchronized": true,
+        "chunk_duration": 10.0
+      },
+      "noise_analysis": {
+        "rms": 0.027437003329396248,
+        "rms_db": -31.233266480716967,
+        "peak": 0.658050537109375,
+        "peak_db": -3.634815216064453,
+        "a_weighted_spl": 62.12318390871937,
+        "leq_a": 62.12318390871937,
+        "crest_factor": 23.984052658081055,
+        "crest_factor_db": 27.598453521728516,
+        "sample_rate": 44100,
+        "num_channels": 2,
+        "duration": 9.984580498866213,
+        "filename": "YTDown_YouTube_Traffic-Sound-Indian-Traffic-Sound-Traff_Media_9wbA9FVtWF4_001_480p_chunk_0032.wav"
+      }
+    },
+    {
+      "chunk_index": 33,
+      "original_file": "YTDown_YouTube_Traffic-Sound-Indian-Traffic-Sound-Traff_Media_9wbA9FVtWF4_001_480p.mp4",
+      "audio_chunk": "YTDown_YouTube_Traffic-Sound-Indian-Traffic-Sound-Traff_Media_9wbA9FVtWF4_001_480p_chunk_0033.wav",
+      "video_chunk": "YTDown_YouTube_Traffic-Sound-Indian-Traffic-Sound-Traff_Media_9wbA9FVtWF4_001_480p_chunk_0033.mp4",
+      "start_time": 330.0,
+      "end_time": 340.0,
+      "duration": 10.0,
+      "temporal_alignment": {
+        "synchronized": true,
+        "chunk_duration": 10.0
+      },
+      "noise_analysis": {
+        "rms": 0.029010292142629623,
+        "rms_db": -30.74895795390664,
+        "peak": 0.311370849609375,
+        "peak_db": -10.134440422058105,
+        "a_weighted_spl": 60.150046879537065,
+        "leq_a": 60.150046879537065,
+        "crest_factor": 10.73311710357666,
+        "crest_factor_db": 20.614517211914062,
+        "sample_rate": 44100,
+        "num_channels": 2,
+        "duration": 10.00780045351474,
+        "filename": "YTDown_YouTube_Traffic-Sound-Indian-Traffic-Sound-Traff_Media_9wbA9FVtWF4_001_480p_chunk_0033.wav"
+      }
+    },
+    {
+      "chunk_index": 34,
+      "original_file": "YTDown_YouTube_Traffic-Sound-Indian-Traffic-Sound-Traff_Media_9wbA9FVtWF4_001_480p.mp4",
+      "audio_chunk": "YTDown_YouTube_Traffic-Sound-Indian-Traffic-Sound-Traff_Media_9wbA9FVtWF4_001_480p_chunk_0034.wav",
+      "video_chunk": "YTDown_YouTube_Traffic-Sound-Indian-Traffic-Sound-Traff_Media_9wbA9FVtWF4_001_480p_chunk_0034.mp4",
+      "start_time": 340.0,
+      "end_time": 350.0,
+      "duration": 10.0,
+      "temporal_alignment": {
+        "synchronized": true,
+        "chunk_duration": 10.0
+      },
+      "noise_analysis": {
+        "rms": 0.029258977621793747,
+        "rms_db": -30.674817064535922,
+        "peak": 0.472930908203125,
+        "peak_db": -6.504045486450195,
+        "a_weighted_spl": 61.00036407010471,
+        "leq_a": 61.0003640701047,
+        "crest_factor": 16.163616180419922,
+        "crest_factor_db": 24.1707706451416,
+        "sample_rate": 44100,
+        "num_channels": 2,
+        "duration": 10.00780045351474,
+        "filename": "YTDown_YouTube_Traffic-Sound-Indian-Traffic-Sound-Traff_Media_9wbA9FVtWF4_001_480p_chunk_0034.wav"
+      }
+    },
+    {
+      "chunk_index": 35,
+      "original_file": "YTDown_YouTube_Traffic-Sound-Indian-Traffic-Sound-Traff_Media_9wbA9FVtWF4_001_480p.mp4",
+      "audio_chunk": "YTDown_YouTube_Traffic-Sound-Indian-Traffic-Sound-Traff_Media_9wbA9FVtWF4_001_480p_chunk_0035.wav",
+      "video_chunk": "YTDown_YouTube_Traffic-Sound-Indian-Traffic-Sound-Traff_Media_9wbA9FVtWF4_001_480p_chunk_0035.mp4",
+      "start_time": 350.0,
+      "end_time": 360.0,
+      "duration": 10.0,
+      "temporal_alignment": {
+        "synchronized": true,
+        "chunk_duration": 10.0
+      },
+      "noise_analysis": {
+        "rms": 0.031133776530623436,
+        "rms_db": -30.135363923045666,
+        "peak": 0.393524169921875,
+        "peak_db": -8.100571632385254,
+        "a_weighted_spl": 62.063783123257274,
+        "leq_a": 62.063783123257274,
+        "crest_factor": 12.639782905578613,
+        "crest_factor_db": 22.034793853759766,
+        "sample_rate": 44100,
+        "num_channels": 2,
+        "duration": 9.984580498866213,
+        "filename": "YTDown_YouTube_Traffic-Sound-Indian-Traffic-Sound-Traff_Media_9wbA9FVtWF4_001_480p_chunk_0035.wav"
+      }
+    },
+    {
+      "chunk_index": 36,
+      "original_file": "YTDown_YouTube_Traffic-Sound-Indian-Traffic-Sound-Traff_Media_9wbA9FVtWF4_001_480p.mp4",
+      "audio_chunk": "YTDown_YouTube_Traffic-Sound-Indian-Traffic-Sound-Traff_Media_9wbA9FVtWF4_001_480p_chunk_0036.wav",
+      "video_chunk": "YTDown_YouTube_Traffic-Sound-Indian-Traffic-Sound-Traff_Media_9wbA9FVtWF4_001_480p_chunk_0036.mp4",
+      "start_time": 360.0,
+      "end_time": 370.0,
+      "duration": 10.0,
+      "temporal_alignment": {
+        "synchronized": true,
+        "chunk_duration": 10.0
+      },
+      "noise_analysis": {
+        "rms": 0.03414033353328705,
+        "rms_db": -29.33464480739083,
+        "peak": 0.268341064453125,
+        "peak_db": -11.426258087158203,
+        "a_weighted_spl": 60.573688989697715,
+        "leq_a": 60.573688989697715,
+        "crest_factor": 7.859942436218262,
+        "crest_factor_db": 17.90838623046875,
+        "sample_rate": 44100,
+        "num_channels": 2,
+        "duration": 10.00780045351474,
+        "filename": "YTDown_YouTube_Traffic-Sound-Indian-Traffic-Sound-Traff_Media_9wbA9FVtWF4_001_480p_chunk_0036.wav"
+      }
+    },
+    {
+      "chunk_index": 37,
+      "original_file": "YTDown_YouTube_Traffic-Sound-Indian-Traffic-Sound-Traff_Media_9wbA9FVtWF4_001_480p.mp4",
+      "audio_chunk": "YTDown_YouTube_Traffic-Sound-Indian-Traffic-Sound-Traff_Media_9wbA9FVtWF4_001_480p_chunk_0037.wav",
+      "video_chunk": "YTDown_YouTube_Traffic-Sound-Indian-Traffic-Sound-Traff_Media_9wbA9FVtWF4_001_480p_chunk_0037.mp4",
+      "start_time": 370.0,
+      "end_time": 380.0,
+      "duration": 10.0,
+      "temporal_alignment": {
+        "synchronized": true,
+        "chunk_duration": 10.0
+      },
+      "noise_analysis": {
+        "rms": 0.03629274293780327,
+        "rms_db": -28.803604147846087,
+        "peak": 0.5150146484375,
+        "peak_db": -5.763607978820801,
+        "a_weighted_spl": 64.14878103309357,
+        "leq_a": 64.14878103309357,
+        "crest_factor": 14.190567970275879,
+        "crest_factor_db": 23.039997100830078,
+        "sample_rate": 44100,
+        "num_channels": 2,
+        "duration": 10.00780045351474,
+        "filename": "YTDown_YouTube_Traffic-Sound-Indian-Traffic-Sound-Traff_Media_9wbA9FVtWF4_001_480p_chunk_0037.wav"
+      }
+    },
+    {
+      "chunk_index": 38,
+      "original_file": "YTDown_YouTube_Traffic-Sound-Indian-Traffic-Sound-Traff_Media_9wbA9FVtWF4_001_480p.mp4",
+      "audio_chunk": "YTDown_YouTube_Traffic-Sound-Indian-Traffic-Sound-Traff_Media_9wbA9FVtWF4_001_480p_chunk_0038.wav",
+      "video_chunk": "YTDown_YouTube_Traffic-Sound-Indian-Traffic-Sound-Traff_Media_9wbA9FVtWF4_001_480p_chunk_0038.mp4",
+      "start_time": 380.0,
+      "end_time": 390.0,
+      "duration": 10.0,
+      "temporal_alignment": {
+        "synchronized": true,
+        "chunk_duration": 10.0
+      },
+      "noise_analysis": {
+        "rms": 0.05145328491926193,
+        "rms_db": -25.77173786923865,
+        "peak": 0.6483154296875,
+        "peak_db": -3.764272928237915,
+        "a_weighted_spl": 64.2533989841964,
+        "leq_a": 64.2533989841964,
+        "crest_factor": 12.600078582763672,
+        "crest_factor_db": 22.007465362548828,
+        "sample_rate": 44100,
+        "num_channels": 2,
+        "duration": 9.984580498866213,
+        "filename": "YTDown_YouTube_Traffic-Sound-Indian-Traffic-Sound-Traff_Media_9wbA9FVtWF4_001_480p_chunk_0038.wav"
+      }
+    },
+    {
+      "chunk_index": 39,
+      "original_file": "YTDown_YouTube_Traffic-Sound-Indian-Traffic-Sound-Traff_Media_9wbA9FVtWF4_001_480p.mp4",
+      "audio_chunk": "YTDown_YouTube_Traffic-Sound-Indian-Traffic-Sound-Traff_Media_9wbA9FVtWF4_001_480p_chunk_0039.wav",
+      "video_chunk": "YTDown_YouTube_Traffic-Sound-Indian-Traffic-Sound-Traff_Media_9wbA9FVtWF4_001_480p_chunk_0039.mp4",
+      "start_time": 390.0,
+      "end_time": 400.0,
+      "duration": 10.0,
+      "temporal_alignment": {
+        "synchronized": true,
+        "chunk_duration": 10.0
+      },
+      "noise_analysis": {
+        "rms": 0.0557502917945385,
+        "rms_db": -25.075057103918446,
+        "peak": 0.792449951171875,
+        "peak_db": -2.0205631256103516,
+        "a_weighted_spl": 62.02668221110406,
+        "leq_a": 62.02668221110406,
+        "crest_factor": 14.214274406433105,
+        "crest_factor_db": 23.054494857788086,
+        "sample_rate": 44100,
+        "num_channels": 2,
+        "duration": 10.00780045351474,
+        "filename": "YTDown_YouTube_Traffic-Sound-Indian-Traffic-Sound-Traff_Media_9wbA9FVtWF4_001_480p_chunk_0039.wav"
+      }
+    },
+    {
+      "chunk_index": 40,
+      "original_file": "YTDown_YouTube_Traffic-Sound-Indian-Traffic-Sound-Traff_Media_9wbA9FVtWF4_001_480p.mp4",
+      "audio_chunk": "YTDown_YouTube_Traffic-Sound-Indian-Traffic-Sound-Traff_Media_9wbA9FVtWF4_001_480p_chunk_0040.wav",
+      "video_chunk": "YTDown_YouTube_Traffic-Sound-Indian-Traffic-Sound-Traff_Media_9wbA9FVtWF4_001_480p_chunk_0040.mp4",
+      "start_time": 400.0,
+      "end_time": 410.0,
+      "duration": 10.0,
+      "temporal_alignment": {
+        "synchronized": true,
+        "chunk_duration": 10.0
+      },
+      "noise_analysis": {
+        "rms": 0.023405592888593674,
+        "rms_db": -32.61360706510945,
+        "peak": 0.2235107421875,
+        "peak_db": -13.014031410217285,
+        "a_weighted_spl": 57.74416895116043,
+        "leq_a": 57.74416895116043,
+        "crest_factor": 9.549458503723145,
+        "crest_factor_db": 19.59957504272461,
+        "sample_rate": 44100,
+        "num_channels": 2,
+        "duration": 10.00780045351474,
+        "filename": "YTDown_YouTube_Traffic-Sound-Indian-Traffic-Sound-Traff_Media_9wbA9FVtWF4_001_480p_chunk_0040.wav"
+      }
+    },
+    {
+      "chunk_index": 41,
+      "original_file": "YTDown_YouTube_Traffic-Sound-Indian-Traffic-Sound-Traff_Media_9wbA9FVtWF4_001_480p.mp4",
+      "audio_chunk": "YTDown_YouTube_Traffic-Sound-Indian-Traffic-Sound-Traff_Media_9wbA9FVtWF4_001_480p_chunk_0041.wav",
+      "video_chunk": "YTDown_YouTube_Traffic-Sound-Indian-Traffic-Sound-Traff_Media_9wbA9FVtWF4_001_480p_chunk_0041.mp4",
+      "start_time": 410.0,
+      "end_time": 420.0,
+      "duration": 10.0,
+      "temporal_alignment": {
+        "synchronized": true,
+        "chunk_duration": 10.0
+      },
+      "noise_analysis": {
+        "rms": 0.02277313359081745,
+        "rms_db": -32.851544124134534,
+        "peak": 0.297271728515625,
+        "peak_db": -10.536928176879883,
+        "a_weighted_spl": 58.49300431285691,
+        "leq_a": 58.49300431285691,
+        "crest_factor": 13.05361557006836,
+        "crest_factor_db": 22.31461524963379,
+        "sample_rate": 44100,
+        "num_channels": 2,
+        "duration": 9.984580498866213,
+        "filename": "YTDown_YouTube_Traffic-Sound-Indian-Traffic-Sound-Traff_Media_9wbA9FVtWF4_001_480p_chunk_0041.wav"
+      }
+    },
+    {
+      "chunk_index": 42,
+      "original_file": "YTDown_YouTube_Traffic-Sound-Indian-Traffic-Sound-Traff_Media_9wbA9FVtWF4_001_480p.mp4",
+      "audio_chunk": "YTDown_YouTube_Traffic-Sound-Indian-Traffic-Sound-Traff_Media_9wbA9FVtWF4_001_480p_chunk_0042.wav",
+      "video_chunk": "YTDown_YouTube_Traffic-Sound-Indian-Traffic-Sound-Traff_Media_9wbA9FVtWF4_001_480p_chunk_0042.mp4",
+      "start_time": 420.0,
+      "end_time": 430.0,
+      "duration": 10.0,
+      "temporal_alignment": {
+        "synchronized": true,
+        "chunk_duration": 10.0
+      },
+      "noise_analysis": {
+        "rms": 0.02960257977247238,
+        "rms_db": -30.573408797652952,
+        "peak": 0.34210205078125,
+        "peak_db": -9.316886901855469,
+        "a_weighted_spl": 61.90905505773545,
+        "leq_a": 61.90905505773545,
+        "crest_factor": 11.55649471282959,
+        "crest_factor_db": 21.25652313232422,
+        "sample_rate": 44100,
+        "num_channels": 2,
+        "duration": 10.00780045351474,
+        "filename": "YTDown_YouTube_Traffic-Sound-Indian-Traffic-Sound-Traff_Media_9wbA9FVtWF4_001_480p_chunk_0042.wav"
+      }
+    },
+    {
+      "chunk_index": 43,
+      "original_file": "YTDown_YouTube_Traffic-Sound-Indian-Traffic-Sound-Traff_Media_9wbA9FVtWF4_001_480p.mp4",
+      "audio_chunk": "YTDown_YouTube_Traffic-Sound-Indian-Traffic-Sound-Traff_Media_9wbA9FVtWF4_001_480p_chunk_0043.wav",
+      "video_chunk": "YTDown_YouTube_Traffic-Sound-Indian-Traffic-Sound-Traff_Media_9wbA9FVtWF4_001_480p_chunk_0043.mp4",
+      "start_time": 430.0,
+      "end_time": 440.0,
+      "duration": 10.0,
+      "temporal_alignment": {
+        "synchronized": true,
+        "chunk_duration": 10.0
+      },
+      "noise_analysis": {
+        "rms": 0.025257404893636703,
+        "rms_db": -31.95222547329483,
+        "peak": 0.6646728515625,
+        "peak_db": -3.5478413105010986,
+        "a_weighted_spl": 60.69001170058665,
+        "leq_a": 60.69001170058665,
+        "crest_factor": 26.315959930419922,
+        "crest_factor_db": 28.40438461303711,
+        "sample_rate": 44100,
+        "num_channels": 2,
+        "duration": 10.00780045351474,
+        "filename": "YTDown_YouTube_Traffic-Sound-Indian-Traffic-Sound-Traff_Media_9wbA9FVtWF4_001_480p_chunk_0043.wav"
+      }
+    },
+    {
+      "chunk_index": 44,
+      "original_file": "YTDown_YouTube_Traffic-Sound-Indian-Traffic-Sound-Traff_Media_9wbA9FVtWF4_001_480p.mp4",
+      "audio_chunk": "YTDown_YouTube_Traffic-Sound-Indian-Traffic-Sound-Traff_Media_9wbA9FVtWF4_001_480p_chunk_0044.wav",
+      "video_chunk": "YTDown_YouTube_Traffic-Sound-Indian-Traffic-Sound-Traff_Media_9wbA9FVtWF4_001_480p_chunk_0044.mp4",
+      "start_time": 440.0,
+      "end_time": 450.0,
+      "duration": 10.0,
+      "temporal_alignment": {
+        "synchronized": true,
+        "chunk_duration": 10.0
+      },
+      "noise_analysis": {
+        "rms": 0.02566610835492611,
+        "rms_db": -31.81279953199191,
+        "peak": 0.348175048828125,
+        "peak_db": -9.164047241210938,
+        "a_weighted_spl": 61.12999524672649,
+        "leq_a": 61.12999524672649,
+        "crest_factor": 13.565556526184082,
+        "crest_factor_db": 22.648752212524414,
+        "sample_rate": 44100,
+        "num_channels": 2,
+        "duration": 9.984580498866213,
+        "filename": "YTDown_YouTube_Traffic-Sound-Indian-Traffic-Sound-Traff_Media_9wbA9FVtWF4_001_480p_chunk_0044.wav"
+      }
+    },
+    {
+      "chunk_index": 45,
+      "original_file": "YTDown_YouTube_Traffic-Sound-Indian-Traffic-Sound-Traff_Media_9wbA9FVtWF4_001_480p.mp4",
+      "audio_chunk": "YTDown_YouTube_Traffic-Sound-Indian-Traffic-Sound-Traff_Media_9wbA9FVtWF4_001_480p_chunk_0045.wav",
+      "video_chunk": "YTDown_YouTube_Traffic-Sound-Indian-Traffic-Sound-Traff_Media_9wbA9FVtWF4_001_480p_chunk_0045.mp4",
+      "start_time": 450.0,
+      "end_time": 460.0,
+      "duration": 10.0,
+      "temporal_alignment": {
+        "synchronized": true,
+        "chunk_duration": 10.0
+      },
+      "noise_analysis": {
+        "rms": 0.07412640005350113,
+        "rms_db": -22.600541817304304,
+        "peak": 0.99761962890625,
+        "peak_db": -0.02070028707385063,
+        "a_weighted_spl": 71.50679339047522,
+        "leq_a": 71.50679339047522,
+        "crest_factor": 13.458357810974121,
+        "crest_factor_db": 22.57984161376953,
+        "sample_rate": 44100,
+        "num_channels": 2,
+        "duration": 10.00780045351474,
+        "filename": "YTDown_YouTube_Traffic-Sound-Indian-Traffic-Sound-Traff_Media_9wbA9FVtWF4_001_480p_chunk_0045.wav"
+      }
+    },
+    {
+      "chunk_index": 46,
+      "original_file": "YTDown_YouTube_Traffic-Sound-Indian-Traffic-Sound-Traff_Media_9wbA9FVtWF4_001_480p.mp4",
+      "audio_chunk": "YTDown_YouTube_Traffic-Sound-Indian-Traffic-Sound-Traff_Media_9wbA9FVtWF4_001_480p_chunk_0046.wav",
+      "video_chunk": "YTDown_YouTube_Traffic-Sound-Indian-Traffic-Sound-Traff_Media_9wbA9FVtWF4_001_480p_chunk_0046.mp4",
+      "start_time": 460.0,
+      "end_time": 470.0,
+      "duration": 10.0,
+      "temporal_alignment": {
+        "synchronized": true,
+        "chunk_duration": 10.0
+      },
+      "noise_analysis": {
+        "rms": 0.053330447524785995,
+        "rms_db": -25.46049543801335,
+        "peak": 0.587127685546875,
+        "peak_db": -4.625349044799805,
+        "a_weighted_spl": 68.97975267675072,
+        "leq_a": 68.97975267675072,
+        "crest_factor": 11.00924015045166,
+        "crest_factor_db": 20.835147857666016,
+        "sample_rate": 44100,
+        "num_channels": 2,
+        "duration": 10.00780045351474,
+        "filename": "YTDown_YouTube_Traffic-Sound-Indian-Traffic-Sound-Traff_Media_9wbA9FVtWF4_001_480p_chunk_0046.wav"
+      }
+    },
+    {
+      "chunk_index": 47,
+      "original_file": "YTDown_YouTube_Traffic-Sound-Indian-Traffic-Sound-Traff_Media_9wbA9FVtWF4_001_480p.mp4",
+      "audio_chunk": "YTDown_YouTube_Traffic-Sound-Indian-Traffic-Sound-Traff_Media_9wbA9FVtWF4_001_480p_chunk_0047.wav",
+      "video_chunk": "YTDown_YouTube_Traffic-Sound-Indian-Traffic-Sound-Traff_Media_9wbA9FVtWF4_001_480p_chunk_0047.mp4",
+      "start_time": 470.0,
+      "end_time": 480.0,
+      "duration": 10.0,
+      "temporal_alignment": {
+        "synchronized": true,
+        "chunk_duration": 10.0
+      },
+      "noise_analysis": {
+        "rms": 0.03988301753997803,
+        "rms_db": -27.98423980992377,
+        "peak": 0.532684326171875,
+        "peak_db": -5.470602035522461,
+        "a_weighted_spl": 64.90319118937515,
+        "leq_a": 64.90319118937515,
+        "crest_factor": 13.356168746948242,
+        "crest_factor_db": 22.51363754272461,
+        "sample_rate": 44100,
+        "num_channels": 2,
+        "duration": 9.984580498866213,
+        "filename": "YTDown_YouTube_Traffic-Sound-Indian-Traffic-Sound-Traff_Media_9wbA9FVtWF4_001_480p_chunk_0047.wav"
+      }
+    },
+    {
+      "chunk_index": 48,
+      "original_file": "YTDown_YouTube_Traffic-Sound-Indian-Traffic-Sound-Traff_Media_9wbA9FVtWF4_001_480p.mp4",
+      "audio_chunk": "YTDown_YouTube_Traffic-Sound-Indian-Traffic-Sound-Traff_Media_9wbA9FVtWF4_001_480p_chunk_0048.wav",
+      "video_chunk": "YTDown_YouTube_Traffic-Sound-Indian-Traffic-Sound-Traff_Media_9wbA9FVtWF4_001_480p_chunk_0048.mp4",
+      "start_time": 480.0,
+      "end_time": 490.0,
+      "duration": 10.0,
+      "temporal_alignment": {
+        "synchronized": true,
+        "chunk_duration": 10.0
+      },
+      "noise_analysis": {
+        "rms": 0.04300254210829735,
+        "rms_db": -27.330117404234805,
+        "peak": 0.41387939453125,
+        "peak_db": -7.662524223327637,
+        "a_weighted_spl": 64.94359611991366,
+        "leq_a": 64.94359611991368,
+        "crest_factor": 9.624533653259277,
+        "crest_factor_db": 19.66759490966797,
+        "sample_rate": 44100,
+        "num_channels": 2,
+        "duration": 10.00780045351474,
+        "filename": "YTDown_YouTube_Traffic-Sound-Indian-Traffic-Sound-Traff_Media_9wbA9FVtWF4_001_480p_chunk_0048.wav"
+      }
+    },
+    {
+      "chunk_index": 49,
+      "original_file": "YTDown_YouTube_Traffic-Sound-Indian-Traffic-Sound-Traff_Media_9wbA9FVtWF4_001_480p.mp4",
+      "audio_chunk": "YTDown_YouTube_Traffic-Sound-Indian-Traffic-Sound-Traff_Media_9wbA9FVtWF4_001_480p_chunk_0049.wav",
+      "video_chunk": "YTDown_YouTube_Traffic-Sound-Indian-Traffic-Sound-Traff_Media_9wbA9FVtWF4_001_480p_chunk_0049.mp4",
+      "start_time": 490.0,
+      "end_time": 500.0,
+      "duration": 10.0,
+      "temporal_alignment": {
+        "synchronized": true,
+        "chunk_duration": 10.0
+      },
+      "noise_analysis": {
+        "rms": 0.056650761514902115,
+        "rms_db": -24.93588495714247,
+        "peak": 0.824920654296875,
+        "peak_db": -1.6717565059661865,
+        "a_weighted_spl": 69.26043325276049,
+        "leq_a": 69.26043325276049,
+        "crest_factor": 14.56151008605957,
+        "crest_factor_db": 23.264129638671875,
+        "sample_rate": 44100,
+        "num_channels": 2,
+        "duration": 10.00780045351474,
+        "filename": "YTDown_YouTube_Traffic-Sound-Indian-Traffic-Sound-Traff_Media_9wbA9FVtWF4_001_480p_chunk_0049.wav"
+      }
+    },
+    {
+      "chunk_index": 50,
+      "original_file": "YTDown_YouTube_Traffic-Sound-Indian-Traffic-Sound-Traff_Media_9wbA9FVtWF4_001_480p.mp4",
+      "audio_chunk": "YTDown_YouTube_Traffic-Sound-Indian-Traffic-Sound-Traff_Media_9wbA9FVtWF4_001_480p_chunk_0050.wav",
+      "video_chunk": "YTDown_YouTube_Traffic-Sound-Indian-Traffic-Sound-Traff_Media_9wbA9FVtWF4_001_480p_chunk_0050.mp4",
+      "start_time": 500.0,
+      "end_time": 510.0,
+      "duration": 10.0,
+      "temporal_alignment": {
+        "synchronized": true,
+        "chunk_duration": 10.0
+      },
+      "noise_analysis": {
+        "rms": 0.03274468332529068,
+        "rms_db": -29.6971841057687,
+        "peak": 0.4586181640625,
+        "peak_db": -6.770975112915039,
+        "a_weighted_spl": 63.12960811787627,
+        "leq_a": 63.12960811787627,
+        "crest_factor": 14.005882263183594,
+        "crest_factor_db": 22.92620849609375,
+        "sample_rate": 44100,
+        "num_channels": 2,
+        "duration": 9.984580498866213,
+        "filename": "YTDown_YouTube_Traffic-Sound-Indian-Traffic-Sound-Traff_Media_9wbA9FVtWF4_001_480p_chunk_0050.wav"
+      }
+    },
+    {
+      "chunk_index": 51,
+      "original_file": "YTDown_YouTube_Traffic-Sound-Indian-Traffic-Sound-Traff_Media_9wbA9FVtWF4_001_480p.mp4",
+      "audio_chunk": "YTDown_YouTube_Traffic-Sound-Indian-Traffic-Sound-Traff_Media_9wbA9FVtWF4_001_480p_chunk_0051.wav",
+      "video_chunk": "YTDown_YouTube_Traffic-Sound-Indian-Traffic-Sound-Traff_Media_9wbA9FVtWF4_001_480p_chunk_0051.mp4",
+      "start_time": 510.0,
+      "end_time": 520.0,
+      "duration": 10.0,
+      "temporal_alignment": {
+        "synchronized": true,
+        "chunk_duration": 10.0
+      },
+      "noise_analysis": {
+        "rms": 0.020804444327950478,
+        "rms_db": -33.63687758831483,
+        "peak": 0.21258544921875,
+        "peak_db": -13.449329376220703,
+        "a_weighted_spl": 54.878286872706795,
+        "leq_a": 54.878286872706795,
+        "crest_factor": 10.218271255493164,
+        "crest_factor_db": 20.187549591064453,
+        "sample_rate": 44100,
+        "num_channels": 2,
+        "duration": 3.250793650793651,
+        "filename": "YTDown_YouTube_Traffic-Sound-Indian-Traffic-Sound-Traff_Media_9wbA9FVtWF4_001_480p_chunk_0051.wav"
+      }
+    }
+  ],
+  "processed_timestamp": "2026-06-04T17:52:37.330676"
+}

@@ -1,0 +1,20 @@
+{
+  "original_file": "YTDown_YouTube_Traffic-Sound-Indian-Traffic-Sound-Traff_Media_9wbA9FVtWF4_001_480p.mp4",
+  "original_path": "../pre_inference/input_data_buffer/YTDown_YouTube_Traffic-Sound-Indian-Traffic-Sound-Traff_Media_9wbA9FVtWF4_001_480p.mp4",
+  "audio_file": "YTDown_YouTube_Traffic-Sound-Indian-Traffic-Sound-Traff_Media_9wbA9FVtWF4_001_480p.wav",
+  "audio_path": "../pre_inference/processed_media/audio/YTDown_YouTube_Traffic-Sound-Indian-Traffic-Sound-Traff_Media_9wbA9FVtWF4_001_480p.wav",
+  "video_file": "YTDown_YouTube_Traffic-Sound-Indian-Traffic-Sound-Traff_Media_9wbA9FVtWF4_001_480p_video_only.mp4",
+  "video_path": "../pre_inference/processed_media/video/YTDown_YouTube_Traffic-Sound-Indian-Traffic-Sound-Traff_Media_9wbA9FVtWF4_001_480p_video_only.mp4",
+  "processed_timestamp": "2026-06-04T17:52:21.889135",
+  "temporal_alignment": {
+    "start_time": 0.0,
+    "duration": 513.253878,
+    "frame_rate": "29799/1000",
+    "sample_rate": "44100"
+  },
+  "video_codec": "h264",
+  "video_width": 854,
+  "video_height": 478,
+  "audio_codec": "aac",
+  "audio_channels": 2
+}

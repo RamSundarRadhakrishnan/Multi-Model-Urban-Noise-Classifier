@@ -1,0 +1,21 @@
+{
+    "test_loss": 0.5766316825625842,
+    "accuracy": 0.8136949755446865,
+    "macro_precision": 0.8277460437348616,
+    "macro_recall": 0.8191598064455388,
+    "macro_f1": 0.8210736891612302,
+    "weighted_precision": 0.8221290892497626,
+    "weighted_recall": 0.8136949755446865,
+    "weighted_f1": 0.8153221835933443,
+    "num_test_samples": 2249,
+    "classes": [
+        "car-alarm",
+        "community-radio",
+        "construction-site",
+        "crowd-noise",
+        "generator",
+        "mobile-music",
+        "motorvehicle-horn",
+        "motorvehicle-siren"
+    ]
+}
