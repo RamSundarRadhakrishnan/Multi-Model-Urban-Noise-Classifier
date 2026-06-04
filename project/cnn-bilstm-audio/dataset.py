@@ -1,17 +1,20 @@
-from pathlib import Path
+from io import BytesIO
 
 import librosa
 import numpy as np
-import pandas as pd
+import soundfile as sf
 import torch
+
+from datasets import Audio, load_dataset
 from torch.utils.data import Dataset
 
 
-class UrbanNoiseMFCCDataset(Dataset):
+class HFAudioMFCCDataset(Dataset):
     def __init__(
         self,
-        csv_path,
-        audio_dir=None,
+        dataset_name="Sunbird/urban-noise-uganda-61k",
+        config_name="small",
+        split="train",
         audio_column=None,
         label_column=None,
         sample_rate=16000,
@@ -19,66 +22,111 @@ class UrbanNoiseMFCCDataset(Dataset):
         max_frames=174,
         target_classes=None
     ):
-        self.csv_path = Path(csv_path)
-        self.audio_dir = Path(audio_dir) if audio_dir is not None else None
         self.sample_rate = sample_rate
         self.n_mfcc = n_mfcc
         self.max_frames = max_frames
 
-        self.df = pd.read_csv(self.csv_path)
+        self.ds = load_dataset(dataset_name, config_name, split=split)
 
         self.audio_column = audio_column or self._find_audio_column()
         self.label_column = label_column or self._find_label_column()
 
-        if target_classes is not None:
-            self.df = self.df[self.df[self.label_column].isin(target_classes)].reset_index(drop=True)
+        self.ds = self.ds.cast_column(self.audio_column, Audio(decode=False))
 
-        self.classes = sorted(self.df[self.label_column].unique().tolist())
-        self.class_to_id = {name: idx for idx, name in enumerate(self.classes)}
+        self.original_label_names = self._get_label_names()
+
+        if target_classes is not None:
+            target_set = set(target_classes)
+
+            def keep_item(example):
+                return self._label_to_name(example[self.label_column]) in target_set
+
+            self.ds = self.ds.filter(keep_item)
+
+            present = []
+            for value in self.ds.unique(self.label_column):
+                name = self._label_to_name(value)
+                if name in target_set:
+                    present.append(name)
+
+            self.label_names = sorted(present)
+        else:
+            self.label_names = sorted([self._label_to_name(x) for x in self.ds.unique(self.label_column)])
+
+        self.class_to_id = {name: idx for idx, name in enumerate(self.label_names)}
         self.id_to_class = {idx: name for name, idx in self.class_to_id.items()}
 
     def _find_audio_column(self):
-        candidates = ["filepath", "file_path", "path", "filename", "file", "audio", "wav"]
-        for col in candidates:
-            if col in self.df.columns:
+        for col in self.ds.column_names:
+            if self.ds.features[col].__class__.__name__ == "Audio":
                 return col
-        raise ValueError(f"Could not find audio column. Columns found: {self.df.columns.tolist()}")
+        for col in ["audio", "file", "filepath", "path", "wav"]:
+            if col in self.ds.column_names:
+                return col
+        raise ValueError(f"Audio column not found. Columns: {self.ds.column_names}")
 
     def _find_label_column(self):
-        candidates = ["label", "class", "category", "target", "class_name"]
-        for col in candidates:
-            if col in self.df.columns:
+        for col in ["label", "labels", "class", "category", "class_name", "target"]:
+            if col in self.ds.column_names:
                 return col
-        raise ValueError(f"Could not find label column. Columns found: {self.df.columns.tolist()}")
+        raise ValueError(f"Label column not found. Columns: {self.ds.column_names}")
+
+    def _get_label_names(self):
+        feature = self.ds.features[self.label_column]
+
+        if hasattr(feature, "names") and feature.names is not None:
+            return list(feature.names)
+
+        return sorted([str(x) for x in self.ds.unique(self.label_column)])
+
+    def _label_to_name(self, label):
+        feature = self.ds.features[self.label_column]
+
+        if hasattr(feature, "names") and feature.names is not None:
+            return feature.names[int(label)]
+
+        return str(label)
 
     def __len__(self):
-        return len(self.df)
+        return len(self.ds)
 
-    def _get_audio_path(self, value):
-        path = Path(str(value))
+    def _load_waveform(self, audio_obj):
+        audio_bytes = audio_obj.get("bytes")
+        path = audio_obj.get("path")
 
-        if path.is_absolute():
-            return path
+        if audio_bytes is not None:
+            data, sr = sf.read(BytesIO(audio_bytes), dtype="float32")
 
-        if self.audio_dir is not None:
-            return self.audio_dir / path
+            if data.ndim > 1:
+                data = data.mean(axis=1)
 
-        return self.csv_path.parent / path
+            if sr != self.sample_rate:
+                data = librosa.resample(
+                    data,
+                    orig_sr=sr,
+                    target_sr=self.sample_rate
+                )
 
-    def _extract_mfcc(self, audio_path):
-        waveform, sr = librosa.load(audio_path, sr=self.sample_rate, mono=True)
+            return data.astype(np.float32)
 
+        if path is not None:
+            waveform, sr = librosa.load(path, sr=self.sample_rate, mono=True)
+            return waveform.astype(np.float32)
+
+        raise ValueError("Audio object has neither bytes nor path")
+
+    def _extract_mfcc(self, waveform):
         mfcc = librosa.feature.mfcc(
             y=waveform,
-            sr=sr,
+            sr=self.sample_rate,
             n_mfcc=self.n_mfcc
         )
 
         mfcc = mfcc.T
 
         if mfcc.shape[0] < self.max_frames:
-            pad_width = self.max_frames - mfcc.shape[0]
-            mfcc = np.pad(mfcc, ((0, pad_width), (0, 0)), mode="constant")
+            pad = self.max_frames - mfcc.shape[0]
+            mfcc = np.pad(mfcc, ((0, pad), (0, 0)), mode="constant")
         else:
             mfcc = mfcc[:self.max_frames, :]
 
@@ -87,12 +135,15 @@ class UrbanNoiseMFCCDataset(Dataset):
         return mfcc.astype(np.float32)
 
     def __getitem__(self, idx):
-        row = self.df.iloc[idx]
+        item = self.ds[idx]
 
-        audio_path = self._get_audio_path(row[self.audio_column])
-        label_name = row[self.label_column]
+        audio_obj = item[self.audio_column]
+        waveform = self._load_waveform(audio_obj)
+
+        original_label = item[self.label_column]
+        label_name = self._label_to_name(original_label)
         label_id = self.class_to_id[label_name]
 
-        mfcc = self._extract_mfcc(audio_path)
+        mfcc = self._extract_mfcc(waveform)
 
         return torch.tensor(mfcc), torch.tensor(label_id, dtype=torch.long)
