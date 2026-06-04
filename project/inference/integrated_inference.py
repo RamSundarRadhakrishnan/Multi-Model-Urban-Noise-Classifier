@@ -29,6 +29,8 @@ from video_frame_extractor import VideoFrameExtractor
 from dual_yolo_inference import DualYOLOInference
 from output_fusion import create_fusion_engine
 
+from late_fusion import fuse_chunk
+
 # Import event classification modules
 from event_classifier import EventClassifier, NoiseZone
 from event_storage import EventStorage
@@ -476,13 +478,11 @@ class IntegratedInferencePipeline:
             )
             
             # Prepare audio classes dictionary
-            audio_classes = {chunk['audio_predicted_class']: chunk['audio_confidence']}
-            from late_fusion import fuse_chunk
             fusion = fuse_chunk(chunk, alpha=0.6)
 
             audio_classes = {
                 fusion["audio_class"]: fusion["fusion_score"]
-            } 
+            }
             
             # Prepare video classes dictionary
             video_classes = {}
@@ -501,6 +501,9 @@ class IntegratedInferencePipeline:
                 construction_confidence=chunk['construction_confidence'],
                 zone=zone
             )
+
+
+            event.fusion_metadata = fusion
             
             classified_events.append(event)
         

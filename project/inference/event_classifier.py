@@ -91,10 +91,11 @@ class EventClassification:
     # Detailed reasoning
     violation_details: Dict[str, str]
     recommendations: List[str]
+
+    fusion_metadata: Optional[Dict] = None
     
     def to_dict(self) -> Dict:
-        """Convert to dictionary for serialization"""
-        return {
+        data = {
             'event_id': self.event_id,
             'zone': self.zone.value,
             'time_of_day': self.time_of_day.value,
@@ -113,6 +114,11 @@ class EventClassification:
             'violation_details': self.violation_details,
             'recommendations': self.recommendations
         }
+
+        if self.fusion_metadata is not None:
+            data['fusion_metadata'] = self.fusion_metadata
+
+        return data
 
 
 class EventClassifier:

@@ -94,6 +94,7 @@ class EventStorage:
         
         # Flatten event data for CSV
         csv_data = []
+        fusion = event.fusion_metadata or {}
         for event in self.events:
             # Get top audio and video classes
             top_audio = max(event.audio_classes.items(), key=lambda x: x[1]) if event.audio_classes else ("none", 0.0)
@@ -117,7 +118,14 @@ class EventStorage:
                 'violations': '; '.join([v.value for v in event.violations]),
                 'is_compliant': event.is_compliant,
                 'severity': event.severity,
-                'num_violations': len([v for v in event.violations if v != ViolationType.NO_VIOLATION])
+                'num_violations': len([v for v in event.violations if v != ViolationType.NO_VIOLATION]),
+                'fusion_audio_class': fusion.get('audio_class'),
+                'fusion_audio_confidence': round(fusion.get('audio_confidence', 0.0), 4),
+                'fusion_visual_class': fusion.get('visual_class'),
+                'fusion_visual_confidence': round(fusion.get('visual_confidence', 0.0), 4),
+                'fusion_score': round(fusion.get('fusion_score', 0.0), 4),
+                'fusion_alpha': fusion.get('fusion_alpha'),
+                'fusion_mode': fusion.get('fusion_mode'),
             })
         
         df = pd.DataFrame(csv_data)
@@ -143,6 +151,7 @@ class EventStorage:
         
         # Flatten event data with all classes
         csv_data = []
+        fusion = event.fusion_metadata or {}
         for event in self.events:
             base_data = {
                 'event_id': event.event_id,
@@ -158,6 +167,13 @@ class EventStorage:
                 'violations': '; '.join([v.value for v in event.violations]),
                 'is_compliant': event.is_compliant,
                 'severity': event.severity,
+                'fusion_audio_class': fusion.get('audio_class'),
+                'fusion_audio_confidence': round(fusion.get('audio_confidence', 0.0), 4),
+                'fusion_visual_class': fusion.get('visual_class'),
+                'fusion_visual_confidence': round(fusion.get('visual_confidence', 0.0), 4),
+                'fusion_score': round(fusion.get('fusion_score', 0.0), 4),
+                'fusion_alpha': fusion.get('fusion_alpha'),
+                'fusion_mode': fusion.get('fusion_mode'),
             }
             
             # Add all audio classes as columns
