@@ -1,5 +1,5 @@
 {
-  "processed_date": "2026-06-04T17:44:26.206839",
+  "processed_date": "2026-06-04T17:52:37.333242",
   "chunk_duration": 10.0,
   "total_files": 1,
   "successful": 1,
@@ -15,7 +15,7 @@
         "audio_path": "../pre_inference/processed_media/audio/YTDown_YouTube_Traffic-Sound-Indian-Traffic-Sound-Traff_Media_9wbA9FVtWF4_001_480p.wav",
         "video_file": "YTDown_YouTube_Traffic-Sound-Indian-Traffic-Sound-Traff_Media_9wbA9FVtWF4_001_480p_video_only.mp4",
         "video_path": "../pre_inference/processed_media/video/YTDown_YouTube_Traffic-Sound-Indian-Traffic-Sound-Traff_Media_9wbA9FVtWF4_001_480p_video_only.mp4",
-        "processed_timestamp": "2026-06-04T17:44:09.372667",
+        "processed_timestamp": "2026-06-04T17:52:21.889135",
         "temporal_alignment": {
           "start_time": 0.0,
           "duration": 513.253878,
