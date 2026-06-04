@@ -17,6 +17,9 @@ def main():
     parser.add_argument("--output", default="features_small_train.pt")
     parser.add_argument("--batch_size", type=int, default=64)
     parser.add_argument("--num_workers", type=int, default=max(1, os.cpu_count() - 2))
+    parser.add_argument("--feature_type", default="mfcc", choices=["mfcc", "mfcc_delta", "logmel"])
+    parser.add_argument("--n_mfcc", type=int, default=40)
+    parser.add_argument("--n_mels", type=int, default=64)
 
     args = parser.parse_args()
 
@@ -34,7 +37,10 @@ def main():
     dataset = HFAudioMFCCDataset(
         config_name=args.config,
         split=args.split,
-        target_classes=target_classes
+        target_classes=target_classes,
+        feature_type=args.feature_type,
+        n_mfcc=args.n_mfcc,
+        n_mels=args.n_mels
     )
 
     loader = DataLoader(
@@ -65,7 +71,11 @@ def main():
             "class_to_id": dataset.class_to_id,
             "id_to_class": dataset.id_to_class,
             "config": args.config,
-            "split": args.split
+            "split": args.split,
+            "feature_type": args.feature_type,
+            "feature_dim": features.shape[2],
+            "n_mfcc": args.n_mfcc,
+            "n_mels": args.n_mels,
         },
         output_path
     )

@@ -201,7 +201,8 @@ def main():
         pin_memory=True
     )
 
-    model = CNNBiLSTMAudioClassifier(num_classes=num_classes).to(device)
+    input_dim = checkpoint.get("n_mfcc", dataset.features.shape[2])
+    model = CNNBiLSTMAudioClassifier(num_classes=num_classes, n_mfcc=input_dim).to(device)
     model.load_state_dict(checkpoint["model_state_dict"])
 
     criterion = nn.CrossEntropyLoss()

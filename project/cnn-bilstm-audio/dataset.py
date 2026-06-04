@@ -19,12 +19,16 @@ class HFAudioMFCCDataset(Dataset):
         label_column=None,
         sample_rate=16000,
         n_mfcc=40,
+        n_mels=64,
+        feature_type="mfcc",
         max_frames=174,
         target_classes=None
     ):
         self.sample_rate = sample_rate
         self.n_mfcc = n_mfcc
+        self.n_mels = n_mels
         self.max_frames = max_frames
+        self.feature_type = feature_type
 
         self.ds = load_dataset(dataset_name, config_name, split=split)
 
@@ -115,24 +119,51 @@ class HFAudioMFCCDataset(Dataset):
 
         raise ValueError("Audio object has neither bytes nor path")
 
-    def _extract_mfcc(self, waveform):
-        mfcc = librosa.feature.mfcc(
-            y=waveform,
-            sr=self.sample_rate,
-            n_mfcc=self.n_mfcc
-        )
+    def _extract_features(self, waveform):
+        if self.feature_type == "mfcc":
+            features = librosa.feature.mfcc(
+                y=waveform,
+                sr=self.sample_rate,
+                n_mfcc=self.n_mfcc
+            )
 
-        mfcc = mfcc.T
+        elif self.feature_type == "mfcc_delta":
+            mfcc = librosa.feature.mfcc(
+                y=waveform,
+                sr=self.sample_rate,
+                n_mfcc=self.n_mfcc
+            )
 
-        if mfcc.shape[0] < self.max_frames:
-            pad = self.max_frames - mfcc.shape[0]
-            mfcc = np.pad(mfcc, ((0, pad), (0, 0)), mode="constant")
+            delta = librosa.feature.delta(mfcc)
+            delta_delta = librosa.feature.delta(mfcc, order=2)
+
+            features = np.concatenate([mfcc, delta, delta_delta], axis=0)
+
+        elif self.feature_type == "logmel":
+            mel = librosa.feature.melspectrogram(
+                y=waveform,
+                sr=self.sample_rate,
+                n_mels=self.n_mels
+            )
+
+            features = librosa.power_to_db(mel, ref=np.max)
+
         else:
-            mfcc = mfcc[:self.max_frames, :]
+            raise ValueError(f"Unsupported feature_type: {self.feature_type}")
 
-        mfcc = (mfcc - mfcc.mean()) / (mfcc.std() + 1e-8)
+        features = features.T
 
-        return mfcc.astype(np.float32)
+        if features.shape[0] < self.max_frames:
+            pad = self.max_frames - features.shape[0]
+            features = np.pad(features, ((0, pad), (0, 0)), mode="constant")
+        else:
+            features = features[:self.max_frames, :]
+
+        mean = features.mean(axis=0, keepdims=True)
+        std = features.std(axis=0, keepdims=True) + 1e-8
+        features = (features - mean) / std
+
+        return features.astype(np.float32)
 
     def __getitem__(self, idx):
         item = self.ds[idx]
@@ -144,6 +175,5 @@ class HFAudioMFCCDataset(Dataset):
         label_name = self._label_to_name(original_label)
         label_id = self.class_to_id[label_name]
 
-        mfcc = self._extract_mfcc(waveform)
-
-        return torch.tensor(mfcc), torch.tensor(label_id, dtype=torch.long)
+        features = self._extract_features(waveform)
+        return torch.tensor(features), torch.tensor(label_id, dtype=torch.long)

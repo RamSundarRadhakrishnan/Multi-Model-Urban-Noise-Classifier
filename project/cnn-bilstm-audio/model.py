@@ -7,10 +7,10 @@ class CNNBiLSTMAudioClassifier(nn.Module):
         self,
         num_classes,
         n_mfcc=40,
-        cnn_channels=64,
-        lstm_hidden=128,
-        dense_units=64,
-        dropout=0.3
+        cnn_channels=192,
+        lstm_hidden=384,
+        dense_units=192,
+        dropout=0.4
     ):
         super().__init__()
 

@@ -98,7 +98,40 @@ def get_class_weights(labels, num_classes, device):
     return weights.to(device)
 
 
-def train_one_epoch(model, loader, criterion, optimizer, device, scaler, use_amp):
+def apply_feature_augmentation(
+    features,
+    aug_prob=0.5,
+    noise_std=0.01,
+    time_mask_max=20,
+    freq_mask_max=12
+):
+    if aug_prob <= 0:
+        return features
+
+    x = features.clone()
+
+    if noise_std > 0:
+        x = x + torch.randn_like(x) * noise_std
+
+    batch_size, time_steps, feature_dim = x.shape
+
+    for i in range(batch_size):
+        if torch.rand(1, device=x.device).item() > aug_prob:
+            continue
+
+        if time_mask_max > 0:
+            mask_len = torch.randint(1, min(time_mask_max, time_steps) + 1, (1,), device=x.device).item()
+            start = torch.randint(0, time_steps - mask_len + 1, (1,), device=x.device).item()
+            x[i, start:start + mask_len, :] = 0
+
+        if freq_mask_max > 0:
+            mask_len = torch.randint(1, min(freq_mask_max, feature_dim) + 1, (1,), device=x.device).item()
+            start = torch.randint(0, feature_dim - mask_len + 1, (1,), device=x.device).item()
+            x[i, :, start:start + mask_len] = 0
+
+    return x
+
+def train_one_epoch(model, loader, criterion, optimizer, device, scaler, use_amp, augment_features=False, aug_prob=0.5, noise_std=0.01, time_mask_max=20, freq_mask_max=12):
     model.train()
 
     total_loss = 0.0
@@ -109,9 +142,18 @@ def train_one_epoch(model, loader, criterion, optimizer, device, scaler, use_amp
         features = features.to(device, non_blocking=True)
         labels = labels.to(device, non_blocking=True)
 
+        if augment_features:
+            features = apply_feature_augmentation(
+                features,
+                aug_prob=aug_prob,
+                noise_std=noise_std,
+                time_mask_max=time_mask_max,
+                freq_mask_max=freq_mask_max
+            )
+
         optimizer.zero_grad(set_to_none=True)
 
-        with torch.cuda.amp.autocast(enabled=use_amp):
+        with torch.amp.autocast(device_type="cuda", enabled=use_amp):
             logits = model(features)
             loss = criterion(logits, labels)
 
@@ -212,6 +254,11 @@ def main():
     parser.add_argument("--min_delta", type=float, default=1e-4)
     parser.add_argument("--history_csv", default="training_history.csv")
     parser.add_argument("--plot_path", default="training_curves.png")
+    parser.add_argument("--augment_features", action="store_true")
+    parser.add_argument("--aug_prob", type=float, default=0.5)
+    parser.add_argument("--noise_std", type=float, default=0.01)
+    parser.add_argument("--time_mask_max", type=int, default=20)
+    parser.add_argument("--freq_mask_max", type=int, default=12)
 
     args = parser.parse_args()
 
@@ -232,10 +279,11 @@ def main():
         val_ratio=args.val_ratio,
         test_ratio=args.test_ratio,
         seed=args.seed,
-        num_workers=args.num_workers
+        num_workers=args.num_workers,
     )
 
-    model = CNNBiLSTMAudioClassifier(num_classes=num_classes).to(device)
+    input_dim = dataset.features.shape[2]
+    model = CNNBiLSTMAudioClassifier(num_classes=num_classes, n_mfcc=input_dim).to(device)
 
     if args.use_class_weights:
         train_labels = dataset.labels[split_indices["train_idx"]]
@@ -257,7 +305,7 @@ def main():
         patience=4
     )
 
-    scaler = torch.cuda.amp.GradScaler(enabled=use_amp)
+    scaler = torch.amp.GradScaler(enabled=use_amp)
 
     best_val_f1 = -1.0
     output_path = Path(args.output)
@@ -281,7 +329,12 @@ def main():
             optimizer=optimizer,
             device=device,
             scaler=scaler,
-            use_amp=use_amp
+            use_amp=use_amp,
+            augment_features=args.augment_features,
+            aug_prob=args.aug_prob,
+            noise_std=args.noise_std,
+            time_mask_max=args.time_mask_max,
+            freq_mask_max=args.freq_mask_max
         )
 
         val_loss, val_acc, val_f1 = evaluate(
@@ -330,7 +383,8 @@ def main():
                     "class_to_id": dataset.class_to_id,
                     "id_to_class": dataset.id_to_class,
                     "num_classes": num_classes,
-                    "n_mfcc": 40,
+                    "n_mfcc": input_dim,
+                    "feature_dim" : input_dim,
                     "max_frames": dataset.features.shape[1],
                     "best_val_f1": best_val_f1,
                     "split_indices": split_indices,
