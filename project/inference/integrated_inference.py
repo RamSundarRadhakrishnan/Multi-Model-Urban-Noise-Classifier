@@ -477,6 +477,12 @@ class IntegratedInferencePipeline:
             
             # Prepare audio classes dictionary
             audio_classes = {chunk['audio_predicted_class']: chunk['audio_confidence']}
+            from late_fusion import fuse_chunk
+            fusion = fuse_chunk(chunk, alpha=0.6)
+
+            audio_classes = {
+                fusion["audio_class"]: fusion["fusion_score"]
+            } 
             
             # Prepare video classes dictionary
             video_classes = {}
