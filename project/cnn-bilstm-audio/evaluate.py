@@ -4,6 +4,7 @@ from pathlib import Path
 
 import matplotlib.pyplot as plt
 import pandas as pd
+import numpy as np
 import torch
 import torch.nn as nn
 from sklearn.metrics import accuracy_score, classification_report, confusion_matrix, precision_recall_fscore_support
@@ -11,7 +12,7 @@ from sklearn.model_selection import StratifiedShuffleSplit
 from torch.utils.data import DataLoader, Subset
 from tqdm import tqdm
 
-from feature_dataset import PrecomputedFeatureDataset
+from features_from_dataset import PrecomputedFeatureDataset
 from model import CNNBiLSTMAudioClassifier
 
 
@@ -78,6 +79,91 @@ def plot_confusion_matrix(cm, label_names, output_path):
     fig.savefig(output_path, dpi=300)
     plt.close(fig)
 
+def plot_normalized_confusion_matrix(cm, label_names, output_path):
+    cm_norm = cm.astype("float") / cm.sum(axis=1, keepdims=True).clip(min=1)
+
+    fig, ax = plt.subplots(figsize=(10, 8))
+    im = ax.imshow(cm_norm)
+
+    ax.set_xticks(range(len(label_names)))
+    ax.set_yticks(range(len(label_names)))
+    ax.set_xticklabels(label_names, rotation=45, ha="right")
+    ax.set_yticklabels(label_names)
+
+    ax.set_xlabel("Predicted")
+    ax.set_ylabel("Actual")
+    ax.set_title("Normalized CNN-BiLSTM Confusion Matrix")
+
+    for i in range(len(label_names)):
+        for j in range(len(label_names)):
+            ax.text(j, i, f"{cm_norm[i, j]:.2f}", ha="center", va="center")
+
+    fig.colorbar(im, ax=ax)
+    fig.tight_layout()
+    fig.savefig(output_path, dpi=300)
+    plt.close(fig)
+
+
+def plot_average_predicted_probabilities(y_prob, label_names, output_path):
+    probs = np.array(y_prob)
+    avg_probs = probs.mean(axis=0)
+
+    fig, ax = plt.subplots(figsize=(10, 6))
+    ax.bar(label_names, avg_probs)
+
+    ax.set_xlabel("Sound class")
+    ax.set_ylabel("Average predicted probability")
+    ax.set_title("Average predicted probability for each sound class")
+    ax.set_ylim(0, max(avg_probs) * 1.2)
+    ax.tick_params(axis="x", rotation=45)
+
+    fig.tight_layout()
+    fig.savefig(output_path, dpi=300)
+    plt.close(fig)
+
+
+def plot_per_class_metrics(report, label_names, output_path):
+    precision = [report[label]["precision"] for label in label_names]
+    recall = [report[label]["recall"] for label in label_names]
+    f1 = [report[label]["f1-score"] for label in label_names]
+
+    x = np.arange(len(label_names))
+    width = 0.25
+
+    fig, ax = plt.subplots(figsize=(12, 6))
+
+    ax.bar(x - width, precision, width, label="Precision")
+    ax.bar(x, recall, width, label="Recall")
+    ax.bar(x + width, f1, width, label="F1-score")
+
+    ax.set_xlabel("Sound class")
+    ax.set_ylabel("Score")
+    ax.set_title("Per-class CNN-BiLSTM evaluation metrics")
+    ax.set_xticks(x)
+    ax.set_xticklabels(label_names, rotation=45, ha="right")
+    ax.set_ylim(0, 1.0)
+    ax.legend()
+
+    fig.tight_layout()
+    fig.savefig(output_path, dpi=300)
+    plt.close(fig)
+
+
+def plot_confidence_distribution(y_prob, output_path):
+    probs = np.array(y_prob)
+    confidences = probs.max(axis=1)
+
+    fig, ax = plt.subplots(figsize=(10, 6))
+    ax.hist(confidences, bins=30)
+
+    ax.set_xlabel("Prediction confidence")
+    ax.set_ylabel("Number of samples")
+    ax.set_title("CNN-BiLSTM prediction confidence distribution")
+
+    fig.tight_layout()
+    fig.savefig(output_path, dpi=300)
+    plt.close(fig)
+
 
 def main():
     parser = argparse.ArgumentParser()
@@ -100,10 +186,11 @@ def main():
     dataset = PrecomputedFeatureDataset(args.features)
     checkpoint = torch.load(args.checkpoint, map_location=device)
 
-    label_names = checkpoint.get("label_names", dataset.label_names)
-    num_classes = len(label_names)
 
-    test_idx = get_eval_indices(dataset.labels.numpy(), args.test_ratio, args.seed)
+    label_names = checkpoint["label_names"]
+    num_classes = checkpoint.get("num_classes", len(label_names))
+
+    test_idx = checkpoint["split_indices"]["test_idx"]
     test_dataset = Subset(dataset, test_idx)
 
     test_loader = DataLoader(
@@ -180,6 +267,29 @@ def main():
         cm=cm,
         label_names=label_names,
         output_path=output_dir / "confusion_matrix.png"
+    )
+
+    plot_normalized_confusion_matrix(
+        cm=cm,
+        label_names=label_names,
+        output_path=output_dir / "confusion_matrix_normalized.png"
+    )
+
+    plot_average_predicted_probabilities(
+        y_prob=y_prob,
+        label_names=label_names,
+        output_path=output_dir / "average_predicted_probabilities.png"
+    )
+
+    plot_per_class_metrics(
+        report=report,
+        label_names=label_names,
+        output_path=output_dir / "per_class_metrics.png"
+    )
+
+    plot_confidence_distribution(
+        y_prob=y_prob,
+        output_path=output_dir / "confidence_distribution.png"
     )
 
     pred_df = pd.DataFrame({

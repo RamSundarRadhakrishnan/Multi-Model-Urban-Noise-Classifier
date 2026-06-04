@@ -2,6 +2,9 @@ import argparse
 import random
 from pathlib import Path
 
+import pandas as pd
+import matplotlib.pyplot as plt
+
 import numpy as np
 import torch
 import torch.nn as nn
@@ -157,12 +160,45 @@ def evaluate(model, loader, criterion, device):
     return avg_loss, acc, f1
 
 
+def save_training_curves(history, csv_path, plot_path):
+    df = pd.DataFrame(history)
+    df.to_csv(csv_path, index=False)
+
+    fig, axes = plt.subplots(3, 1, figsize=(10, 12), sharex=True)
+
+    axes[0].plot(df["epoch"], df["train_loss"], label="Training loss")
+    axes[0].plot(df["epoch"], df["val_loss"], label="Validation loss")
+    axes[0].set_ylabel("Loss")
+    axes[0].set_title("CNN-BiLSTM training and validation loss")
+    axes[0].legend()
+    axes[0].grid(True)
+
+    axes[1].plot(df["epoch"], df["train_acc"], label="Training accuracy")
+    axes[1].plot(df["epoch"], df["val_acc"], label="Validation accuracy")
+    axes[1].set_ylabel("Accuracy")
+    axes[1].set_title("CNN-BiLSTM training and validation accuracy")
+    axes[1].legend()
+    axes[1].grid(True)
+
+    axes[2].plot(df["epoch"], df["train_f1"], label="Training macro F1")
+    axes[2].plot(df["epoch"], df["val_f1"], label="Validation macro F1")
+    axes[2].set_xlabel("Epoch")
+    axes[2].set_ylabel("Macro F1")
+    axes[2].set_title("CNN-BiLSTM training and validation macro F1")
+    axes[2].legend()
+    axes[2].grid(True)
+
+    fig.tight_layout()
+    fig.savefig(plot_path, dpi=300)
+    plt.close(fig)
+
+
 def main():
     parser = argparse.ArgumentParser()
 
     parser.add_argument("--features", default="features_small_train.pt")
     parser.add_argument("--output", default="best_cnn_bilstm.pt")
-    parser.add_argument("--epochs", type=int, default=30)
+    parser.add_argument("--epochs", type=int, default=100)
     parser.add_argument("--batch_size", type=int, default=32)
     parser.add_argument("--lr", type=float, default=1e-4)
     parser.add_argument("--weight_decay", type=float, default=1e-4)
@@ -172,6 +208,10 @@ def main():
     parser.add_argument("--use_class_weights", action="store_true")
     parser.add_argument("--no_amp", action="store_true")
     parser.add_argument("--test_ratio", type=float, default=0.15)
+    parser.add_argument("--patience", type=int, default=12)
+    parser.add_argument("--min_delta", type=float, default=1e-4)
+    parser.add_argument("--history_csv", default="training_history.csv")
+    parser.add_argument("--plot_path", default="training_curves.png")
 
     args = parser.parse_args()
 
@@ -181,6 +221,8 @@ def main():
     use_amp = device.type == "cuda" and not args.no_amp
 
     dataset = PrecomputedFeatureDataset(args.features)
+    print("Feature tensor:", dataset.features.shape)
+    print("Label tensor:", dataset.labels.shape)
 
     num_classes = len(dataset.label_names)
 
@@ -196,7 +238,8 @@ def main():
     model = CNNBiLSTMAudioClassifier(num_classes=num_classes).to(device)
 
     if args.use_class_weights:
-        weights = get_class_weights(dataset.labels, num_classes, device)
+        train_labels = dataset.labels[split_indices["train_idx"]]
+        weights = get_class_weights(train_labels, num_classes, device)
         criterion = nn.CrossEntropyLoss(weight=weights)
     else:
         criterion = nn.CrossEntropyLoss()
@@ -209,9 +252,9 @@ def main():
 
     scheduler = torch.optim.lr_scheduler.ReduceLROnPlateau(
         optimizer,
-        mode="min",
+        mode="max",
         factor=0.5,
-        patience=3
+        patience=4
     )
 
     scaler = torch.cuda.amp.GradScaler(enabled=use_amp)
@@ -225,6 +268,10 @@ def main():
     print("Train batches:", len(train_loader))
     print("Val batches:", len(val_loader))
     print("Test batches:", len(test_loader))
+
+    epochs_without_improvement = 0
+
+    history = []
 
     for epoch in range(1, args.epochs + 1):
         train_loss, train_acc, train_f1 = train_one_epoch(
@@ -244,7 +291,8 @@ def main():
             device=device
         )
 
-        scheduler.step(val_loss)
+        scheduler.step(val_f1)
+        improved = val_f1 > best_val_f1 + args.min_delta
 
         print(
             f"Epoch {epoch:03d} | "
@@ -252,8 +300,28 @@ def main():
             f"val_loss={val_loss:.4f} val_acc={val_acc:.4f} val_f1={val_f1:.4f}"
         )
 
-        if val_f1 > best_val_f1:
+        history.append(
+            {
+                "epoch": epoch,
+                "train_loss": train_loss,
+                "train_acc": train_acc,
+                "train_f1": train_f1,
+                "val_loss": val_loss,
+                "val_acc": val_acc,
+                "val_f1": val_f1,
+                "lr": optimizer.param_groups[0]["lr"]
+            }
+        )
+
+        save_training_curves(
+            history=history,
+            csv_path=args.history_csv,
+            plot_path=args.plot_path
+        )
+
+        if improved:
             best_val_f1 = val_f1
+            epochs_without_improvement = 0
 
             torch.save(
                 {
@@ -268,10 +336,17 @@ def main():
                     "split_indices": split_indices,
                     "args": vars(args)
                 },
-                output_path
+            output_path
             )
 
             print("Saved:", output_path)
+        else:
+            epochs_without_improvement += 1
+            print(f"No improvement for {epochs_without_improvement}/{args.patience} epochs")
+
+        if epochs_without_improvement >= args.patience:
+            print("Early stopping triggered")
+            break
 
     print("Best val macro F1:", best_val_f1)
 
