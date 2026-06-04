@@ -94,12 +94,11 @@ class EventStorage:
         
         # Flatten event data for CSV
         csv_data = []
-        fusion = event.fusion_metadata or {}
         for event in self.events:
             # Get top audio and video classes
             top_audio = max(event.audio_classes.items(), key=lambda x: x[1]) if event.audio_classes else ("none", 0.0)
             top_video = max(event.video_classes.items(), key=lambda x: x[1]) if event.video_classes else ("none", 0.0)
-            
+            fusion = event.fusion_metadata or {}
             csv_data.append({
                 'event_id': event.event_id,
                 'timestamp': event.timestamp.isoformat(),
@@ -151,8 +150,8 @@ class EventStorage:
         
         # Flatten event data with all classes
         csv_data = []
-        fusion = event.fusion_metadata or {}
         for event in self.events:
+            fusion = event.fusion_metadata or {}
             base_data = {
                 'event_id': event.event_id,
                 'timestamp': event.timestamp.isoformat(),

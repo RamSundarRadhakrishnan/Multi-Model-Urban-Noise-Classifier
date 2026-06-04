@@ -13,16 +13,18 @@ import numpy as np
 import pandas as pd
 import time
 
+from cnn_bilstm_audio_inference import CNNBiLSTMBatchAudioInference
+
 # Add parent directories to path for imports
 sys.path.append(str(Path(__file__).parent.parent / "pre_inference"))
-sys.path.append(str(Path(__file__).parent.parent / "audio-classifier" / "speechbrain-classifier"))
 sys.path.append(str(Path(__file__).parent.parent / "image-classifier" / "video_inference"))
 
 # Import pre-processing modules
 from integrated_processor import IntegratedMediaProcessor
 
 # Import audio inference modules
-from batch_inference import BatchAudioInference
+
+from cnn_bilstm_audio_inference import CNNBiLSTMBatchAudioInference
 
 # Import video inference modules
 from video_frame_extractor import VideoFrameExtractor
@@ -49,12 +51,8 @@ class IntegratedInferencePipeline:
         chunk_duration: float = 10.0,
         
         # Audio inference config
-        audio_pretrained_model: str = None,
-        audio_finetuned_weights: str = None,
-        audio_num_classes: int = 8,
-        audio_class_names: List[str] = None,
+        audio_checkpoint: str = "../cnn-bilstm-audio/best_cnn_bilstm.pt",
         audio_sample_rate: int = 16000,
-        audio_max_length: int = 160000,
         audio_batch_size: int = 8,
         
         # Video inference config
@@ -132,21 +130,22 @@ class IntegratedInferencePipeline:
             self.preprocessor = None
         
         # Initialize audio inference
-        if not skip_audio_inference and audio_pretrained_model:
-            self.audio_processor = BatchAudioInference(
-                pretrained_model_path=audio_pretrained_model,
-                fine_tuned_weights_path=audio_finetuned_weights,
-                num_classes=audio_num_classes,
-                class_names=audio_class_names or self._default_audio_classes(),
+        if not skip_audio_inference:
+            if audio_checkpoint is None:
+                raise ValueError("audio_checkpoint is required when audio inference is enabled")
+
+            self.audio_processor = CNNBiLSTMBatchAudioInference(
+                checkpoint_path=audio_checkpoint,
                 sample_rate=audio_sample_rate,
-                max_length=audio_max_length,
-                batch_size=audio_batch_size
+                batch_size=audio_batch_size,
+                device=device
             )
+
         else:
             self.audio_processor = None
         
         # Initialize video inference
-        if not skip_video_inference and yolo_standard_model and yolo_mocs_model:
+        if not skip_video_inference and yolo_standard_model:
             self.frame_extractor = VideoFrameExtractor(frame_skip=frame_skip)
             self.video_inference = DualYOLOInference(
                 standard_model_path=yolo_standard_model,
@@ -172,7 +171,8 @@ class IntegratedInferencePipeline:
         self.config = {
             'chunk_duration': chunk_duration,
             'audio_config': {
-                'num_classes': audio_num_classes,
+                'backend': 'cnn_bilstm',
+                'checkpoint': audio_checkpoint,
                 'sample_rate': audio_sample_rate,
                 'batch_size': audio_batch_size
             } if not skip_audio_inference else None,
