@@ -1,0 +1,31 @@
+Class counts
+target_class
+construction-site     43
+motorvehicle-siren    42
+motorvehicle-horn     39
+crowd-noise           37
+Name: count, dtype: int64
+
+Audio confusion
+audio_pred          construction-site  crowd-noise  motorvehicle-horn  motorvehicle-siren
+target_class                                                                             
+construction-site                  21           15                  0                   7
+crowd-noise                        10            8                  2                  17
+motorvehicle-horn                   9            9                  8                  13
+motorvehicle-siren                  5           10                  1                  26
+
+Visual confusion
+visual_pred         construction-site  crowd-noise  motorvehicle-horn  motorvehicle-siren
+target_class                                                                             
+construction-site                  10           31                  2                   0
+crowd-noise                         4           32                  1                   0
+motorvehicle-horn                  18            7                 14                   0
+motorvehicle-siren                 22            5                 14                   1
+
+Fusion confusion
+fusion_pred         construction-site  crowd-noise  motorvehicle-horn  motorvehicle-siren
+target_class                                                                             
+construction-site                  14           25                  0                   4
+crowd-noise                         2           23                  2                  10
+motorvehicle-horn                   7           11                  9                  12
+motorvehicle-siren                  6            8                  1                  27

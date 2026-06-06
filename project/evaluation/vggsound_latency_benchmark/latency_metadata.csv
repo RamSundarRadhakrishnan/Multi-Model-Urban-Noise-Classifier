@@ -1,0 +1,8 @@
+item,value
+audio_model_load_time_sec,0.044912960000146995
+video_model_load_time_sec,0.04576029700001527
+num_clips,161
+samples_per_class,50
+frame_skip,30
+device,cuda
+alpha,0.6

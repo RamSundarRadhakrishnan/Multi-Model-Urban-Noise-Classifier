@@ -1,0 +1,19 @@
+vggsound_label,target_class,use_for_core_eval
+"vehicle horn, car horn, honking",motorvehicle-horn,yes
+"air horn",motorvehicle-horn,yes
+"train horning",motorvehicle-horn,yes
+"ambulance siren",motorvehicle-siren,yes
+"police car (siren)",motorvehicle-siren,yes
+"fire truck siren",motorvehicle-siren,yes
+"civil defense siren",motorvehicle-siren,yes
+"people crowd",crowd-noise,yes
+"people cheering",crowd-noise,yes
+"people clapping",crowd-noise,yes
+"people screaming",crowd-noise,yes
+"children shouting",crowd-noise,yes
+"hammering nails",construction-site,yes
+"chainsawing trees",construction-site,yes
+"electric grinder grinding",construction-site,yes
+"arc welding",construction-site,yes
+"tractor digging",construction-site,yes
+"planing timber",construction-site,yes
