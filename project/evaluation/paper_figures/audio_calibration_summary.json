@@ -1,0 +1,8 @@
+{
+  "dataset": "Held-out Urban Noise Uganda 61K test split",
+  "num_samples": 2249,
+  "num_bins": 10,
+  "accuracy": 0.8328145842596709,
+  "mean_confidence": 0.8870473186571809,
+  "expected_calibration_error": 0.0545770778923966
+}
