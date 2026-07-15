@@ -1,0 +1,181 @@
+{
+    "classes": [
+        "construction-site",
+        "crowd-noise",
+        "motorvehicle-horn",
+        "motorvehicle-siren"
+    ],
+    "num_samples": 1420,
+    "samples_per_class": {
+        "construction-site": 366,
+        "motorvehicle-horn": 366,
+        "motorvehicle-siren": 358,
+        "crowd-noise": 330
+    },
+    "ablation": [
+        {
+            "variant": "audio_only",
+            "accuracy": 0.3415492957746479,
+            "macro_precision": 0.33923829357755586,
+            "macro_recall": 0.3392487240756313,
+            "macro_f1": 0.3190424250452681
+        },
+        {
+            "variant": "visual_only",
+            "accuracy": 0.37183098591549296,
+            "macro_precision": 0.438670592369113,
+            "macro_recall": 0.3828919287203013,
+            "macro_f1": 0.30819939233894883
+        },
+        {
+            "variant": "late_fusion_alpha_0.5",
+            "accuracy": 0.4211267605633803,
+            "macro_precision": 0.43228605323532404,
+            "macro_recall": 0.4258459676904589,
+            "macro_f1": 0.40074374583641004
+        }
+    ],
+    "audio_classification_report": {
+        "construction-site": {
+            "precision": 0.36883116883116884,
+            "recall": 0.3879781420765027,
+            "f1-score": 0.3781624500665779,
+            "support": 366.0
+        },
+        "crowd-noise": {
+            "precision": 0.18885448916408668,
+            "recall": 0.18484848484848485,
+            "f1-score": 0.18683001531393567,
+            "support": 330.0
+        },
+        "motorvehicle-horn": {
+            "precision": 0.40559440559440557,
+            "recall": 0.15846994535519127,
+            "f1-score": 0.22789783889980353,
+            "support": 366.0
+        },
+        "motorvehicle-siren": {
+            "precision": 0.3936731107205624,
+            "recall": 0.6256983240223464,
+            "f1-score": 0.48327939590075514,
+            "support": 358.0
+        },
+        "accuracy": 0.3415492957746479,
+        "macro avg": {
+            "precision": 0.33923829357755586,
+            "recall": 0.3392487240756313,
+            "f1-score": 0.3190424250452681,
+            "support": 1420.0
+        },
+        "weighted avg": {
+            "precision": 0.34274416570554234,
+            "recall": 0.3415492957746479,
+            "f1-score": 0.3214690102449047,
+            "support": 1420.0
+        }
+    },
+    "visual_classification_report": {
+        "construction-site": {
+            "precision": 0.24390243902439024,
+            "recall": 0.3005464480874317,
+            "f1-score": 0.2692778457772338,
+            "support": 366.0
+        },
+        "crowd-noise": {
+            "precision": 0.44411326378539495,
+            "recall": 0.9030303030303031,
+            "f1-score": 0.5954045954045954,
+            "support": 330.0
+        },
+        "motorvehicle-horn": {
+            "precision": 0.4,
+            "recall": 0.3224043715846995,
+            "f1-score": 0.35703479576399394,
+            "support": 366.0
+        },
+        "motorvehicle-siren": {
+            "precision": 0.6666666666666666,
+            "recall": 0.00558659217877095,
+            "f1-score": 0.0110803324099723,
+            "support": 358.0
+        },
+        "accuracy": 0.37183098591549296,
+        "macro avg": {
+            "precision": 0.438670592369113,
+            "recall": 0.3828919287203013,
+            "f1-score": 0.30819939233894883,
+            "support": 1420.0
+        },
+        "weighted avg": {
+            "precision": 0.43724812422448855,
+            "recall": 0.37183098591549296,
+            "f1-score": 0.3025920438664619,
+            "support": 1420.0
+        }
+    },
+    "fusion_classification_report": {
+        "construction-site": {
+            "precision": 0.35471698113207545,
+            "recall": 0.2568306010928962,
+            "f1-score": 0.2979397781299525,
+            "support": 366.0
+        },
+        "crowd-noise": {
+            "precision": 0.3553398058252427,
+            "recall": 0.5545454545454546,
+            "f1-score": 0.4331360946745562,
+            "support": 330.0
+        },
+        "motorvehicle-horn": {
+            "precision": 0.5241379310344828,
+            "recall": 0.20765027322404372,
+            "f1-score": 0.2974559686888454,
+            "support": 366.0
+        },
+        "motorvehicle-siren": {
+            "precision": 0.494949494949495,
+            "recall": 0.6843575418994413,
+            "f1-score": 0.5744431418522861,
+            "support": 358.0
+        },
+        "accuracy": 0.4211267605633803,
+        "macro avg": {
+            "precision": 0.43228605323532404,
+            "recall": 0.4258459676904589,
+            "f1-score": 0.40074374583641004,
+            "support": 1420.0
+        },
+        "weighted avg": {
+            "precision": 0.4338837696952181,
+            "recall": 0.4211267605633803,
+            "f1-score": 0.39894394321225496,
+            "support": 1420.0
+        }
+    },
+    "fusion_confusion_matrix": [
+        [
+            94,
+            196,
+            30,
+            46
+        ],
+        [
+            35,
+            183,
+            1,
+            111
+        ],
+        [
+            106,
+            91,
+            76,
+            93
+        ],
+        [
+            30,
+            45,
+            38,
+            245
+        ]
+    ]
+}
